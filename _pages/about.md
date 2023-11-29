@@ -10,7 +10,6 @@ redirect_from:
 
 
 
-
 Studying Community Detection Using Twitch Emotes
 ======
 ![Twitch Emote Network](/images/twitchnetwork.png)
