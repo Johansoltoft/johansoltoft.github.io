@@ -8,9 +8,6 @@ date: 2021-01-01
 location: "Copenhagen, Denmark"
 ---
 
-Techno-Anthropology:
-------
-
 Technology in Anthropological Perspective
 ------
 * 3rd semester, 15 ECTS
