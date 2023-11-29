@@ -4,7 +4,7 @@ collection: teaching
 type: "University"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Aalborg University, Culture & Learning"
-date: 2021-
+date: 2021
 location: "Copenhagen, Denmark"
 ---
 
