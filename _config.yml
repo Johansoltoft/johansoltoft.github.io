@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Johan Irving"
+  name             : "Johan Irving Søltoft"
   avatar           : "hygge.jpg"
   bio              : "PhD student - Will&Agency & TANTlab"
   location         : "Copenhagen"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.dk/citations?hl=da&user=hfSOiwUAAAAJ"
+  googlescholar    : "citations?hl=da&user=hfSOiwUAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/johanirving/
+  linkedin         : "johanirving"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
