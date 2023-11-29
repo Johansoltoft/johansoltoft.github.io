@@ -8,8 +8,6 @@ date: 2021-01-01
 location: "Copenhagen, Denmark"
 ---
 
-Courses
-======
 Digitalization and Technology Management
 ------
 * 5th semester, Organizational Learning, 10 ECTS
