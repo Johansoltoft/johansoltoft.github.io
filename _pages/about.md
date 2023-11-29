@@ -7,7 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-======
+
+
 
 
 Studying Community Detection Using Twitch Emotes
