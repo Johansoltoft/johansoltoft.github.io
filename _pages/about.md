@@ -14,7 +14,9 @@ Studying Community Detection Using Twitch Emotes
 ======
 Can emotes be seen as a kind of strange text? Twitch, the livestreaming platform, has a fast-paced chat due to its many viewers. Therefore, it's both hard to have a conversation on the platform and the words used are generally quite short - not so interesting in regards to semantic analysis. I'm thinking of another way to research this communication: focusing on emotes. Their use often seems tied to the specific stream or community. I've therefore experimented with how to create a map of a network of co-occurring emotes using Gephi
 
-A data-driven personal website
+[Google Drive File](https://drive.google.com/file/d/1mLW8QgCbKhNDXUUpWbSujmU86eUtYHig/view?usp=sharing)
+
+Studying how the discussion regarding the Danish National Museum evolves over time on Twitter - (X) 
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
