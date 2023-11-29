@@ -1,20 +1,33 @@
 ---
-title: "Teaching experience 1"
+title: "Courses"
 collection: teaching
-type: "Undergraduate course"
+type: "University"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+date: 2021-
+location: "Copenhagen, Denmark"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Digitalization and Technology Management
+------
+* 5th semester, Organizational Learning, 10 ECTS
 
-Heading 1
-======
+Controversy Mapping
+------
+* 8th semester: Techno-Anthropology, 5 ECTS
 
-Heading 2
-======
+Introduction to data-intensive digital methods in humanities projects
+------
+* Organizational Learning, 5 ECTS
 
-Heading 3
-======
+Elective: Technology-based language and communication work
+------
+* Organizational Learning, 5 ECTS
+
+Master's project in data-driven organizational development
+------
+* 4th semester, Data-Driven Organizational Development
+
+Sprint: Analysis of large Data Sets in the Organization and its Environment
+------
+* 2nd semester, Data-Driven Organizational Development
