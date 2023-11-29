@@ -27,8 +27,6 @@ Techno-Anthropological Problem Understanding
 ------
 * 1st Semester, 15 ECTS
 
-Data-Driven Organizational Development
-------
 
 Organizational Development through Design of Data-Driven Interventions
 ------
