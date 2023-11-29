@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 ======
-======
+
+
 Studying Community Detection Using Twitch Emotes
 ======
 ![Twitch Emote Network](/images/twitchnetwork.png)
