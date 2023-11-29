@@ -11,7 +11,7 @@ location: "Copenhagen, Denmark"
 Project Supervision
 ======
 
-Techno-Anthropology:
+* Techno-Anthropology:
 ------
 
 Technology in Anthropological Perspective
@@ -30,8 +30,8 @@ Techno-Anthropological Problem Understanding
 ------
 * 1st Semester, 15 ECTS
 
-Data-Driven Organizational Development
-======
+* Data-Driven Organizational Development
+------
 
 Organizational Development through Design of Data-Driven Interventions
 ------
