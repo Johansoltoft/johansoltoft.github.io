@@ -2,7 +2,7 @@
 title: "Friction by Machine: How to Slow Down Reasoning with Computational Methods"
 collection: publications
 permalink: /X
-excerpt: 'This paper is about friction by machine, and how to use machine learning to slow down reasoning'
+excerpt: 'This paper provides a theoretical alternative to the prevailing perception of machine learning as synonymous with speed and efficiency. Inspired by ethnographic fieldwork and grounded in pragmatist philosophy, we introduce the concept of “data friction” as the situation when encounters between held beliefs and data patterns posses the potential to stimulate innovative thinking.'
 date: 2023-12-13
 venue: 'Ethnographic Praxis in Industry Conference Proceedings. Wiley journal'
 paperurl: ''
