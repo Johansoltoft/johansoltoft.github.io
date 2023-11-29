@@ -9,7 +9,7 @@ location: "Copenhagen, Denmark"
 ---
 
 Courses
-======
+------
 
 Digitalization and Technology Management
 ------
