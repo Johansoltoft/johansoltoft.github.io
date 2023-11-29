@@ -1,5 +1,5 @@
 ---
-title: "Courses"
+title: "Courses & Project Supervision "
 collection: teaching
 type: "University"
 permalink: /teaching/2014-spring-teaching-1
@@ -7,6 +7,9 @@ venue: "Aalborg University, Culture & Learning"
 date: 2021-01-01
 location: "Copenhagen, Denmark"
 ---
+
+Courses
+======
 
 Digitalization and Technology Management
 ------
@@ -31,3 +34,32 @@ Master's project in data-driven organizational development
 Sprint: Analysis of large Data Sets in the Organization and its Environment
 ------
 * 2nd semester, Data-Driven Organizational Development
+
+Project Supervision
+======
+
+Techno-Anthropology:
+------
+
+2021-2022: Technology in Anthropological Perspective
+------
+* 3rd semester, 15 ECTS
+
+2022: Technological Processes and Design
+------
+* 8th semester, 15 ECTS
+
+2021: Technological Transformations
+------
+* 7th semester, 15 ECTS
+
+2021: Techno-Anthropological Problem Understanding
+------
+* 1st Semester, 15 ECTS
+
+Data-Driven Organizational Development
+------
+
+2022: Organizational Development through Design of Data-Driven Interventions
+------
+* 3rd semester, 15 ECTS
