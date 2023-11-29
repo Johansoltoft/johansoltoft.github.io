@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D in Techno-Anthropology, Aalborg University, 2024 (expected)
 * M.S. in Techno-Anthropology., Aalborg University, 2021
-* * B.S. in Cultural Encounters & Philosophy and Theory of Science., Roskilde University, 2017
+* B.S. in Cultural Encounters & Philosophy and Theory of Science., Roskilde University, 2017
 
 Publications
 ======
