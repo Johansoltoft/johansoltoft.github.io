@@ -1,59 +1,19 @@
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
+## Courses
 
-{% include base_path %}
+### 2022
+- **Digitalization and Technology Management** (5th semester, Organizational Learning, 10 ECTS)
+- **Controversy Mapping** (8th semester: Techno-Anthropology, 5 ECTS)
+- **Introduction to data-intensive digital methods in humanities projects** (Organizational Learning, 5 ECTS)
+- **Elective: Technology-based language and communication work** (Organizational Learning, 5 ECTS)
+- **Master's project in data-driven organizational development** (4th semester, Data-Driven Organizational Development)
+- **Sprint: Analysis of large Data Sets in the Organization and its Environment** (2nd semester, Data-Driven Organizational Development)
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+#### Project Supervision
+- **Techno-Anthropology:**
+  - **2021-2022: Technology in Anthropological Perspective** (3rd semester, 15 ECTS)
+  - **2022: Technological Processes and Design** (8th semester, 15 ECTS)
+  - **2021: Technological Transformations** (7th semester, 15 ECTS)
+  - **2021: Techno-Anthropological Problem Understanding** (1st Semester, 15 ECTS)
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **Data-Driven Organizational Development**
+  - **2022: Organizational Development through Design of Data-Driven Interventions** (3rd semester, 15 ECTS)
