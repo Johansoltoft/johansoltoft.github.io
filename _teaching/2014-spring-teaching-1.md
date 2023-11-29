@@ -1,5 +1,12 @@
-Project Supervision & Courses
-======
+---
+title: "Courses"
+collection: teaching
+type: "University"
+permalink: /teaching/2015-spring-teaching-1
+venue: "Aalborg University, Culture & Learning"
+date: 2021-01-01
+location: "Copenhagen, Denmark"
+---
 
 Courses
 ======
