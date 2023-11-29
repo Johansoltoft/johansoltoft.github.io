@@ -13,21 +13,21 @@ Project Supervision
 
 Technology in Anthropological Perspective
 ------
-* 3rd semester, 15 ECTS
+* 3rd semester, Techno-Anthropology, 15 ECTS
 
 Technological Processes and Design
 ------
-* 8th semester, 15 ECTS
+* 8th semester, Techno-Anthropology, 15 ECTS
 
 Technological Transformations
 ------
-* 7th semester, 15 ECTS
+* 7th semester, Techno-Anthropology, 15 ECTS
 
 Techno-Anthropological Problem Understanding
 ------
-* 1st Semester, 15 ECTS
+* 1st Semester, Techno-Anthropology, 15 ECTS
 
 
 Organizational Development through Design of Data-Driven Interventions
 ------
-* 3rd semester, 15 ECTS
+* 3rd semester, Data-Driven Organizational Development, 15 ECTS
