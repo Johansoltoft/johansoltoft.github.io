@@ -10,7 +10,7 @@ main:
     url: /talks/    
     
   - title: "Teaching"
-    url: /_pages/teaching.md
+    url: /_pages/teaching.md/
         
   - title: "CV"
     url: /cv/
