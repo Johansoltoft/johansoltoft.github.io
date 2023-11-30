@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Fun Project That I Haven't Found the Right Shelf For"
+title: "Fun Projects That I Haven't Found the Right Shelf For"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
