@@ -1,15 +1,20 @@
 ---
-title: "Friction by Machine: How to Slow Down Reasoning with Computational Methods"
+title: "Strengthening the data-imagination of SMEs"
 collection: publications
 permalink: /X
-excerpt: 'This paper provides a theoretical alternative to the prevailing perception of machine learning as synonymous with speed and efficiency. Inspired by ethnographic fieldwork and grounded in pragmatist philosophy, we introduce the concept of “data friction” as the situation when encounters between held beliefs and data patterns posses the potential to stimulate innovative thinking.'
-date: 2023-12-13
+excerpt: 'The project focuses on stimulating SMEs' data-imagination and associated competencies. The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data.'
+date: 01/07/2020 → 30/06/2023
 venue: 'Ethnographic Praxis in Industry Conference Proceedings. Wiley journal'
 paperurl: ''
-citation: 'Koed Madsen, Munk & Søltoft, (2023). Friction by machine: How to Slow Down Reasoning with Computational Methods. Ethnographic Praxis in Industry Conference Proceedings. Wiley journal (vol. 2023. no 1)'
+role: 'Research Assistant'
 ---
-This paper provides a theoretical alternative to the prevailing perception of machine learning as synonymous with speed and efficiency. Inspired by ethnographic fieldwork and grounded in pragmatist philosophy, we introduce the concept of "data friction" as the situation when encounters between held beliefs and data patterns posses the potential to stimulate innovative thinking. Contrary to the conventional connotations of "speed" and "control," we argue that computational methods can generate a productive dissonance, thereby fostering slower and more reflective practices within organizations. Drawing on a decade of experience in participatory data design and data sprints, we present a typology of data frictions and outline three ways in which algorithmic techniques within data science can be reimagined as "friction machines". We illustrate these theoretical points through a dive into three case studies conducted with applied anthropologist in the movie industry, urban planning, and research.   
+The project focuses on stimulating SMEs' data-imagination and associated competencies. The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data. The researchers and SME staff will collaborate to investigate what kind of data is relevant and how to make this, often qualitative, data the subject of computational thinking and processing. The project explores how various smaller enterprises can collaborate and share knowledge supported by IT, and the collaboration will take place online. The project will generate a white paper and ideas for courses, incl. case descriptions for dissemination and teaching.
 
-[Download paper here](http://X.pdf)
+The research and development project is supported by IT-vest and is carried out in collaboration between the research groups at ILD-lab, IT and Learning Design at the Department of Culture and Learning (L-ILD) and at the Department of Communication and Psychology (K-ILD), and Techno-anthropology research group (TANT and TANT-lab) from the Department of Culture and Learning. 
 
-Recommended citation: Koed Madsen, Munk & Søltoft, (2023). Friction by machine: How to Slow Down Reasoning with Computational Methods. Ethnographic Praxis in Industry Conference Proceedings. Wiley journal (vol. 2023. no 1).
+Participants: 
+Ørngreen, Rikke (PI)Munk, Anders (PI)Jacomy, Mathieu (Project Participant)Hansen, Helene Husted (Project Participant)Olesen, Asger Gehrt (Project Participant)Søltoft, Johan Irving (Project Participant)Knudsen, Sara Paasch (Project Participant)Buhl, Mie (Project Participant)Andreasen, Lars Birch (Project Participant)
+
+[Link](http://X.pdf)
+
+
