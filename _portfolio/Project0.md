@@ -1,5 +1,5 @@
 ---
-title: "Strengthening the data-imagination of SMEs"
+title: 'Strengthening the data-imagination of SMEs'
 collection: publications
 permalink: /X
 excerpt: 'The project focuses on stimulating SMEs' data-imagination and associated competencies. The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data.'
