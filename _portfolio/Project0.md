@@ -2,9 +2,10 @@
 title: "Strengthening the data-imagination of SMEs"
 collection: project
 permalink: /X
-excerpt: 'This paper provides a theoretical alternative to the prevailing perception of machine learning as synonymous with speed and efficiency. Inspired by ethnographic fieldwork and grounded in pragmatist philosophy, we introduce the concept of “data friction” as the situation when encounters between held beliefs and data patterns posses the potential to stimulate innovative thinking.'
+excerpt: 'The project focuses on stimulating SMEs' data-imagination and associated competencies. The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data.'
 date: 01/07/2020 → 30/06/2023
 venue: 'Ethnographic Praxis in Industry Conference Proceedings. Wiley journal'
+role: Research Assistant
 paperurl: ''
 ---
 The project focuses on stimulating SMEs' data-imagination and associated competencies. The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data. The researchers and SME staff will collaborate to investigate what kind of data is relevant and how to make this, often qualitative, data the subject of computational thinking and processing. The project explores how various smaller enterprises can collaborate and share knowledge supported by IT, and the collaboration will take place online. The project will generate a white paper and ideas for courses, incl. case descriptions for dissemination and teaching.
