@@ -2,9 +2,12 @@
 main:
   - title: "Publications"
     url: /publications/
-
-  #- title: "Tools & Scripts"
- #   url: /portfolio/    
+    
+  - title: "Projects"
+    url: /portfolio/
+    
+  - title: "Tools & Scripts"
+    url: /pages/    
 
   - title: "Talks"
     url: /talks/    
@@ -15,8 +18,8 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Projects"
-    url: /cv/
+ # - title: "Projects"
+   # url: /portfolio/
     
  # - title: "Guide"
    # url: /markdown/
