@@ -3,7 +3,7 @@ title: "Strengthening the data-imagination of SMEs"
 collection: project
 permalink: /X
 excerpt: 'The project focuses on stimulating SMEs' data-imagination and associated competencies. The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data.'
-date: Ended 30/06/2023
+date: 01/07/2020
 venue: 'Ethnographic Praxis in Industry Conference Proceedings. Wiley journal'
 paperurl: ''
 citation: 'Koed Madsen, Munk & Søltoft, (2023). Friction by machine: How to Slow Down Reasoning with Computational Methods. Ethnographic Praxis in Industry Conference Proceedings. Wiley journal (vol. 2023. no 1)'
