@@ -13,5 +13,4 @@ The research and development project is supported by IT-vest and is carried out 
 
 Particpants: Ørngreen, Rikke (PI)Munk, Anders (PI)Jacomy, Mathieu (Project Participant)Hansen, Helene Husted (Project Participant)Olesen, Asger Gehrt (Project Participant)Søltoft, Johan Irving (Project Participant)Knudsen, Sara Paasch (Project Participant)Buhl, Mie (Project Participant)Andreasen, Lars Birch (Project Participant)
 
-
 [LINK](https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi)
