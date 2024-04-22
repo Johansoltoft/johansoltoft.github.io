@@ -3,7 +3,7 @@ title: "Strengthening the data-imagination of SMEs"
 collection: project
 permalink: /X
 excerpt: 'The project focuses on stimulating SMEs data-imagination and associated competencies.The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data'
-date: 01/07/2020→30/06/2023
+projectname: 01/07/2020→30/06/2023
 paperurl: 'https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi/publications/'
 
 ---
