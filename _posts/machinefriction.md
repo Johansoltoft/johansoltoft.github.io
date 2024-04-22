@@ -1,6 +1,7 @@
 ---
 title: 'Friction by Machine: How to Slow Down Reasoning with Computational Method '
 date: 2024-01-16
+collection: posts
 permalink: /posts/machinefriction/
 tags:
   - Machine anthropology
