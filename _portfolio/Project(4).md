@@ -1,19 +1,13 @@
 ---
-title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
+title: "Generative Ethnographic AI - Seed funding MASSHINE"
 collection: project
-permalink: "/portfolio/project(1)"
-excerpt: 'The Digitization of Everyday Life during the Covid-19 pandemic in Denmark mapped how the digital has influenced and shaped the everyday life of Danes during the virus outbreak'
-projectname: 01/04/2020
-paperurl: 'https://deltagelsensgrammatik.itu.dk/'
+permalink: "/portfolio/project(4)"
+excerpt: 'The project's goal is to enable AI-curated access to qualitative interviews thereby generating new insights into the material.'
+projectname: 14/06/2023
+paperurl: 'https://vbn.aau.dk/en/projects/generative-ethnographic-ai-seed-funding-masshine'
 
 ---
-![Conference](/images/Covid-19-project.png)
-
-While the world is closed down, many of us are forced to move the most basic everyday activities onto digital media and platforms. This means that we are all participating in rapid digitalization to an extent that we have not experienced before.
-
-Brit Ross Winthereik (ITU) and Anders Kristian Munk (AAU), together with a team of talented research assistants, are creating an archive of how digitalization of everyday life actually takes place during the current corona crisis. The purpose of collecting this data is first and foremost to create an archive that can be used for future research, without having a defined end goal.
-
-All information (interview, text, pictures and videos) is properly stored in accordance with current personal data protection legislation. You can read more about the project, and about data protection, at the bottom of the page.
+The project's objective is to enable direct interviewing of a qualitative corpus to prolong ethnographic encounters. Large qualitative corpuses must be rendered accessible through a lengthy process of coding and second-hand reporting, whereas interacting with a trained chatbot could generate a genuinely new immersion in the material. The project's goal is to enable AI-curated access to qualitative interviews thereby generating new insights into the material. Furthermore, by exploring the patterns of generative AI in practice, we acquire novel insights into its inner workings and engage in reflections on its application in the context of ethnographic research. Training proprietary generative AI for this purpose is so far uncharted territory. The seed funding aims to initialize the process of data preparation, algorithmic training as well as offer spaces for reflections on the capacities of AI-driven conversational agents in the context of ethnographic research.
 
 
-[LINK](https://deltagelsensgrammatik.itu.dk/)
+[LINK](https://vbn.aau.dk/en/projects/generative-ethnographic-ai-seed-funding-masshine)
