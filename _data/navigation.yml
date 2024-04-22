@@ -6,8 +6,8 @@ main:
   - title: "Projects"
     url: /portfolio/
     
-  - title: "Tools & Scripts"
-    url: /pages/    
+ # - title: "Tools & Scripts"
+#    url: /pages/    
 
   - title: "Talks"
     url: /talks/    
@@ -15,8 +15,8 @@ main:
   - title: "Teaching"
     url: /teaching/
         
-  - title: "CV"
-    url: /cv/
+ # - title: "CV"
+   # url: /cv/
 
   #- title: "Publications"
    # url: /publications/
