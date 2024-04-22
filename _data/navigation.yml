@@ -14,6 +14,9 @@ main:
     
   - title: "Teaching"
     url: /teaching/
+
+  - title: "Drafts"
+    url: /drafts/
         
  # - title: "CV"
    # url: /cv/
@@ -24,5 +27,3 @@ main:
  # - title: "Projects"
    # url: /portfolio/
     
- - title: "Drafts"
-   url: /drafts/
