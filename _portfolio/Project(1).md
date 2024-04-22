@@ -1,7 +1,7 @@
 ---
 title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
 collection: project
-permalink: /X
+permalink: "/X"
 excerpt: 'The Digitization of Everyday Life during the Covid-19 pandemic in Denmark mapped how the digital has influenced and shaped the everyday life of Danes during the virus outbreak'
 date: 01/04/2020
 paperurl: 'https://deltagelsensgrammatik.itu.dk/'
@@ -17,4 +17,4 @@ Brit Ross Winthereik (ITU) and Anders Kristian Munk (AAU), together with a team 
 All information (interview, text, pictures and videos) is properly stored in accordance with current personal data protection legislation. You can read more about the project, and about data protection, at the bottom of the page.
 
 
-[LINK]([https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi](https://deltagelsensgrammatik.itu.dk/))
+[LINK](https://deltagelsensgrammatik.itu.dk/)
