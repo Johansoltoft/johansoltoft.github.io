@@ -1,4 +1,3 @@
-
 ---
 title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
 collection: project
