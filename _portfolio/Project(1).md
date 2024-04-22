@@ -6,6 +6,7 @@ excerpt: 'The Digitization of Everyday Life during the Covid-19 pandemic in Denm
 date: 01/04/2020
 paperurl: 'https://deltagelsensgrammatik.itu.dk/'
 
+![Conference](/images/Covid-19-project.png)
 ---
 
 ![Conference](/images/Covid-19-project.png)
