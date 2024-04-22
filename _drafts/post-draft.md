@@ -1,6 +1,9 @@
 ---
 layout: single
 title:  "Draft Post"
+collection: talks
+type: "Conference Talk"
+permalink: /drafts/post-draft
 header:
   teaser: "unsplash-gallery-image-2-th.jpg"
 categories: 
