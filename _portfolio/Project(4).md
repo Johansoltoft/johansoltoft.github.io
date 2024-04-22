@@ -2,7 +2,7 @@
 title: "Generative Ethnographic AI - Seed funding MASSHINE"
 collection: project
 permalink: "/portfolio/project(4)"
-excerpt: 'The project's goal is to enable AI-curated access to qualitative interviews thereby generating new insights into the material.'
+excerpt: 'The projects goal is to enable AI-curated access to qualitative interviews thereby generating new insights into the material.'
 projectname: 14/06/2023
 paperurl: 'https://vbn.aau.dk/en/projects/generative-ethnographic-ai-seed-funding-masshine'
 
