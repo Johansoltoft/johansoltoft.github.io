@@ -3,7 +3,7 @@ title: "BIDA: Biosociality and more-than-human relations in the Digital Anthropo
 collection: project
 permalink: "/portfolio/project(2)"
 excerpt: 'We live in a Digital Anthropocene era in which notions such as intelligence, emotions, and agency—historically considered traits that distinguish humans from other animals—are increasingly traced and understood through algorithmic logics and big digital datasets.'
-projectname: 15/05/2022
+date: 15/05/2022
 paperurl: 'https://vbn.aau.dk/en/projects/biosociality-and-more-than-human-relations-in-the-digital-anthrop'
 
 ---
