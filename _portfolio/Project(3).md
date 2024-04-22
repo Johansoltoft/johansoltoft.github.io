@@ -1,19 +1,14 @@
 ---
-title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
+title: "Algorithms, Data and Democracy (ADD)"
 collection: project
-permalink: "/portfolio/project(1)"
-excerpt: 'The Digitization of Everyday Life during the Covid-19 pandemic in Denmark mapped how the digital has influenced and shaped the everyday life of Danes during the virus outbreak'
+permalink: "/portfolio/project(3)"
+excerpt: 'The project will analyse, explore and foster discussion and collaboration around the impact of artificial intelligence in democratic societies.'
 projectname: 01/04/2020
 paperurl: 'https://deltagelsensgrammatik.itu.dk/'
 
 ---
-![Conference](/images/Covid-19-project.png)
+![Conference](/images/ADD.png)
 
-While the world is closed down, many of us are forced to move the most basic everyday activities onto digital media and platforms. This means that we are all participating in rapid digitalization to an extent that we have not experienced before.
+The project will analyse, explore and foster discussion and collaboration around the impact of artificial intelligence in democratic societies. Datafication and digitalisation are predicted to drive future growth and prosperity but have at the same time raised concerns and controversies. The pace of technological innovation is a contributing factor to the erosion of public trust in emerging technologies with trends such as populism, polarisation, and digital inequality as resulting factors. The ADD project will provide insights into and explain these connections at the same time as developing both technological and societal solutions aimed at restoring faith in technologies for the public good.
 
-Brit Ross Winthereik (ITU) and Anders Kristian Munk (AAU), together with a team of talented research assistants, are creating an archive of how digitalization of everyday life actually takes place during the current corona crisis. The purpose of collecting this data is first and foremost to create an archive that can be used for future research, without having a defined end goal.
-
-All information (interview, text, pictures and videos) is properly stored in accordance with current personal data protection legislation. You can read more about the project, and about data protection, at the bottom of the page.
-
-
-[LINK](https://deltagelsensgrammatik.itu.dk/)
+[LINK](https://algoritmer.org/)
