@@ -1,4 +1,4 @@
-![Conference](/images/Covid-19-project.png)
+
 ---
 title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
 collection: project
@@ -8,7 +8,6 @@ date: 01/04/2020
 paperurl: 'https://deltagelsensgrammatik.itu.dk/'
 
 ---
-
 ![Conference](/images/Covid-19-project.png)
 
 While the world is closed down, many of us are forced to move the most basic everyday activities onto digital media and platforms. This means that we are all participating in rapid digitalization to an extent that we have not experienced before.
