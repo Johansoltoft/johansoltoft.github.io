@@ -2,9 +2,8 @@
 title: "Strengthening the data-imagination of SMEs"
 collection: project
 permalink: /X
-excerpt: ''
+excerpt: 'The project focuses on stimulating SMEs' data-imagination and associated competencies.'
 date: 01/07/2020 → 30/06/2023
-venue: 'Ethnographic Praxis in Industry Conference Proceedings. Wiley journal'
 paperurl: 'https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi/publications/'
 
 ---
