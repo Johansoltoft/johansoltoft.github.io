@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Techno-Anthropology, Aalborg University, 2024 (expected)
+* Ph.D Human-Centered Innovation, DTU management, 2024-2026
+* Ph.D in Techno-Anthropology, Aalborg University, 2023-2024 
 * M.S. in Techno-Anthropology., Aalborg University, 2021
 * B.S. in Cultural Encounters & Philosophy and Theory of Science., Roskilde University, 2017
 
