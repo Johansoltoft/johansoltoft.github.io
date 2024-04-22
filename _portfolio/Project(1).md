@@ -1,10 +1,10 @@
 ---
 title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
 collection: project
-permalink: 'https://deltagelsensgrammatik.itu.dk/'
-excerpt: 'A research group with participants from the IT University of Copenhagen and Aalborg University in the project The Digitization of Everyday Life during the Covid-19 pandemic in Denmark will map how the digital has influenced and shaped the everyday life of Danes during the virus outbreak'
-date: 01/07/2020→30/06/2023
-paperurl: '/X'
+permalink: /X
+excerpt: 'The Digitization of Everyday Life during the Covid-19 pandemic in Denmark mapped how the digital has influenced and shaped the everyday life of Danes during the virus outbreak'
+date: 01/04/2020
+paperurl: 'https://deltagelsensgrammatik.itu.dk/'
 
 ---
 While the world is closed down, many of us are forced to move the most basic everyday activities onto digital media and platforms. This means that we are all participating in rapid digitalization to an extent that we have not experienced before.
