@@ -3,8 +3,8 @@ title: "Algorithms, Data and Democracy (ADD)"
 collection: project
 permalink: "/portfolio/project(3)"
 excerpt: 'The project will analyse, explore and foster discussion and collaboration around the impact of artificial intelligence in democratic societies.'
-projectname: 01/04/2020
-paperurl: 'https://deltagelsensgrammatik.itu.dk/'
+date: 01/04/2020
+paperurl: 'https://algoritmer.org/'
 
 ---
 ![Conference](/images/ADD.png)
