@@ -1,17 +1,17 @@
 ---
-title: "Strengthening the data-imagination of SMEs"
+title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
 collection: project
-permalink: /X
-excerpt: 'The project focuses on stimulating SMEs data-imagination and associated competencies.The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data'
+permalink: 'https://deltagelsensgrammatik.itu.dk/'
+excerpt: 'A research group with participants from the IT University of Copenhagen and Aalborg University in the project The Digitization of Everyday Life during the Covid-19 pandemic in Denmark will map how the digital has influenced and shaped the everyday life of Danes during the virus outbreak'
 date: 01/07/2020→30/06/2023
-paperurl: 'https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi/publications/'
+paperurl: '/X'
 
 ---
-The project focuses on stimulating SMEs' data-imagination and associated competencies. The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data. The researchers and SME staff will collaborate to investigate what kind of data is relevant and how to make this, often qualitative, data the subject of computational thinking and processing. The project explores how various smaller enterprises can collaborate and share knowledge supported by IT, and the collaboration will take place online. The project will generate a white paper and ideas for courses, incl. case descriptions for dissemination and teaching.
+While the world is closed down, many of us are forced to move the most basic everyday activities onto digital media and platforms. This means that we are all participating in rapid digitalization to an extent that we have not experienced before.
 
-The research and development project is supported by IT-vest and is carried out in collaboration between the research groups at ILD-lab, IT and Learning Design at the Department of Culture and Learning (L-ILD) and at the Department of Communication and Psychology (K-ILD), and Techno-anthropology research group (TANT and TANT-lab) from the Department of Culture and Learning. 
+Brit Ross Winthereik (ITU) and Anders Kristian Munk (AAU), together with a team of talented research assistants, are creating an archive of how digitalization of everyday life actually takes place during the current corona crisis. The purpose of collecting this data is first and foremost to create an archive that can be used for future research, without having a defined end goal.
 
-Particpants: Ørngreen, Rikke (PI)Munk, Anders (PI)Jacomy, Mathieu (Project Participant)Hansen, Helene Husted (Project Participant)Olesen, Asger Gehrt (Project Participant)Søltoft, Johan Irving (Project Participant)Knudsen, Sara Paasch (Project Participant)Buhl, Mie (Project Participant)Andreasen, Lars Birch (Project Participant)
+All information (interview, text, pictures and videos) is properly stored in accordance with current personal data protection legislation. You can read more about the project, and about data protection, at the bottom of the page.
 
 
-[LINK](https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi)
+[LINK]([https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi](https://deltagelsensgrammatik.itu.dk/))
