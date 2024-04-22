@@ -3,7 +3,7 @@ title: "Algorithms, Data and Democracy (ADD)"
 collection: project
 permalink: "/portfolio/project(3)"
 excerpt: 'The project will analyse, explore and foster discussion and collaboration around the impact of artificial intelligence in democratic societies.'
-date: 01/04/2020
+date: 01/03/2020
 paperurl: 'https://algoritmer.org/'
 
 ---
