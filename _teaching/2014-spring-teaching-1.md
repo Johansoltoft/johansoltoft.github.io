@@ -1,5 +1,4 @@
 ---
-title: "Courses"
 collection: teaching
 type: "University"
 permalink: /teaching/2015-spring-teaching-1
