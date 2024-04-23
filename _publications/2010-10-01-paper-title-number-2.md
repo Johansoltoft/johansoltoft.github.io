@@ -1,7 +1,7 @@
 ---
 title: "Friction by Machine: How to Slow Down Reasoning with Computational Method"
 date: 2024-01-14
-permalink: /publications/2010-10-01-paper-title-number-2.md
+permalink: /publications/2010-10-01-paper-title-number-2
 tags:
   - Machine anthropology
   - Data friction 
