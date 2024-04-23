@@ -1,8 +1,11 @@
 ---
-title: 'Friction by Machine: How to Slow Down Reasoning with Computational Method '
-date: 2024-01-16
+title: "Friction by Machine: How to Slow Down Reasoning with Computational Method"
 collection: posts
-permalink: /posts/machinefriction/
+type: "posts"
+permalink: /talks/machinefriction
+venue: "UC Chicago, Hermann Hall, Illinois Institute of Technology"
+location: "Illinois, Chicago"
+date: 2024-01-16
 tags:
   - Machine anthropology
   - Data friction 
