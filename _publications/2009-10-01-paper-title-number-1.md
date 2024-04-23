@@ -1,6 +1,6 @@
 ---
 title: "Friction by Machine: How to Slow Down Reasoning with Computational Methods"
-collection: publications
+collection: #
 permalink: /X
 excerpt: 'This paper provides a theoretical alternative to the prevailing perception of machine learning as synonymous with speed and efficiency. Inspired by ethnographic fieldwork and grounded in pragmatist philosophy, we introduce the concept of “data friction” as the situation when encounters between held beliefs and data patterns posses the potential to stimulate innovative thinking.'
 date: 2023-12-13
