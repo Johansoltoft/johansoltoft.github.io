@@ -33,7 +33,6 @@ We introduce three different types of friction machines through three distinct c
 **Curated friction**
 “The contemporary data environment is way more granular and messier than its predecessors, data projects often involve decisions about what to keep as data points and how to operationalize concepts” (Madsen et al., 2023).
 
-![MACHINEfriction](/images/Frictionmachine.png)
 
 
 **Reference**
