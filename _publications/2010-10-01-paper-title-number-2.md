@@ -25,13 +25,13 @@ We propose that machine learning can be employed in an ethnographic manner, a co
 
 Friction Machines
 ------
-**Algorithmic friction **
+**Algorithmic friction**
 “algorithmic misprediction is used as a tactic to identify ambiguous and rich cases where thick description is necessary”
 
 **Visual friction**
 “Visualizations deliberately built to indicate vague structures that require more investigation to be meaningful. In that sense they stimulate explicit guessing and sense-making in the presence of others”
 
-**Curated friction **
+**Curated friction**
 “The contemporary data environment is way more granular and messier than its predecessors, data projects often involve decisions about what to keep as data points and how to operationalize concepts”
 
 Machine friction
