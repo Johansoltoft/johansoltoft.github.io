@@ -17,8 +17,8 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Drafts"
-    url: /drafts/
+  #- title: "Drafts"
+  #  url: /drafts/
         
  # - title: "CV"
    # url: /cv/
