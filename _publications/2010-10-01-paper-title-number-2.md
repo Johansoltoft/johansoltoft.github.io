@@ -35,11 +35,13 @@ Friction Machines
 “The contemporary data environment is way more granular and messier than its predecessors, data projects often involve decisions about what to keep as data points and how to operationalize concepts”
 
 Machine friction
-![MACHINEfriction](/images/Machinefriction.png)
+![MACHINEfriction](/images/Frictionmachine.png)
 
 
 **Reference**
 ------
 Madsen, A. K., Munk, A. K., & Søltoft, J. I. (2023). Friction by machine: How to slow down reasoning with computational methods. EPIC Proceedings, 82-105.
+
+[Link to full paper](https://www.epicpeople.org/friction-by-machine-and-computational-methods/)
 
 
