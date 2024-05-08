@@ -26,13 +26,13 @@ Friction Machines
 We introduce three different types of friction machines through three distinct case studies. (Read all about the case studies in the full article—link at the bottom of the page).
 
 **Algorithmic friction**
-“algorithmic misprediction is used as a tactic to identify ambiguous and rich cases where thick description is necessary”
+“algorithmic misprediction is used as a tactic to identify ambiguous and rich cases where thick description is necessary” (Madsen et al., 2023). 
 
 **Visual friction**
-“Visualizations deliberately built to indicate vague structures that require more investigation to be meaningful. In that sense they stimulate explicit guessing and sense-making in the presence of others”
+“Visualizations deliberately built to indicate vague structures that require more investigation to be meaningful. In that sense they stimulate explicit guessing and sense-making in the presence of others” (Madsen et al., 2023).
 
 **Curated friction**
-“The contemporary data environment is way more granular and messier than its predecessors, data projects often involve decisions about what to keep as data points and how to operationalize concepts”
+“The contemporary data environment is way more granular and messier than its predecessors, data projects often involve decisions about what to keep as data points and how to operationalize concepts” (Madsen et al., 2023).
 
 ![MACHINEfriction](/images/Frictionmachine.png)
 
