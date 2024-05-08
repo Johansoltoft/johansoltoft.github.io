@@ -23,6 +23,8 @@ We propose that machine learning can be employed in an ethnographic manner, a co
 
 Friction Machines
 ------
+We introduce three different types of friction machines through three distinct case studies. (Read all about the case studies in the full article—link at the bottom of the page).
+
 **Algorithmic friction**
 “algorithmic misprediction is used as a tactic to identify ambiguous and rich cases where thick description is necessary”
 
@@ -32,7 +34,6 @@ Friction Machines
 **Curated friction**
 “The contemporary data environment is way more granular and messier than its predecessors, data projects often involve decisions about what to keep as data points and how to operationalize concepts”
 
-Machine friction
 ![MACHINEfriction](/images/Frictionmachine.png)
 
 
