@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Blog"
+title: "Blog wall"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
