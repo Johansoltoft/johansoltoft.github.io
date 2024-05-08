@@ -1,13 +1,12 @@
 ---
 title: "Friction by Machine: How to Slow Down Reasoning with Computational Method"
-date: 2024-01-14
+date:2024-01-14
 permalink: /publications/2010-10-01-paper-title-number-2.md/
 tags:
-  - Machine anthropology
-  - Data friction 
-  - Participatory data design
-  - Digital methods
+
 ---
+![MACHINEfriction](/images/Frictionmachine.png)
+
 Article Written by Madsen, A. K., Munk, A. K., & Søltoft, J. I. (2023) 
 
 
