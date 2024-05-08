@@ -3,7 +3,6 @@ title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmar
 collection: project
 permalink: "/portfolio/project(1)"
 date: 01/04/2020
-paperurl: 'https://deltagelsensgrammatik.itu.dk/'
 ---
 
 ![Conference](/images/Covid-19-project.png)
@@ -15,4 +14,4 @@ Brit Ross Winthereik (ITU) and Anders Kristian Munk (AAU), together with a team 
 All information (interview, text, pictures and videos) is properly stored in accordance with current personal data protection legislation. You can read more about the project, and about data protection, at the bottom of the page.
 
 
-[LINK](https://deltagelsensgrammatik.itu.dk/)
+![Website Link](https://deltagelsensgrammatik.itu.dk/)
