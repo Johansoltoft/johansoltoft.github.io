@@ -2,7 +2,6 @@
 title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
 collection: project
 permalink: "/portfolio/project(1)"
-excerpt: 'The Digitization of Everyday Life during the Covid-19 pandemic in Denmark mapped how the digital has influenced and shaped the everyday life of Danes during the virus outbreak'
 date: 01/04/2020
 paperurl: 'https://deltagelsensgrammatik.itu.dk/'
 ---
