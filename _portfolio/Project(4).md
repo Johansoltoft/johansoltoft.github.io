@@ -4,7 +4,7 @@ collection: project
 permalink: "/portfolio/project(4)"
 date: 14/06/2023
 ---
-![Conference](/images/masshine.jpg)
+![Conference](/images/masshine12.jpg)
 
 **My role: Principal investigator**
 
