@@ -4,8 +4,6 @@ collection: project
 permalink: "/portfolio/project(2)"
 excerpt: 'We live in a Digital Anthropocene era in which notions such as intelligence, emotions, and agency—historically considered traits that distinguish humans from other animals—are increasingly traced and understood through algorithmic logics and big digital datasets.'
 date: 15/05/2022
-paperurl: 'https://vbn.aau.dk/en/projects/biosociality-and-more-than-human-relations-in-the-digital-anthrop'
-
 ---
 
 **My role: Research Assistant**
@@ -14,4 +12,4 @@ We live in a Digital Anthropocene era in which notions such as intelligence, emo
 
 The project Biosociality and more-than-human relations in the Digital Anthropocene gathers AAU researchers from philosophy, psychology, history, and techno-anthropology to revisit concepts/phenomena that have historically been crucial in the study and description of human life in society and environments: intelligence, agency/behaviour, emotions/affect. Across disciplines, and in collaboration with researchers within ethology, behavioural ecology, and computational biology (among others) from other institutions, we (1) explore how these concepts are reshaped by two major phenomena marking our time: Anthropogenic environmental change and vast digitization of functions and knowledge, and we (2) experiment with the formulation of an interdisciplinary SSH approach to understanding behaviour/agency, affect/emotions, and intelligence as both human and more-than-human traits.
 
-[LINK](https://vbn.aau.dk/en/projects/biosociality-and-more-than-human-relations-in-the-digital-anthrop)
+[Website link](https://vbn.aau.dk/en/projects/biosociality-and-more-than-human-relations-in-the-digital-anthrop)
