@@ -5,7 +5,7 @@ permalink: "/portfolio/project(1)"
 date: 01/04/2020
 ---
 
-![Conference](/images/Covid-1900-project.png)
+![Conference](/images/Covid-19000-project.png)
 
 **My role: Research Assistant**
 
