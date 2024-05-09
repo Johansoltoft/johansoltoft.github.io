@@ -4,7 +4,6 @@ collection: project
 permalink: /X
 excerpt: 'The project focuses on stimulating SMEs data-imagination and associated competencies.The project will create knowledge about how small and medium-sized enterprises can understand, utilize and learn from their data'
 date: 01/07/2020→30/06/2023
-paperurl: 'https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi/publications/'
 
 ---
 
@@ -16,4 +15,4 @@ The research and development project is supported by IT-vest and is carried out 
 
 Particpants: Ørngreen, Rikke (PI)Munk, Anders (PI)Jacomy, Mathieu (Project Participant)Hansen, Helene Husted (Project Participant)Olesen, Asger Gehrt (Project Participant)Søltoft, Johan Irving (Project Participant)Knudsen, Sara Paasch (Project Participant)Buhl, Mie (Project Participant)Andreasen, Lars Birch (Project Participant)
 
-[LINK](https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi)
+[Website Link](https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi)
