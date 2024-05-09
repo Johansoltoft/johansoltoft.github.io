@@ -22,5 +22,7 @@ Emotes
 ------
 XXXX
 
+![Twitch Emote Network](/images/twitchnetwork.png)
+
 
 
