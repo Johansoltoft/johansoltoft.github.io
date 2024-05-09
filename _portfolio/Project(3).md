@@ -4,7 +4,7 @@ collection: project
 permalink: "/portfolio/project(3)"
 date: 01/03/2020
 ---
-![Conference](/images/ADD.png)
+![Conference](/images/add12.png)
 
 **My role: Research Assistant**
 
