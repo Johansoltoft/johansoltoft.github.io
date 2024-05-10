@@ -9,6 +9,11 @@ redirect_from:
 ---
 
 
+![Haraway](/images/Bellyofthemonster.gif)
+
+"“In the Belly of the Monster"
+======
+
 ![Diagram Computationel antro](/images/EPIC-computationelANTRO.png)
 
 Friction by Machine: How to Slow Down Reasoning with Computational Methods
