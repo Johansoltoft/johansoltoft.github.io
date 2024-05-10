@@ -18,8 +18,8 @@ Anders Koed Madsen, Anders Munk, and I have co-authored a paper that offers a th
 [Link to full paper](https://www.epicpeople.org/friction-by-machine-and-computational-methods/)
 [Link to blog post](/publications/2010-10-01-paper-title-number-2.md/)
 
+![Diagramimaga](/images/dataimaga.png)
 
-![Data-imagination](/images/dataimaga.png)
 
 Strengthening the data-imagination of SMEs 
 ======
