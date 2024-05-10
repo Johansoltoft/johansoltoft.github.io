@@ -8,12 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-
-![Haraway](/images/Bellyofthemonster.gif)
-
-"“In the Belly of the Monster"
-======
-
 ![Diagram Computationel antro](/images/EPIC-computationelANTRO.png)
 
 Friction by Machine: How to Slow Down Reasoning with Computational Methods
@@ -23,6 +17,13 @@ Anders Koed Madsen, Anders Munk, and I have co-authored a paper that offers a th
 
 [Link to full paper](https://www.epicpeople.org/friction-by-machine-and-computational-methods/)
 [Link to blog post](/publications/2010-10-01-paper-title-number-2.md/)
+
+
+![Haraway](/images/Bellyofthemonster.gif) {: align-right width ="300px"}
+
+"In the Belly of the Monster"
+======
+
 
 ![Twitch Emote Network](/images/twitchnetwork.png)
 
