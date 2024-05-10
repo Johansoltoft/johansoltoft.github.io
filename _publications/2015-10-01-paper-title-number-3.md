@@ -1,6 +1,6 @@
 ---
 title: "Studying Community Detection Using Twitch Emotes"
-date: 2024-01-14
+date: 2022-10-30
 permalink: /publications/2015-10-01-paper-title-number-3.md/
 tags:
 
