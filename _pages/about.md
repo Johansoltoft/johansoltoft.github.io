@@ -19,14 +19,6 @@ Anders Koed Madsen, Anders Munk, and I have co-authored a paper that offers a th
 [Link to full paper](https://www.epicpeople.org/friction-by-machine-and-computational-methods/)
 [Link to blog post](/publications/2010-10-01-paper-title-number-2.md/)
 
-![Diagramimaga](/images/dataimaga.png)
-
-Strengthening the data-imagination of SMEs 
-======
-The most common application of machine learning in small and medium-sized enterprises (SMEs) is the automation of routine tasks based on quantitative data, an area where Danish SMEs excel as European leaders. Concurrently, these enterprises are producing and archiving increasingly large volumes of unconventional, qualitative material related to activities that are neither routine nor quantifiable. It can be difficult for companies to envision how working with this type of data can be profitable. The project's working hypothesis is that it involves expanding the companies' notions of what data is and how it can be processed. Through various case studies, the project demonstrates how companies can broaden their data imagination by engaging in experiments with data and machine learning.
-
-[Radar model -  data-imagination](https://vbn.aau.dk/ws/portalfiles/portal/518634330/SMV_projektet_Radar_model_til_publicering.pdf)
-
 ![Twitch Emote Network](/images/twitchnetwork.png)
 
 Studying Community Detection Using Twitch Emotes
@@ -35,6 +27,13 @@ Can emotes be seen as a kind of strange text? Twitch, the livestreaming platform
 
 [Link to blog post](/publications/2015-10-01-paper-title-number-3.md/)
 
+![Diagramimaga](/images/dataimaga.png)
+
+Strengthening the data-imagination of SMEs 
+======
+The most common application of machine learning in small and medium-sized enterprises (SMEs) is the automation of routine tasks based on quantitative data, an area where Danish SMEs excel as European leaders. Concurrently, these enterprises are producing and archiving increasingly large volumes of unconventional, qualitative material related to activities that are neither routine nor quantifiable. It can be difficult for companies to envision how working with this type of data can be profitable. The project's working hypothesis is that it involves expanding the companies' notions of what data is and how it can be processed. Through various case studies, the project demonstrates how companies can broaden their data imagination by engaging in experiments with data and machine learning.
+
+[Radar model -  data-imagination](https://vbn.aau.dk/ws/portalfiles/portal/518634330/SMV_projektet_Radar_model_til_publicering.pdf)
 
 ![Natmus Network](/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif)
 
