@@ -19,7 +19,7 @@ Anders Koed Madsen, Anders Munk, and I have co-authored a paper that offers a th
 [Link to blog post](/publications/2010-10-01-paper-title-number-2.md/)
 
 
-![Haraway](/images/Bellyofthemonster.gif){: align-right width="300px"}"
+![Haraway](/images/Bellyofthemonster.gif){:align-right width="300px"}"
 
 
 "In the Belly of the Monster"
