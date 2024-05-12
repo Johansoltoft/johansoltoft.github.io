@@ -21,7 +21,7 @@ My experiment
 
 In my small experiment, the images were generated using DALL·E 3 and then transformed into short film segments with Runway. One aspect that intrigued me was the challenge of maintaining consistency when generating images with DALL·E 3. Achieving the desired look for just this brief video required numerous minor adjustments. For instance, I uploaded a reference photo to enhance consistency or reusing the same prompts to refine the output.
 
-Another observation was the use of Runway, which proved most effective for depicting subtle emotions. Attempting to create large movements often resulted in a distorted video, revealing the limitations of current AI tools in handling dynamic scenes.
+Another observation was the use of Runway, which proved most effective for depicting subtle movements. Attempting to create large movements often resulted in a distorted video, revealing the limitations of current AI tools in handling dynamic scenes.
 
 Looking ahead, it will be interesting to see how the upcoming release of Sora influences this field, also considering the potential environmental impact its operation may necessitate.
 
