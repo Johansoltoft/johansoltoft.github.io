@@ -26,7 +26,7 @@ redirect_from:
 </div>
 
 <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
-  <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1"->
+  <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1">
     <img src="/images/Epic2-646.jpg" alt="Conference" style="width: 100%; height: auto;">
   </a>
   <h2 style="font-size: 18px; font-weight: normal; color: #333;">EPIC2023: Friction by Machine</h2>
@@ -54,7 +54,6 @@ redirect_from:
 </div>
 
 </div>
-
 
 [![Diagram Computationel antro](/images/EPIC-computationelANTRO.png)](https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/) 
 
