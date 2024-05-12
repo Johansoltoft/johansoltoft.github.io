@@ -8,6 +8,35 @@ redirect_from:
   - /about.html
 ---
 
+
+<div style="display:flex; justify-content:space-between; align-items:flex-start;">
+
+<div>
+  <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
+    <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology" style="width:100%;">
+  </a>
+  <h2>Friction by Machine: How to Slow Down Reasoning with Computational Methods</h2>
+</div>
+
+<div>
+  <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
+    <img src="/images/twitchnetwork.png" alt="Twitch Emote Network" style="width:100%;">
+  </a>
+  <h2>Studying Community Detection Using Twitch Emotes</h2>
+</div>
+
+<div>
+  <a href="https://vbn.aau.dk/ws/portalfiles/portal/518634330/SMV_projektet_Radar_model_til_publicering.pdf">
+    <img src="/images/dataimaga.png" alt="Data Imagination Diagram" style="width:100%;">
+  </a>
+  <h2>Strengthening the data-imagination of SMEs</h2>
+</div>
+
+</div>
+
+
+
+
 [![Diagram Computationel antro](/images/EPIC-computationelANTRO.png)](https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/) 
 
 Friction by Machine: How to Slow Down Reasoning with Computational Methods
