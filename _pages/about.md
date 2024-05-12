@@ -33,6 +33,13 @@ redirect_from:
 </div>
 
 <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+  <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-7">
+    <img src="/images/Syn-politicans.png" alt="Synthetic Politicians" style="width: 100%; height: auto;">
+  </a>
+  <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Interfacing with Synthetic Mundane Politicians</h2>
+</div>
+
+<div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
   <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1">
     <img src="/images/Epic2-646.jpg" alt="Conference" style="width: 100%; height: auto;">
   </a>
