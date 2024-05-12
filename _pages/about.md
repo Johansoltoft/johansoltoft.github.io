@@ -99,7 +99,7 @@ redirect_from:
   </div>
   
   <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
-    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
+    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-5.md/">
       <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network" style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</h2>
