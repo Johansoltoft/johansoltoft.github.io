@@ -8,6 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  @media (max-width: 768px) {
+    .responsive-div {
+      flex: 1 1 100%; /* Each item takes full width on small screens */
+      max-width: 100%;
+    }
+  }
+</style>
+
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
 
