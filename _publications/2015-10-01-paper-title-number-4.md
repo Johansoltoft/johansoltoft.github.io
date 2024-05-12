@@ -5,7 +5,7 @@ permalink: /publications/2015-10-01-paper-title-number-4.md/
 tags:
 
 ---
-<img src="/images/Monster.png" alt="Monster" style="height: 300px; width: auto;">
+<img src="/images/Monster.png" alt="Monster" style="height: 200px; width: auto;">
 
 
 Creating AI-generated videos in the audiovisual media sector is a topic steeped in controversy, as highlighted during events such as the WGA strikes and instances like Disney’s use of an AI-generated image for its centennial celebration on Instagram, which sparked intense debates about the company's future.
