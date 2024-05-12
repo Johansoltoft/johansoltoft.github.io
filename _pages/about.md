@@ -11,7 +11,7 @@ redirect_from:
 <style>
   /* Base styles for all devices */
   .responsive-div {
-    flex-basis: 31%; /* Adjusted to take roughly one-third of the row */
+    flex: 1 1 31%; /* Adjusted to take roughly one-third of the row */
     max-width: 31%; /* Aligns with flex-basis */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
     padding: 10px; /* Space inside the div */
@@ -32,7 +32,7 @@ redirect_from:
   /* Styles for devices with a max-width of 768px (tablets and mobile phones) */
   @media (max-width: 768px) {
     .responsive-div {
-      flex-basis: 100%; /* Each div takes full width of the viewport */
+      flex: 1 1 100%; /* Each div takes full width of the viewport */
       max-width: 100%; /* Aligns with flex-basis */
       padding: 15px; /* Slightly larger padding */
     }
@@ -45,7 +45,7 @@ redirect_from:
   /* Additional styles for handling device orientation */
   @media (max-width: 768px) and (orientation: landscape) {
     .responsive-div {
-      flex-basis: 50%; /* In landscape, each div takes about half the width */
+      flex: 1 1 50%; /* In landscape, each div takes about half the width */
       max-width: 50%; /* Aligns with flex-basis */
     }
 
@@ -54,6 +54,7 @@ redirect_from:
     }
   }
 </style>
+
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div class="responsive-div">
