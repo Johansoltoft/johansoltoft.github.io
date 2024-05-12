@@ -9,14 +9,31 @@ redirect_from:
 ---
 
 <style>
+  /* General Styles for Desktop */
+  .responsive-div {
+    flex: 1 1 48%; 
+    max-width: 48%; 
+    box-sizing: border-box; 
+    padding: 10px;
+  }
+
+  img {
+    width: 100%; 
+    height: auto;
+  }
+
+  /* Responsive Styles for Mobile Devices */
   @media (max-width: 768px) {
     .responsive-div {
       flex: 1 1 100%; /* Each item takes full width on small screens */
       max-width: 100%;
     }
+
+    h2 {
+      font-size: 16px; /* Smaller font size for mobile */
+    }
   }
 </style>
-
 
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
