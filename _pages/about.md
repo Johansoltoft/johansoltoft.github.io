@@ -111,7 +111,7 @@ redirect_from:
     <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-1.md/">
       <img src="/images/dataimaga.png" alt="Data Imagination Diagram" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: Strengthening the data-imagination of SMEs</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Strengthening the data-imagination of SMEs</h2>
   </div>
 
 </div>
