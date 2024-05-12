@@ -18,6 +18,7 @@ redirect_from:
 </style>
 
 
+
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
 
 <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
