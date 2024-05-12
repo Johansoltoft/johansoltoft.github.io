@@ -8,6 +8,16 @@ redirect_from:
   - /about.html
 ---
 
+---
+permalink: /
+title: "Blog wall"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 <style>
   /* General Styles for Desktop */
   .responsive-div {
@@ -35,8 +45,9 @@ redirect_from:
   }
 </style>
 
-
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+  <!-- Content blocks (divs) here -->
+
 
 <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
   <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
