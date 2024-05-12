@@ -9,34 +9,48 @@ redirect_from:
 ---
 
 <style>
-  /* General Styles for Desktop */
+  /* Base styles for all devices */
   .responsive-div {
-    flex: 1 1 48%; 
-    max-width: 48%; 
-    box-sizing: border-box; 
-    padding: 10px;
+    flex-basis: 48%; /* initially set to take almost half of the row */
+    max-width: 48%; /* aligns with flex-basis */
+    box-sizing: border-box; /* includes padding and border in the element's total width and height */
+    padding: 10px; /* space inside the div */
+    margin-bottom: 20px; /* extra space at the bottom of each div */
   }
 
   img {
-    width: 100%; 
-    height: auto;
+    width: 100%; /* makes images responsive */
+    height: auto; /* maintains aspect ratio */
   }
 
-  /* Responsive Styles for Mobile Devices */
+  h2 {
+    font-size: 18px; /* suitable font size for desktop */
+    font-weight: normal; /* normal font weight */
+    color: #333; /* dark gray color for text */
+  }
+
+  /* Styles for devices with a max-width of 768px (tablets and mobile phones) */
   @media (max-width: 768px) {
     .responsive-div {
-      flex: 1 1 100%; /* Each item takes full width on small screens */
-      max-width: 100%;
-      padding: 20px; /* Increase padding for better touch interaction */
-    }
-
-    img {
-      max-width: 100%; /* Ensure images use the full width */
-      height: auto; /* Maintain aspect ratio */
+      flex-basis: 100%; /* each div takes full width of the viewport */
+      max-width: 100%; /* aligns with flex-basis */
+      padding: 15px; /* slightly larger padding */
     }
 
     h2 {
-      font-size: 20px; /* Increase font size for better readability on small screens */
+      font-size: 16px; /* reduced font size for better space utilization on smaller screens */
+    }
+  }
+
+  /* Additional styles for handling device orientation */
+  @media (max-width: 768px) and (orientation: landscape) {
+    .responsive-div {
+      flex-basis: 50%; /* in landscape, each div takes about half the width */
+      max-width: 50%; /* aligns with flex-basis */
+    }
+
+    h2 {
+      font-size: 18px; /* restores larger font size for landscape orientation */
     }
   }
 </style>
@@ -52,7 +66,7 @@ redirect_from:
   
   <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
     <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
-      <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media" style="width: 100%; height: auto;">
+      <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media"     style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">"In the Belly of the Monster": Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
