@@ -5,7 +5,8 @@ permalink: /publications/2015-10-01-paper-title-number-5.md/
 tags:
 
 ---
-![MACHINEfriction](/images/NationalM.png)
+
+<img src="/images/NationalM.png" alt="NationalM" style="height: 300px; width: auto;">
 
 
 Network visualizations typically depict extended periods of time, yet they are often presented as static images, which fail to convey how discussions or controversies evolve, spike, or fade over time.
