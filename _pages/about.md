@@ -63,49 +63,56 @@ redirect_from:
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">Article: Friction by Machine: How to Slow Down Reasoning with Computational Methods</h2>
   </div>
   
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-4.md/">
       <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media"     style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">"In the Belly of the Monster": Blogpost-Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
   
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
       <img src="/images/D&D.png" alt="Collaborative Storytelling" style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Unravelling Collaborative Storytelling with Generative AI</h2>
   </div>
   
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+ <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-7">
       <img src="/images/Syn-politicans.png" alt="Synthetic Politicians" style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Interfacing with Synthetic Mundane Politicians</h2>
   </div>
   
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1">
       <img src="/images/Epic2-646.jpg" alt="Conference" style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">EPIC2023: Friction by Machine</h2>
   </div>
   
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
       <img src="/images/twitchnetwork.png" alt="Twitch Emote Network" style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: Studying Community Detection Using Twitch Emotes</h2>
   </div>
   
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
       <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network" style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</h2>
   </div>
   
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2014-03-01-talk-3">
       <img src="/images/NordicSTS.jpg" alt="NordicSTS" style="width: 100%; height: auto;">
     </a>
