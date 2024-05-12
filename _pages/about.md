@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![Diagram Computationel antro](/images/EPIC-computationelANTRO.png)
+[![Diagram Computationel antro](/images/EPIC-computationelANTRO.png)](https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/) 
 
 Friction by Machine: How to Slow Down Reasoning with Computational Methods
 ======
