@@ -19,6 +19,27 @@ redirect_from:
 </div>
 
 <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+  <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
+    <img src="/images/Bellyofthemonster.gif" alt="In the Belly of the Monster" style="width: 100%; height: auto;">
+  </a>
+  <h2 style="font-size: 18px; font-weight: normal; color: #333;">In the Belly of the Monster</h2>
+</div>
+
+<div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+  <a href="/_talks/2012-03-01-talk-1.md">
+    <img src="/images/Epic2-646.jpg" alt="Conference" style="width: 100%; height: auto;">
+  </a>
+  <h2 style="font-size: 18px; font-weight: normal; color: #333;">EPIC2023: Friction by Machine</h2>
+</div>
+
+<div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+  <a href="https://johansoltoft.github.io/_talks/2012-03-01-talk-9.md">
+    <img src="/images/D&D.png" alt="Collaborative Storytelling" style="width: 100%; height: auto;">
+  </a>
+  <h2 style="font-size: 18px; font-weight: normal; color: #333;">Unravelling Collaborative Storytelling with Generative AI</h2>
+</div>
+
+<div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
   <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
     <img src="/images/twitchnetwork.png" alt="Twitch Emote Network" style="width: 100%; height: auto;">
   </a>
@@ -30,20 +51,6 @@ redirect_from:
     <img src="/images/dataimaga.png" alt="Data Imagination Diagram" style="width: 100%; height: auto;">
   </a>
   <h2 style="font-size: 18px; font-weight: normal; color: #333;">Strengthening the data-imagination of SMEs</h2>
-</div>
-
-<div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
-  <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
-    <img src="/images/Bellyofthemonster.gif" alt="In the Belly of the Monster" style="width: 100%; height: auto;">
-  </a>
-  <h2 style="font-size: 18px; font-weight: normal; color: #333;">In the Belly of the Monster</h2>
-</div>
-
-<div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
-  <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
-    <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network" style="width: 100%; height: auto;">
-  </a>
-  <h2 style="font-size: 18px; font-weight: normal; color: #333;">Tweets about the National Museum over time</h2>
 </div>
 
 </div>
