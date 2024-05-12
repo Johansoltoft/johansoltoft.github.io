@@ -11,52 +11,52 @@ redirect_from:
 <style>
   /* Base styles for all devices */
   .responsive-div {
-    flex-basis: 48%; /* initially set to take almost half of the row */
-    max-width: 48%; /* aligns with flex-basis */
-    box-sizing: border-box; /* includes padding and border in the element's total width and height */
-    padding: 10px; /* space inside the div */
-    margin-bottom: 20px; /* extra space at the bottom of each div */
+    flex-basis: 31%; /* Set to take about one-third of the row */
+    max-width: 31%; /* Aligns with flex-basis */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    padding: 10px; /* Space inside the div */
+    margin-bottom: 20px; /* Extra space at the bottom of each div */
   }
 
   img {
-    width: 100%; /* makes images responsive */
-    height: auto; /* maintains aspect ratio */
+    width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains aspect ratio */
   }
 
   h2 {
-    font-size: 18px; /* suitable font size for desktop */
-    font-weight: normal; /* normal font weight */
-    color: #333; /* dark gray color for text */
+    font-size: 18px; /* Suitable font size for desktop */
+    font-weight: normal; /* Normal font weight */
+    color: #333; /* Dark gray color for text */
   }
 
   /* Styles for devices with a max-width of 768px (tablets and mobile phones) */
   @media (max-width: 768px) {
     .responsive-div {
-      flex-basis: 100%; /* each div takes full width of the viewport */
-      max-width: 100%; /* aligns with flex-basis */
-      padding: 15px; /* slightly larger padding */
+      flex-basis: 100%; /* Each div takes full width of the viewport */
+      max-width: 100%; /* Aligns with flex-basis */
+      padding: 15px; /* Slightly larger padding */
     }
 
     h2 {
-      font-size: 16px; /* reduced font size for better space utilization on smaller screens */
+      font-size: 16px; /* Reduced font size for better space utilization on smaller screens */
     }
   }
 
   /* Additional styles for handling device orientation */
   @media (max-width: 768px) and (orientation: landscape) {
     .responsive-div {
-      flex-basis: 50%; /* in landscape, each div takes about half the width */
-      max-width: 50%; /* aligns with flex-basis */
+      flex-basis: 50%; /* In landscape, each div takes about half the width */
+      max-width: 50%; /* Aligns with flex-basis */
     }
 
     h2 {
-      font-size: 18px; /* restores larger font size for landscape orientation */
+      font-size: 18px; /* Restores larger font size for landscape orientation */
     }
   }
 </style>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <div class="responsive-div">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology" style="width: 100%; height: auto;">
     </a>
