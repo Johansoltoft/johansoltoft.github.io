@@ -9,16 +9,6 @@ redirect_from:
 ---
 
 
----
-permalink: /
-title: "Blog wall"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
 
 <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
