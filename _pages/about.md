@@ -55,9 +55,8 @@ redirect_from:
   }
 </style>
 
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
-
-  <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology" style="width: 100%; height: auto;">
     </a>
