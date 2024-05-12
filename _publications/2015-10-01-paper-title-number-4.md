@@ -1,23 +1,24 @@
 ---
-title: "Studying Community Detection Using Twitch Emotes"
-date: 2022-10-30
-permalink: /publications/2015-10-01-paper-title-number-3.md/
+title: "Controversy Surrounding AI in Audio-Visual Media"
+date: 2023-12-03
+permalink: /publications/2015-10-01-paper-title-number-4.md/
 tags:
 
 ---
-![MACHINEfriction](/images/twitchemotes.jpg)
+![Monster](/images/Monster.png)
 
 
-Can emotes be seen as a kind of strange text? Twitch, the livestreaming platform, has a fast-paced chat due to its many viewers. Therefore, it’s both hard to have a conversation on the platform and the words used are generally quite short - not so interesting in regards to semantic analysis. I’m thinking of another way to research this communication: focusing on emotes. Their use is tied to the specific stream or community. I’ve therefore experimented with how to create a map of a network of co-occurring emotes using Gephi. 
+Creating AI-generated videos in the audiovisual media sector is a topic steeped in controversy, as highlighted during events such as the WGA strikes and instances like Disney’s use of an AI-generated image for its centennial celebration on Instagram, which sparked intense debates about the company's future.
 
-Method
+At the "Picture_This" conference, a hub for emerging film technologies, one of the most discussed topics was AI in film. A notable presentation by Nick Laurent delved into the practical challenges of AI in film production. He shared insights into the extensive process of creating a short scene, emphasizing the iterative nature of the work which involved using over eight different software programs. His talk illustrated the necessity for constant tinkering and adjustments to achieve quality results.
+
+Inspired by Laurent’s discussion, I became intrigued to explore this field myself. I decided to produce a brief scene visualizing Donna Haraway's phrase "in the belly of the monster"
+
+My experiment
 ======
+![MonsterAI](/images/Bellyofthemonster.gif)
 
-![Twitch Emote Network](/images/twitchemotes123.jpg)
 
-Emotes
-------
-![Twitch Emote Network](/images/twitchnetwork.png)
 
 
 
