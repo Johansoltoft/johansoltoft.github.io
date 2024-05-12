@@ -6,7 +6,7 @@ tags:
 
 ---
 
-<img src="/images/NationalM.png" alt="NationalM" style="height: 200px; width: auto;">
+![NationalM](/images/NationalM.png)
 
 
 Network visualizations typically depict extended periods of time, yet they are often presented as static images, which fail to convey how discussions or controversies evolve, spike, or fade over time.
