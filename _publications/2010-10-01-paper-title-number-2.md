@@ -5,7 +5,8 @@ permalink: /publications/2010-10-01-paper-title-number-2.md/
 tags:
 
 ---
-<img src="/images/Frictionmachine.png" alt="MACHINEfriction" style="height: 200px; width: auto;">
+
+![MACHINEfriction](/images/Frictionmachine.png)
 
 Article Written by Madsen, A. K., Munk, A. K., & Søltoft, J. I. (2023) 
 
