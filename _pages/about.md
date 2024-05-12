@@ -47,7 +47,7 @@ redirect_from:
 </div>
 
 <div style="flex: 1 1 48%; max-width: 48%; box-sizing: border-box; padding: 10px;">
-  <a href="https://vbn.aau.dk/ws/portalfiles/portal/518634330/SMV_projektet_Radar_model_til_publicering.pdf">
+  <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-1.md/">
     <img src="/images/dataimaga.png" alt="Data Imagination Diagram" style="width: 100%; height: auto;">
   </a>
   <h2 style="font-size: 18px; font-weight: normal; color: #333;">Strengthening the data-imagination of SMEs</h2>
