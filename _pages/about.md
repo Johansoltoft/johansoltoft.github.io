@@ -78,7 +78,14 @@ redirect_from:
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Interfacing with Synthetic Mundane Politicians</h2>
   </div>
-  
+
+  <div class="responsive-div">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-10">
+      <img src="/images/MASSHINE-syn.jpg" alt="SyntheticFiLM" style="width: 100%; height: auto;">
+    </a>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Exploring Cinematic Engagement through a Synthetic AI Film Lover</h2>
+  </div>
+
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1">
       <img src="/images/Epic2-646.jpg" alt="Conference" style="width: 100%; height: auto;">
