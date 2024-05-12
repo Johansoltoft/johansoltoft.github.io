@@ -12,6 +12,9 @@ Creating AI-generated videos in the audiovisual media sector is a topic steeped 
 
 At the "Picture_This" conference, a hub for emerging film technologies, one of the most discussed topics was AI in film. A notable presentation by Nick Laurent delved into the practical challenges of AI in film production. He shared insights into the extensive process of creating a short scene, emphasizing the iterative nature of the work which involved using over eight different software programs. His talk illustrated the necessity for constant tinkering and adjustments to achieve quality results.
 
+
+![Nick Laurent](/images/nick-Laurent..png)
+
 Inspired by Laurent’s discussion, I became intrigued to explore this field myself. I decided to produce a brief scene visualizing Donna Haraway's phrase "in the belly of the monster"
 
 My experiment
