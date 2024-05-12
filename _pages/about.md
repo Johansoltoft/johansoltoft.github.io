@@ -8,16 +8,6 @@ redirect_from:
   - /about.html
 ---
 
----
-permalink: /
-title: "Blog wall"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 <style>
   /* General Styles for Desktop */
   .responsive-div {
