@@ -5,6 +5,18 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Johan Irving Søltoft" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://johansoltoft.github.io/" />
+  <meta property="og:image" content="https://johansoltoft.github.io/images/Bellyofthemonster.gif" />
+  <meta property="og:description" content="Blog" />
+  <title>Johan Irving Søltoft</title>
+</head>
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Johan Irving Søltoft"
