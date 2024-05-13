@@ -16,7 +16,7 @@
   <meta property="og:description" content="Blog" />
   <title>Johan Irving Søltoft</title>
 </head>
-
+<body>
 # Site Settings
 locale                   : "en-US"
 title                    : "Johan Irving Søltoft"
@@ -321,3 +321,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+</body>
+</html>
