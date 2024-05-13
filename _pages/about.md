@@ -1,3 +1,9 @@
+<meta property="og:title" content="Johan Irving Søltoft" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://johansoltoft.github.io/" />
+<meta property="og:image" content="https://johansoltoft.github.io/images/Bellyofthemonster.gif" />
+<meta property="og:description" content="Blog" />
+
 ---
 permalink: /
 title: "Blog posts"
@@ -7,13 +13,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<meta property="og:title" content="Johan Irving Søltoft" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://johansoltoft.github.io/" />
-<meta property="og:image" content="https://johansoltoft.github.io/images/Bellyofthemonster.gif" />
-<meta property="og:description" content="Blog" />
-
-
 
 <style>
   /* Base styles for all devices */
