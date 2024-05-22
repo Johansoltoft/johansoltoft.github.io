@@ -13,6 +13,4 @@ The project focuses on stimulating SMEs' data-imagination and associated compete
 
 The research and development project is supported by IT-vest and is carried out in collaboration between the research groups at ILD-lab, IT and Learning Design at the Department of Culture and Learning (L-ILD) and at the Department of Communication and Psychology (K-ILD), and Techno-anthropology research group (TANT and TANT-lab) from the Department of Culture and Learning. 
 
-Particpants: Ørngreen, Rikke (PI)Munk, Anders (PI)Jacomy, Mathieu (Project Participant)Hansen, Helene Husted (Project Participant)Olesen, Asger Gehrt (Project Participant)Søltoft, Johan Irving (Project Participant)Knudsen, Sara Paasch (Project Participant)Buhl, Mie (Project Participant)Andreasen, Lars Birch (Project Participant)
-
 [Website Link](https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi)
