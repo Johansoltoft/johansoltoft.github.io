@@ -1,6 +1,7 @@
 ---
 title: "What is creatively acceptable AI"
 collection: project
+excerpt: 'The project develops new anthropological analysis tools that combine AI with ethnographic methods and create new knowledge about the demand for cultural products.'
 permalink: "/portfolio/project(6)"
 date: 01/02/2023
 ---
