@@ -67,42 +67,42 @@ redirect_from:
     <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-4.md/">
       <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media"     style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">"In the Belly of the Monster": Blogpost-Controversy Surrounding AI in Audio-Visual Media</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">"Blogpost: In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
   
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
       <img src="/images/D&D.png" alt="Collaborative Storytelling" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Unravelling Collaborative Storytelling with Generative AI</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Conference: Unravelling Collaborative Storytelling with Generative AI</h2>
   </div>
   
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-7">
       <img src="/images/Syn-politicans.png" alt="Synthetic Politicians" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Interfacing with Synthetic Mundane Politicians</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Conference: Interfacing with Synthetic Mundane Politicians</h2>
   </div>
 
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-10">
       <img src="/images/MASSHINE-syn.jpg" alt="SyntheticFiLM" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">MASSHINE: Exploring Cinematic Engagement through a Synthetic AI Film Lover</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Conference: Exploring Cinematic Engagement through a Synthetic AI Film Lover</h2>
   </div>
 
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1">
       <img src="/images/Epic2-646.jpg" alt="Conference" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">EPIC2023: Friction by Machine</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Conference: Friction by Machine</h2>
   </div>
 
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-6.md/">
       <img src="/images/MASSHINE-retreat1.jpg" alt="Dragør retreat Generative Ethnographic AI" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: Dragør retreat Generative Ethnographic AI</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Workshop: Dragør retreat Generative Ethnographic AI</h2>
   </div>
 
   <div class="responsive-div">
@@ -123,14 +123,14 @@ redirect_from:
     <a href="https://johansoltoft.github.io//talks/2014-03-01-talk-3">
       <img src="/images/NordicSTS.jpg" alt="NordicSTS" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">NordicSTS: Creatively Acceptable AI</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Conference: Creatively Acceptable AI</h2>
   </div>
   
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-1.md/">
       <img src="/images/dataimaga.png" alt="Data Imagination Diagram" style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Strengthening the data-imagination of SMEs</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: Strengthening the data-imagination of SMEs</h2>
   </div>
 
   <div class="responsive-div">
