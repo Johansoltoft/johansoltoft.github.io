@@ -11,10 +11,10 @@ main:
  # - title: "Tools & Scripts"
 #    url: /pages/    
 
-  - title: "Talks"
+ # - title: "Talks"
     url: /talks/    
     
-  - title: "Teaching"
+ # - title: "Teaching"
     url: /teaching/
 
   #- title: "Drafts"
