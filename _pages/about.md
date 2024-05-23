@@ -67,7 +67,7 @@ redirect_from:
     <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-4.md/">
       <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media"     style="width: 100%; height: auto;">
     </a>
-    <h2 style="font-size: 18px; font-weight: normal; color: #333;">"Blogpost: In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
   
   <div class="responsive-div">
