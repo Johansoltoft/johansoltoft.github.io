@@ -100,11 +100,11 @@ redirect_from:
 
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-6.md/">
-      <img src="/images/MASSHINE-retreat1.jpg" alt="Machine1" style="width: 100%; height: auto;">
+      <img src="/images/MASSHINE-retreat1.jpg" alt="Dragør retreat Generative Ethnographic AI" style="width: 100%; height: auto;">
     </a>
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">Blogpost: Dragør retreat Generative Ethnographic AI</h2>
   </div>
-  
+
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
       <img src="/images/twitchnetwork.png" alt="Twitch Emote Network" style="width: 100%; height: auto;">
