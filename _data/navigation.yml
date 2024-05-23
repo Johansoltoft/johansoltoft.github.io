@@ -12,9 +12,9 @@ main:
 #    url: /pages/    
 
  # - title: "Talks"
-    url: /talks/    
+   # url: /talks/    
     
- # - title: "Teaching"
+  - title: "Teaching"
     url: /teaching/
 
   #- title: "Drafts"
