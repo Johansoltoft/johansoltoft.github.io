@@ -1,24 +1,27 @@
 ---
-title: "Strengthening the data-imagination of SMEs - Radar Model"
+title: "Dragør retreat: Generative Ethnographic AI "
 date: 2023-02-07
-permalink: /publications/2009-10-01-paper-title-number-1.md/
+permalink: /publications/2009-10-01-paper-title-number-6.md/
 tags:
 
 ---
 
-The most common application of machine learning in small and medium-sized enterprises (SMEs) is the automation of routine tasks based on quantitative data, an area where Danish SMEs excel as European leaders. Concurrently, these enterprises are producing and archiving increasingly large volumes of unconventional, qualitative material related to activities that are neither routine nor quantifiable. It can be difficult for companies to envision how working with this type of data can be profitable. The project involves trying to expanding the companies’ notions of what data is and how it can be processed. Through various case studies, the project demonstrates how companies can broaden their data imagination by engaging in experiments with data and machine learning.
+Can we enable direct interviewing of a qualitative corpus through Generative AI to prolong ethnographic encounters?
 
-Radar model
+This was one of the key topics we deliberated upon during the MASSHINE Generative Ethnographic AI retreat. The event spanned two intense and enjoyable days, during which we experimented with various models and approaches to Generative AI.
+
+The project's objective is to enable direct interviewing of a qualitative corpus, making large qualitative datasets accessible without the lengthy process of coding and second-hand reporting. Interacting with a trained chatbot can offer a new immersion into the material. During the retreat, we focused on enabling AI-curated access to qualitative interviews to generate new insights. 
+
+
+Dragør retreat 
 ======
-![Diagramimaga](/images/dataimaga.png)
-
+![MASSHINE-1](/images/MASSHINE-retreat1.jpg)
+![MASSHINE-2](/images/MASSHINE-retreat2.jpg)
+![MASSHINE-3](/images/MASSHINE-retreat3.jpg)
 
 Links
 ======
 
-[Link to the full Radar model](https://vbn.aau.dk/ws/portalfiles/portal/518634330/SMV_projektet_Radar_model_til_publicering.pdf)
-
-------------------------------
-[Website Link](https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi)
+[Link to project](https://johansoltoft.github.io//portfolio/project(4))
 
 
