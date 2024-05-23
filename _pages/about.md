@@ -133,5 +133,12 @@ redirect_from:
     <h2 style="font-size: 18px; font-weight: normal; color: #333;">Strengthening the data-imagination of SMEs</h2>
   </div>
 
+  <div class="responsive-div">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-4">
+      <img src="/images/bertistheword(1).png" alt="Bert is the word" style="width: 100%; height: auto;">
+    </a>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Workshop: BERT is the word</h2>
+  </div>
+
 </div>
 
