@@ -17,26 +17,22 @@ body {
   box-sizing: border-box;
 }
 
-/* Override default container width to make it full width */
+/* Ensure the container is full width */
 .container, .site-content {
-  max-width: 100% !important;
-  padding: 0 20px; /* Optional: Add some padding */
+  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
-/* Additional content styling if needed */
-.content {
-  max-width: 100% !important;
-  padding: 0 20px; /* Optional: Add some padding */
-}
-
+/* Responsive divs for the images */
 .responsive-div {
-  flex: 1 1 45%; /* Adjust this percentage based on your layout needs */
-  max-width: 45%; /* Adjust this percentage based on your layout needs */
+  flex: 1 1 45%;
+  max-width: 45%;
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 20px;
@@ -54,7 +50,7 @@ body {
   width: 50%;
   height: auto;
   display: block;
-  margin: 0 auto 20px auto; /* Center align the image and add bottom margin */
+  margin: 0 auto 20px auto;
 }
 
 img {
