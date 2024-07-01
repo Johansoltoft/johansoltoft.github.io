@@ -17,31 +17,28 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+/* Override default container width to make it full width */
+.container, .site-content {
+  max-width: 100% !important;
+  padding: 0 20px; /* Optional: Add some padding */
 }
 
-.teaching-item {
-  flex: 1 1 45%;
-  max-width: 45%;
-  box-sizing: border-box;
-  padding: 10px;
-  margin-bottom: 20px;
-  text-align: center; /* Center align the text and image */
-}
-
-.teaching-item img {
-  width: 100%;
-  height: auto;
-  border: 2px solid #ddd; /* Optional: Add a border to the images */
+/* Additional content styling if needed */
+.content {
+  max-width: 100% !important;
+  padding: 0 20px; /* Optional: Add some padding */
 }
 
 @media (max-width: 768px) {
-  .teaching-item {
-    flex: 1 1 100%;
-    max-width: 100%;
+  .sidebar {
+    flex: 0 0 100%; /* Sidebar takes full width on small screens */
+  }
+
+  .main-content {
+    flex: 0 0 100%; /* Main content takes full width on small screens */
+  }
+
+  .container, .site-content, .content {
+    padding: 0 10px; /* Adjust padding for smaller screens */
   }
 }
