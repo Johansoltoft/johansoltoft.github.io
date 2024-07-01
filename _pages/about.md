@@ -15,12 +15,15 @@ redirect_from:
 
 <style>
   /* Base styles for all devices */
-  .container {
+  .container, .site-content {
+    width: 100%;
+    max-width: 100% !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0;
-    padding: 0;
+    padding: 0 20px; /* Optional: Add some padding */
+    box-sizing: border-box;
   }
 
   .responsive-div {
