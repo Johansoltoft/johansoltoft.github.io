@@ -14,6 +14,51 @@ redirect_from:
 <meta property="og:description" content="Blog" />
 
 <style>
+  body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar {
+    flex: 0 0 250px; /* Adjust the width of the sidebar */
+    padding: 20px;
+    background-color: #f4f4f4; /* Example background color for the sidebar */
+    box-sizing: border-box;
+  }
+
+  .main-content {
+    flex: 1; /* Take up the remaining space */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* Override default container width to make it full width */
+  .container, .site-content {
+    max-width: 100% !important;
+    padding: 0 20px; /* Optional: Add some padding */
+  }
+
+  /* Additional content styling if needed */
+  .content {
+    max-width: 100% !important;
+    padding: 0 20px; /* Optional: Add some padding */
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      flex: 0 0 100%; /* Sidebar takes full width on small screens */
+    }
+
+    .main-content {
+      flex: 0 0 100%; /* Main content takes full width on small screens */
+    }
+
+    .container, .site-content, .content {
+      padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+  }
+
   /* Base styles for all devices */
   .container, .site-content {
     width: 100%;
