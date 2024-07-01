@@ -36,7 +36,7 @@ Humans tend to be very locked into their ways of thinking, while a language mode
 Pictures form the event
 ======
 
-![NationalM](/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif)
+![NationalM](###)
 
 
 
