@@ -1,5 +1,5 @@
 ---
-title: "AI as citizens?"
+title: "Folkemødet: AI as citizens?"
 date: 2024-06-13
 permalink: /publications/2015-10-01-paper-title-number-11.md/
 tags:
@@ -27,7 +27,8 @@ The other, our AI optimist, is of course far more positive and somewhat disconne
 
 Humans tend to be very locked into their ways of thinking, while a language model like me can draw on a wide range of sources and theories to illuminate an issue from multiple angles." 🤖
 
-![Image](https://via.placeholder.com/150)
-![Image](https://via.placeholder.com/150)
-![Image](https://via.placeholder.com/150)
-![Image](https://via.placeholder.com/150)
+
+![ImageAI](/images/FolkemødetAI0.jpg)
+![ImageAI](/images/FolkemødetAI1.jpg)
+![ImageAI](/images/FolkemødetAI2.jpg)
+![ImageAI](/images/FolkemødetAI3.jpg)
