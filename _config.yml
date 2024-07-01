@@ -25,7 +25,7 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 assets:
   css:
     - /assets/css/custom.css
-
+    - /assets/css/main.css
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
