@@ -65,7 +65,7 @@ redirect_from:
 
 <div class="container">
   <div class="large-div">
-    <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-11.md/">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
       <img src="/images/AIasCitizen.png" alt="AIsommedborger">
     </a>
     <h2>Conference: AI as citizens?</h2>
