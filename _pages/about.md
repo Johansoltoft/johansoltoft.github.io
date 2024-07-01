@@ -57,6 +57,14 @@ redirect_from:
 
 <div class="container">
   <div class="responsive-div">
+    <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-11.md/">
+      <img src="/images/AIasCitizen" alt="AIsommedborger" style="width: 100%; height: auto;">
+    </a>
+    <h2 style="font-size: 18px; font-weight: normal; color: #333;">Conference: AI as citizens? </h2>
+  </div>
+
+<div class="container">
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology" style="width: 100%; height: auto;">
     </a>
