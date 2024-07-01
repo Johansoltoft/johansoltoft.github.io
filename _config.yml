@@ -24,7 +24,6 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 # Include custom CSS
 assets:
   css:
-    - /assets/css/main.css
     - /assets/css/custom.css
 
 comments:
