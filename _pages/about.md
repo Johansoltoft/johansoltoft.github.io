@@ -13,6 +13,70 @@ redirect_from:
 <meta property="og:image" content="https://johansoltoft.github.io/images/Bellyofthemonster.gif" />
 <meta property="og:description" content="Blog" />
 
+<style>
+  /* Base styles for all devices */
+  .container, .site-content {
+    width: 100%;
+    max-width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 20px; /* Optional: Add some padding */
+    box-sizing: border-box;
+  }
+
+  .responsive-div {
+    flex: 1 1 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .large-div {
+    flex: 1 1 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .small-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; /* Center align the image and add bottom margin */
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+  }
+
+  /* Styles for devices with a max-width of 768px (tablets and mobile phones) */
+  @media (max-width: 768px) {
+    .responsive-div, .large-div {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    .small-image {
+      width: 75%; /* Make the image larger on smaller screens */
+    }
+  }
+</style>
+
 <div class="container">
   <div class="large-div">
     <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
