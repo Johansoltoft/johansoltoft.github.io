@@ -17,7 +17,12 @@ layout: compress
     {% include masthead.html %}
 
     <div class="layout-container">
-      {{ content }}
+      <div class="sidebar">
+        <!-- Sidebar content here -->
+      </div>
+      <div class="main-content">
+        {{ content }}
+      </div>
     </div>
 
     <div class="page__footer">
@@ -31,4 +36,3 @@ layout: compress
 
   </body>
 </html>
-
