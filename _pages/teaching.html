@@ -5,6 +5,51 @@ permalink: /teaching/
 author_profile: true
 ---
 
+<style>
+  .teaching-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .teaching-item {
+    flex: 1 1 45%;
+    max-width: 45%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the text and image */
+  }
+
+  .teaching-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd; /* Optional: Add a border to the images */
+  }
+
+  @media (max-width: 768px) {
+    .teaching-item {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+</style>
+
+<div class="teaching-container">
+  <div class="teaching-item">
+    <a href="https://johansoltoft.github.io//teaching/2015-spring-teaching-2">
+      <img src="/images/project_supervision.png" alt="Project Supervision">
+      <h2>Project Supervision</h2>
+    </a>
+  </div>
+  <div class="teaching-item">
+    <a href="https://johansoltoft.github.io//teaching/2015-spring-teaching-1">
+      <img src="/images/courses.png" alt="Courses">
+      <h2>Courses</h2>
+    </a>
+  </div>
+</div>
+
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
