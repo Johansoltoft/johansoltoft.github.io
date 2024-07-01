@@ -84,11 +84,11 @@ redirect_from:
     </a>
     <h2>Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
-  
+
   <div class="large-div">
-    <img src="/images/2023.png" alt="Image 2023">
+    <img src="/images/image2023.png" alt="Image 2023">
   </div>
-  
+
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
       <img src="/images/D&D.png" alt="Collaborative Storytelling">
