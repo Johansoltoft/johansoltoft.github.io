@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  flex: 0 0 250px; /* Adjust the width of the sidebar */
+  padding: 20px;
+  background-color: #f4f4f4; /* Example background color for the sidebar */
+  box-sizing: border-box;
+}
+
+.main-content {
+  flex: 1; /* Take up the remaining space */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.teaching-item {
+  flex: 1 1 45%;
+  max-width: 45%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center; /* Center align the text and image */
+}
+
+.teaching-item img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd; /* Optional: Add a border to the images */
+}
+
+@media (max-width: 768px) {
+  .teaching-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
