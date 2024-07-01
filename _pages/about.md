@@ -39,6 +39,13 @@ redirect_from:
     margin-bottom: 20px;
   }
 
+  .small-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; /* Center align the image and add bottom margin */
+  }
+
   img {
     width: 100%;
     height: auto;
@@ -59,6 +66,10 @@ redirect_from:
 
     h2 {
       font-size: 16px;
+    }
+
+    .small-image {
+      width: 75%; /* Make the image larger on smaller screens */
     }
   }
 </style>
@@ -85,9 +96,7 @@ redirect_from:
     <h2>Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
 
-  <div class="large-div">
-    <img src="/images/2023.png" alt="Image 2023">
-  </div>
+  <img src="/images/image2023.png" alt="Image 2023" class="small-image">
 
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
@@ -160,4 +169,3 @@ redirect_from:
   </div>
 
 </div>
-
