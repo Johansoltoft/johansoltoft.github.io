@@ -86,7 +86,7 @@ redirect_from:
   </div>
   
   <div class="large-div">
-    <img src="/images/image2023.png" alt="Image 2023">
+    <img src="/images/2023.png" alt="Image 2023">
   </div>
   
   <div class="responsive-div">
