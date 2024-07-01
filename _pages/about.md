@@ -142,4 +142,31 @@ redirect_from:
   </div>
   
   <div class="responsive-div">
-    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-5.md/
+    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-5.md/">
+      <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network">
+    </a>
+    <h2>Blogpost: Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</h2>
+  </div>
+  
+  <div class="responsive-div">
+    <a href="https://johansoltoft.github.io//talks/2014-03-01-talk-3">
+      <img src="/images/NordicSTS.jpg" alt="NordicSTS">
+    </a>
+    <h2>Conference: Creatively Acceptable AI</h2>
+  </div>
+  
+  <div class="responsive-div">
+    <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-1.md/">
+      <img src="/images/dataimaga.png" alt="Data Imagination Diagram">
+    </a>
+    <h2>Blogpost: Strengthening the data-imagination of SMEs</h2>
+  </div>
+
+  <div class="responsive-div">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-4">
+      <img src="/images/bertistheword(1).png" alt="Bert is the word">
+    </a>
+    <h2>Workshop: BERT is the word</h2>
+  </div>
+
+</div>
