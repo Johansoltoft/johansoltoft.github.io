@@ -96,8 +96,6 @@ redirect_from:
     <h2>Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
 
-  <img src="/images/20231.png" alt="Image 2023" class="small-image">
-
   <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
       <img src="/images/D&D.png" alt="Collaborative Storytelling">
