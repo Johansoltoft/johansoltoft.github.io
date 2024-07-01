@@ -86,6 +86,12 @@ redirect_from:
   </div>
 
   <div class="responsive-div">
+      <img src="/images/2023.png" alt="'2023">
+    </a>
+    <h2>
+  </div>
+
+  <div class="responsive-div">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
       <img src="/images/D&D.png" alt="Collaborative Storytelling">
     </a>
