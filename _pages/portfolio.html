@@ -75,72 +75,6 @@ author_profile: true
   }
 </style>
 
-<div class="projects-container">
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(5)">
-      <img src="/images/AIDK_600-150.png" alt="AI Denmark">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(5)" class="project-title">AI Denmark</a>
-    <div class="employment-period">Period: 1 Oct 2023 - 1 Apr 2024</div>
-  </div>
-
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(4)">
-      <img src="/images/MASSHINE_600-150.png" alt="Generative Ethnographic AI - Seed funding MASSHINE">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(4)" class="project-title">Generative Ethnographic AI</a>
-    <div class="employment-period">Period: 1 Jun 2023 - 31 Dec 2023</div>
-  </div>
-
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(6)">
-      <img src="/images/PhDAI_600-150.png" alt="What is creatively acceptable AI">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(6)" class="project-title">What is creatively acceptable AI</a>
-    <div class="employment-period">Period: 1 Feb 2023 - 31 Jan 2026</div>
-  </div>
-  
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project0">
-      <img src="/images/datafantasi-600-150.png" alt="Strengthening the data-imagination of SMEs">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project0" class="project-title">Strengthening the data-imagination of SMEs</a>
-    <div class="employment-period">Period: 1 Jan 2022 - 1 Feb 2023</div>
-  </div>
-
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(2)">
-      <img src="/images/BIDA_600-150.png" alt="BIDA">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(2)" class="project-title">Biosociality and Technology in the Digital Anthropocene</a>
-    <div class="employment-period">Period: 1 Sep 2022 - 1 Jan 2023</div>
-  </div> 
-
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/Playfulfutures-Project(7)">
-      <img src="/images/Playful futures_600-150.png" alt="Playful futures">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/Playfulfutures-Project(7)" class="project-title">Playful futures</a>
-    <div class="employment-period">Period: 1 Jul 2022 - 1 Jan 2023</div>
-  </div>
-  
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(3)">
-      <img src="/images/ADD_600-150.png" alt="Algorithms, Data and Democracy (ADD)">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(3)" class="project-title">Algorithms, Data and Democracy</a>
-    <div class="employment-period">Period: 1 Aug 2021 - 1 Jan 2023</div>
-  </div>
-
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(1)">
-      <img src="/images/HV_600-150.png" alt="The Digitization of Everyday Life during the Covid-19 pandemic in Denmark">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(1)" class="project-title">The Digitization of Everyday Life</a>
-    <div class="employment-period">Period: 1 Apr 2020 - 1 Jan 2021</div>
-  </div>
-</div>
-
 <!-- SVG Network Graph -->
 <div class="large-div">
   <svg width="800" height="800" id="network-graph"></svg>
@@ -153,43 +87,61 @@ author_profile: true
     const height = +svg.attr("height");
 
     const nodes = [
-      { id: "AI_as_citizens", group: 1 },
-      { id: "Friction_by_Machine", group: 1 },
-      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1 },
-      { id: "From_Dice_to_Data", group: 1 },
-      { id: "Synthetic_politicians", group: 1 },
-      { id: "Synthetic_AI_Film_Lover", group: 1 },
+      { id: "AI_Denmark", group: 1 },
+      { id: "What_is_creatively_acceptable_AI", group: 1 },
+      { id: "Biosociality_and_Technology_in_the_Digital_Anthropocene", group: 1 },
+      { id: "Algorithms_Data_and_Democracy", group: 1 },
+      { id: "Playful_Futures", group: 1 },
       { id: "Generative_Ethnographic_AI", group: 1 },
       { id: "Strengthening_the_data_imagination_of_SMEs", group: 1 },
       { id: "Johan_Irving_Søltoft", group: 2 },
-      { id: "Brit_Winthereik", group: 2 },
-      { id: "Anders_Munk", group: 2 },
-      { id: "Anders_Koed_Madsen", group: 2 },
-      { id: "Morten_Heuser", group: 2 },
       { id: "Roman_Jurowetzki", group: 2 },
-      { id: "Daniel_Hain", group: 2 },
+      { id: "Anders_Munk", group: 2 },
+      { id: "Trine_Bille", group: 2 },
+      { id: "Anders_Koed_Madsen", group: 2 },
+      { id: "Astrid_Oberborbeck_Andersen", group: 2 },
+      { id: "Jes_Lynning_Harfeld", group: 2 },
+      { id: "Tia_G_B_Hansen", group: 2 },
+      { id: "Andreas_Thyrsted_Laursen", group: 2 },
       { id: "Torben_Elgaard_Jensen", group: 2 },
+      { id: "Morten_Christian_Heuser", group: 2 },
       { id: "Mathieu_Jacomy", group: 2 },
       { id: "Laura_Kocksch", group: 2 },
       { id: "Rikke_Ørngreen", group: 2 },
       { id: "Helene_Husted_Hansen", group: 2 },
       { id: "Asger_Gehrt_Olesen", group: 2 },
-      { id: "Sara_Paasch_Knudsen", group: 2 }
+      { id: "Sara_Paasch_Knudsen", group: 2 },
+      { id: "Lasse_Uhrskov_Kristensen", group: 2 },
+      { id: "Matteo_Uguzzoni", group: 2 },
+      { id: "Alberto_Cottica", group: 2 },
+      { id: "Daniel_Hain", group: 2 }
     ];
 
     const links = [
-      { source: "AI_as_citizens", target: "Johan_Irving_Søltoft" },
-      { source: "AI_as_citizens", target: "Brit_Winthereik" },
-      { source: "AI_as_citizens", target: "Anders_Munk" },
-      { source: "Friction_by_Machine", target: "Johan_Irving_Søltoft" },
-      { source: "Friction_by_Machine", target: "Anders_Koed_Madsen" },
-      { source: "Friction_by_Machine", target: "Anders_Munk" },
-      { source: "Controversy_AI_in_Audio-Visual_Media", target: "Johan_Irving_Søltoft" },
-      { source: "From_Dice_to_Data", target: "Johan_Irving_Søltoft" },
-      { source: "From_Dice_to_Data", target: "Morten_Heuser" },
-      { source: "Synthetic_politicians", target: "Johan_Irving_Søltoft" },
-      { source: "Synthetic_politicians", target: "Anders_Koed_Madsen" },
-      { source: "Synthetic_AI_Film_Lover", target: "Johan_Irving_Søltoft" },
+      { source: "AI_Denmark", target: "Johan_Irving_Søltoft" },
+      { source: "AI_Denmark", target: "Roman_Jurowetzki" },
+      { source: "What_is_creatively_acceptable_AI", target: "Johan_Irving_Søltoft" },
+      { source: "What_is_creatively_acceptable_AI", target: "Anders_Munk" },
+      { source: "What_is_creatively_acceptable_AI", target: "Trine_Bille" },
+      { source: "What_is_creatively_acceptable_AI", target: "Anders_Koed_Madsen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Astrid_Oberborbeck_Andersen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Jes_Lynning_Harfeld" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Tia_G_B_Hansen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Andreas_Thyrsted_Laursen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Johan_Irving_Søltoft" },
+      { source: "Algorithms_Data_and_Democracy", target: "Torben_Elgaard_Jensen" },
+      { source: "Algorithms_Data_and_Democracy", target: "Johan_Irving_Søltoft" },
+      { source: "Algorithms_Data_and_Democracy", target: "Morten_Christian_Heuser" },
+      { source: "Algorithms_Data_and_Democracy", target: "Mathieu_Jacomy" },
+      { source: "Algorithms_Data_and_Democracy", target: "Anders_Munk" },
+      { source: "Algorithms_Data_and_Democracy", target: "Anders_Koed_Madsen" },
+      { source: "Algorithms_Data_and_Democracy", target: "Astrid_Oberborbeck_Andersen" },
+      { source: "Algorithms_Data_and_Democracy", target: "Laura_Kocksch" },
+      { source: "Playful_Futures", target: "Lasse_Uhrskov_Kristensen" },
+      { source: "Playful_Futures", target: "Johan_Irving_Søltoft" },
+      { source: "Playful_Futures", target: "Anders_Munk" },
+      { source: "Playful_Futures", target: "Matteo_Uguzzoni" },
+      { source: "Playful_Futures", target: "Alberto_Cottica" },
       { source: "Generative_Ethnographic_AI", target: "Johan_Irving_Søltoft" },
       { source: "Generative_Ethnographic_AI", target: "Anders_Koed_Madsen" },
       { source: "Generative_Ethnographic_AI", target: "Anders_Munk" },
@@ -270,3 +222,69 @@ author_profile: true
     }
   });
 </script>
+
+<div class="projects-container">
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project(5)">
+      <img src="/images/AIDK_600-150.png" alt="AI Denmark">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project(5)" class="project-title">AI Denmark</a>
+    <div class="employment-period">Period: 1 Oct 2023 - 1 Apr 2024</div>
+  </div>
+
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project(4)">
+      <img src="/images/MASSHINE_600-150.png" alt="Generative Ethnographic AI - Seed funding MASSHINE">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project(4)" class="project-title">Generative Ethnographic AI</a>
+    <div class="employment-period">Period: 1 Jun 2023 - 31 Dec 2023</div>
+  </div>
+
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project(6)">
+      <img src="/images/PhDAI_600-150.png" alt="What is creatively acceptable AI">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project(6)" class="project-title">What is creatively acceptable AI</a>
+    <div class="employment-period">Period: 1 Feb 2023 - 31 Jan 2026</div>
+  </div>
+  
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project0">
+      <img src="/images/datafantasi-600-150.png" alt="Strengthening the data-imagination of SMEs">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project0" class="project-title">Strengthening the data-imagination of SMEs</a>
+    <div class="employment-period">Period: 1 Jan 2022 - 1 Feb 2023</div>
+  </div>
+
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project(2)">
+      <img src="/images/BIDA_600-150.png" alt="BIDA">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project(2)" class="project-title">Biosociality and Technology in the Digital Anthropocene</a>
+    <div class="employment-period">Period: 1 Sep 2022 - 1 Jan 2023</div>
+  </div> 
+
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/Playfulfutures-Project(7)">
+      <img src="/images/Playful futures_600-150.png" alt="Playful futures">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/Playfulfutures-Project(7)" class="project-title">Playful futures</a>
+    <div class="employment-period">Period: 1 Jul 2022 - 1 Jan 2023</div>
+  </div>
+  
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project(3)">
+      <img src="/images/ADD_600-150.png" alt="Algorithms, Data and Democracy (ADD)">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project(3)" class="project-title">Algorithms, Data and Democracy</a>
+    <div class="employment-period">Period: 1 Aug 2021 - 1 Jan 2023</div>
+  </div>
+
+  <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project(1)">
+      <img src="/images/HV_600-150.png" alt="The Digitization of Everyday Life during the Covid-19 pandemic in Denmark">
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project(1)" class="project-title">The Digitization of Everyday Life</a>
+    <div class="employment-period">Period: 1 Apr 2020 - 1 Jan 2021</div>
+  </div>
+</div>
