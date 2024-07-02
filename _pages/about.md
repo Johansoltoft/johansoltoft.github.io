@@ -109,7 +109,7 @@ redirect_from:
 
 <!-- SVG Network Graph -->
 <div class="large-div">
-  <svg width="800" height="800" id="network-graph"></svg>
+  <svg width="800" height="400" id="network-graph"></svg>
 </div>
 
 <!-- Filter Buttons -->
