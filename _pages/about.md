@@ -234,20 +234,20 @@ redirect_from:
     });
   }
 
-  document.addEventListener('DOMContentLoaded', function() {
+ document.addEventListener('DOMContentLoaded', function() {
     const svg = d3.select("#network-graph");
     const width = +svg.attr("width");
     const height = +svg.attr("height");
 
     const nodes = [
-      { id: "AI_as_citizens", group: 1 },
-      { id: "Friction_by_Machine", group: 1 },
-      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1 },
-      { id: "From_Dice_to_Data", group: 1 },
-      { id: "Synthetic_politicians", group: 1 },
-      { id: "Synthetic_AI_Film_Lover", group: 1 },
-      { id: "Generative_Ethnographic_AI", group: 1 },
-      { id: "Strengthening_the_data_imagination_of_SMEs", group: 1 },
+      { id: "AI_as_citizens", group: 1, participants: 3 },
+      { id: "Friction_by_Machine", group: 1, participants: 3 },
+      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1, participants: 1 },
+      { id: "From_Dice_to_Data", group: 1, participants: 2 },
+      { id: "Synthetic_politicians", group: 1, participants: 2 },
+      { id: "Synthetic_AI_Film_Lover", group: 1, participants: 1 },
+      { id: "Generative_Ethnographic_AI", group: 3, participants: 8 },
+      { id: "Strengthening_the_data_imagination_of_SMEs", group: 3, participants: 7 },
       { id: "Johan_Irving_Søltoft", group: 2 },
       { id: "Brit_Winthereik", group: 2 },
       { id: "Anders_Munk", group: 2 },
@@ -313,12 +313,12 @@ redirect_from:
       .selectAll("circle")
       .data(nodes)
       .join("circle")
-        .attr("r", 10)
-        .attr("fill", d => d.group === 1 ? "skyblue" : "lightgreen")
-        .call(drag(simulation));
-
-    node.append("title")
-        .text(d => d.id);
+        .attr("r", d => d.group === 1 ? 10 + d.participants : 10)
+        .attr("fill", d => d.group === 1 ? "skyblue" : (d.group === 2 ? "lightgreen" : "orange"))
+        .call(drag(simulation))
+        .on("mouseover", function(event, d) {
+            d3.select(this).append("title").text(d.id);
+        });
 
     simulation.on("tick", () => {
       link
@@ -355,5 +355,5 @@ redirect_from:
         .on("drag", dragged)
         .on("end", dragended);
     }
-  });
-</script>
+});
+
