@@ -234,7 +234,7 @@ redirect_from:
     });
   }
 
- document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const svg = d3.select("#network-graph");
     const width = +svg.attr("width");
     const height = +svg.attr("height");
@@ -305,7 +305,7 @@ redirect_from:
       .selectAll("line")
       .data(links)
       .join("line")
-        .attr("stroke-width", d => Math.sqrt(d.value));
+        .attr("stroke-width", 1.5);
 
     const node = svg.append("g")
         .attr("stroke", "#fff")
@@ -313,26 +313,29 @@ redirect_from:
       .selectAll("circle")
       .data(nodes)
       .join("circle")
-        .attr("r", d => d.group === 1 ? 10 + d.participants : 10)
+        .attr("r", d => d.type === "project" ? 10 + d.participants : 10)
         .attr("fill", d => d.group === 1 ? "skyblue" : (d.group === 2 ? "lightgreen" : "orange"))
         .call(drag(simulation));
 
-    // Add text labels for nodes
-    svg.append("g")
-        .selectAll("text")
-        .data(nodes)
-        .enter()
-        .append("text")
-        .attr("x", d => d.x)
-        .attr("y", d => d.y)
-        .attr("dy", -10)
-        .attr("text-anchor", "middle")
-        .attr("font-size", "10px")
-        .attr("fill", "#000")
-        .text(d => d.type);
+    // Tooltip for hover functionality
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background", "#fff")
+        .style("border", "1px solid #ccc")
+        .style("padding", "10px")
+        .style("border-radius", "5px");
 
-    node.append("title")
-        .text(d => d.id);
+    node.on("mouseover", function(event, d) {
+        tooltip.html(d.id)
+            .style("visibility", "visible");
+    }).on("mousemove", function(event) {
+        tooltip.style("top", (event.pageY - 10) + "px")
+            .style("left", (event.pageX + 10) + "px");
+    }).on("mouseout", function() {
+        tooltip.style("visibility", "hidden");
+    });
 
     simulation.on("tick", () => {
       link
@@ -344,10 +347,6 @@ redirect_from:
       node
           .attr("cx", d => d.x)
           .attr("cy", d => d.y);
-
-      svg.selectAll("text")
-          .attr("x", d => d.x)
-          .attr("y", d => d.y);
     });
 
     function drag(simulation) {
