@@ -10,18 +10,16 @@ author_profile: true
 <style>
   .projects-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
     padding: 20px 0;
   }
 
   .project {
-    flex: 1 1 30%;
-    max-width: 30%;
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    width: 300px; /* Set a fixed width for each project item */
     box-sizing: border-box;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 0 10px; /* Add space between items */
     text-align: center;
     background-color: white;
   }
@@ -50,17 +48,6 @@ author_profile: true
     font-size: 14px;
     color: #666;
     margin-top: 5px; /* Reduce space between image and text */
-  }
-
-  @media (max-width: 768px) {
-    .project {
-      flex: 1 1 100%;
-      max-width: 100%;
-    }
-
-    .project-title {
-      font-size: 14px; /* Adjusted font size for smaller screens */
-    }
   }
 </style>
 
@@ -101,7 +88,7 @@ author_profile: true
     <a href="https://johansoltoft.github.io//portfolio/project(2)">
       <img src="/images/BIDA_600-150.png" alt="BIDA">
     </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(2)" class="project-title">Biosociality and Technology in the Digital Anthropocene</a>
+    <a href="https://johansoltoft.github.io//portfolio/project(2)" class="project-title">BIDA: Biosociality and more-than-human relations in the Digital Anthropocene</a>
     <div class="employment-period">Period: 1 Sep 2022 - 1 Jan 2023</div>
   </div> 
 
