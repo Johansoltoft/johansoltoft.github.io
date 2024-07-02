@@ -102,119 +102,11 @@ redirect_from:
   }
 </style>
 
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
 <!-- SVG Network Graph -->
 <div class="large-div">
-  <svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
-    <style>
-      .project { fill: skyblue; }
-      .person { fill: lightgreen; }
-      .edge { stroke: black; stroke-width: 1.5; }
-      text { font-family: Arial, sans-serif; font-size: 12px; }
-    </style>
-    
-    <!-- Nodes -->
-    <circle cx="400" cy="50" r="20" class="project" id="AI_as_citizens"/>
-    <text x="370" y="50" fill="black">AI as citizens</text>
-    
-    <circle cx="600" cy="150" r="20" class="project" id="Friction_by_Machine"/>
-    <text x="620" y="150" fill="black">Friction by Machine</text>
-    
-    <circle cx="200" cy="150" r="20" class="project" id="Controversy_AI_in_Audio-Visual_Media"/>
-    <text x="20" y="150" fill="black">Controversy AI in Audio-Visual Media</text>
-    
-    <circle cx="400" cy="250" r="20" class="project" id="From_Dice_to_Data"/>
-    <text x="420" y="250" fill="black">From Dice to Data</text>
-    
-    <circle cx="600" cy="350" r="20" class="project" id="Synthetic_politicians"/>
-    <text x="620" y="350" fill="black">Synthetic politicians</text>
-    
-    <circle cx="200" cy="350" r="20" class="project" id="Synthetic_AI_Film_Lover"/>
-    <text x="20" y="350" fill="black">Synthetic AI Film Lover</text>
-    
-    <circle cx="400" cy="450" r="20" class="project" id="Generative_Ethnographic_AI"/>
-    <text x="420" y="450" fill="black">Generative Ethnographic AI</text>
-    
-    <circle cx="600" cy="550" r="20" class="project" id="Strengthening_the_data_imagination_of_SMEs"/>
-    <text x="620" y="550" fill="black">Strengthening the data-imagination of SMEs</text>
-  
-    <circle cx="300" cy="550" r="15" class="person" id="Johan_Irving_Søltoft"/>
-    <text x="315" y="550" fill="black">Johan Irving Søltoft</text>
-    
-    <circle cx="500" cy="650" r="15" class="person" id="Brit_Winthereik"/>
-    <text x="515" y="650" fill="black">Brit Winthereik</text>
-    
-    <circle cx="200" cy="650" r="15" class="person" id="Anders_Munk"/>
-    <text x="215" y="650" fill="black">Anders Munk</text>
-    
-    <circle cx="400" cy="750" r="15" class="person" id="Anders_Koed_Madsen"/>
-    <text x="415" y="750" fill="black">Anders Koed Madsen</text>
-    
-    <circle cx="100" cy="750" r="15" class="person" id="Morten_Heuser"/>
-    <text x="115" y="750" fill="black">Morten Heuser</text>
-    
-    <circle cx="600" cy="750" r="15" class="person" id="Roman_Jurowetzki"/>
-    <text x="615" y="750" fill="black">Roman Jurowetzki</text>
-    
-    <circle cx="200" cy="850" r="15" class="person" id="Daniel_Hain"/>
-    <text x="215" y="850" fill="black">Daniel Hain</text>
-    
-    <circle cx="400" cy="850" r="15" class="person" id="Torben_Elgaard_Jensen"/>
-    <text x="415" y="850" fill="black">Torben Elgaard Jensen</text>
-    
-    <circle cx="600" cy="850" r="15" class="person" id="Mathieu_Jacomy"/>
-    <text x="615" y="850" fill="black">Mathieu Jacomy</text>
-    
-    <circle cx="100" cy="950" r="15" class="person" id="Laura_Kocksch"/>
-    <text x="115" y="950" fill="black">Laura Kocksch</text>
-    
-    <circle cx="300" cy="950" r="15" class="person" id="Rikke_Ørngreen"/>
-    <text x="315" y="950" fill="black">Rikke Ørngreen</text>
-    
-    <circle cx="500" cy="950" r="15" class="person" id="Helene_Husted_Hansen"/>
-    <text x="515" y="950" fill="black">Helene Husted Hansen</text>
-    
-    <circle cx="200" cy="1050" r="15" class="person" id="Asger_Gehrt_Olesen"/>
-    <text x="215" y="1050" fill="black">Asger Gehrt Olesen</text>
-    
-    <circle cx="400" cy="1050" r="15" class="person" id="Sara_Paasch_Knudsen"/>
-    <text x="415" y="1050" fill="black">Sara Paasch Knudsen</text>
-    
-    <!-- Edges -->
-    <line x1="400" y1="50" x2="300" y2="550" class="edge"/>
-    <line x1="400" y1="50" x2="500" y2="650" class="edge"/>
-    <line x1="400" y1="50" x2="200" y2="650" class="edge"/>
-    
-    <line x1="600" y1="150" x2="300" y2="550" class="edge"/>
-    <line x1="600" y1="150" x2="400" y2="750" class="edge"/>
-    <line x1="600" y1="150" x2="200" y2="650" class="edge"/>
-    
-    <line x1="200" y1="150" x2="300" y2="550" class="edge"/>
-    
-    <line x1="400" y1="250" x2="300" y2="550" class="edge"/>
-    <line x1="400" y1="250" x2="100" y2="750" class="edge"/>
-    
-    <line x1="600" y1="350" x2="300" y2="550" class="edge"/>
-    <line x1="600" y1="350" x2="400" y2="750" class="edge"/>
-    
-    <line x1="200" y1="350" x2="300" y2="550" class="edge"/>
-    
-    <line x1="400" y1="450" x2="300" y2="550" class="edge"/>
-    <line x1="400" y1="450" x2="400" y2="750" class="edge"/>
-    <line x1="400" y1="450" x2="200" y2="650" class="edge"/>
-    <line x1="400" y1="450" x2="600" y2="750" class="edge"/>
-    <line x1="400" y1="450" x2="200" y2="850" class="edge"/>
-    <line x1="400" y1="450" x2="400" y2="850" class="edge"/>
-    <line x1="400" y1="450" x2="600" y2="850" class="edge"/>
-    <line x1="400" y1="450" x2="100" y2="950" class="edge"/>
-    
-    <line x1="600" y1="550" x2="300" y2="950" class="edge"/>
-    <line x1="600" y1="550" x2="200" y2="650" class="edge"/>
-    <line x1="600" y1="550" x2="600" y2="850" class="edge"/>
-    <line x1="600" y1="550" x2="500" y2="950" class="edge"/>
-    <line x1="600" y1="550" x2="200" y2="1050" class="edge"/>
-    <line x1="600" y1="550" x2="300" y2="550" class="edge"/>
-    <line x1="600" y1="550" x2="400" y2="1050" class="edge"/>
-  </svg>
+  <svg width="800" height="800" id="network-graph"></svg>
 </div>
 
 <!-- Filter Buttons -->
@@ -337,5 +229,127 @@ redirect_from:
         post.style.display = 'none';
       }
     });
+  }
+
+  // D3.js Network Graph
+  const svg = d3.select("#network-graph"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+
+  const nodes = [
+    { id: "AI_as_citizens", group: "project" },
+    { id: "Friction_by_Machine", group: "project" },
+    { id: "Controversy_AI_in_Audio-Visual_Media", group: "project" },
+    { id: "From_Dice_to_Data", group: "project" },
+    { id: "Synthetic_politicians", group: "project" },
+    { id: "Synthetic_AI_Film_Lover", group: "project" },
+    { id: "Generative_Ethnographic_AI", group: "project" },
+    { id: "Strengthening_the_data_imagination_of_SMEs", group: "project" },
+    { id: "Johan_Irving_Søltoft", group: "person" },
+    { id: "Brit_Winthereik", group: "person" },
+    { id: "Anders_Munk", group: "person" },
+    { id: "Anders_Koed_Madsen", group: "person" },
+    { id: "Morten_Heuser", group: "person" },
+    { id: "Roman_Jurowetzki", group: "person" },
+    { id: "Daniel_Hain", group: "person" },
+    { id: "Torben_Elgaard_Jensen", group: "person" },
+    { id: "Mathieu_Jacomy", group: "person" },
+    { id: "Laura_Kocksch", group: "person" },
+    { id: "Rikke_Ørngreen", group: "person" },
+    { id: "Helene_Husted_Hansen", group: "person" },
+    { id: "Asger_Gehrt_Olesen", group: "person" },
+    { id: "Sara_Paasch_Knudsen", group: "person" }
+  ];
+
+  const links = [
+    { source: "AI_as_citizens", target: "Johan_Irving_Søltoft" },
+    { source: "AI_as_citizens", target: "Brit_Winthereik" },
+    { source: "AI_as_citizens", target: "Anders_Munk" },
+    { source: "Friction_by_Machine", target: "Johan_Irving_Søltoft" },
+    { source: "Friction_by_Machine", target: "Anders_Koed_Madsen" },
+    { source: "Friction_by_Machine", target: "Anders_Munk" },
+    { source: "Controversy_AI_in_Audio-Visual_Media", target: "Johan_Irving_Søltoft" },
+    { source: "From_Dice_to_Data", target: "Johan_Irving_Søltoft" },
+    { source: "From_Dice_to_Data", target: "Morten_Heuser" },
+    { source: "Synthetic_politicians", target: "Johan_Irving_Søltoft" },
+    { source: "Synthetic_politicians", target: "Anders_Koed_Madsen" },
+    { source: "Synthetic_AI_Film_Lover", target: "Johan_Irving_Søltoft" },
+    { source: "Generative_Ethnographic_AI", target: "Johan_Irving_Søltoft" },
+    { source: "Generative_Ethnographic_AI", target: "Anders_Koed_Madsen" },
+    { source: "Generative_Ethnographic_AI", target: "Anders_Munk" },
+    { source: "Generative_Ethnographic_AI", target: "Roman_Jurowetzki" },
+    { source: "Generative_Ethnographic_AI", target: "Daniel_Hain" },
+    { source: "Generative_Ethnographic_AI", target: "Torben_Elgaard_Jensen" },
+    { source: "Generative_Ethnographic_AI", target: "Mathieu_Jacomy" },
+    { source: "Generative_Ethnographic_AI", target: "Laura_Kocksch" },
+    { source: "Strengthening_the_data_imagination_of_SMEs", target: "Rikke_Ørngreen" },
+    { source: "Strengthening_the_data_imagination_of_SMEs", target: "Anders_Munk" },
+    { source: "Strengthening_the_data_imagination_of_SMEs", target: "Mathieu_Jacomy" },
+    { source: "Strengthening_the_data_imagination_of_SMEs", target: "Helene_Husted_Hansen" },
+    { source: "Strengthening_the_data_imagination_of_SMEs", target: "Asger_Gehrt_Olesen" },
+    { source: "Strengthening_the_data_imagination_of_SMEs", target: "Johan_Irving_Søltoft" },
+    { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" }
+  ];
+
+  const simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(d => d.id))
+      .force("charge", d3.forceManyBody().strength(-300))
+      .force("center", d3.forceCenter(width / 2, height / 2));
+
+  const link = svg.append("g")
+      .attr("stroke", "#999")
+      .attr("stroke-opacity", 0.6)
+    .selectAll("line")
+    .data(links)
+    .join("line")
+      .attr("stroke-width", d => Math.sqrt(d.value));
+
+  const node = svg.append("g")
+      .attr("stroke", "#fff")
+      .attr("stroke-width", 1.5)
+    .selectAll("circle")
+    .data(nodes)
+    .join("circle")
+      .attr("r", d => d.group === "project" ? 20 : 15)
+      .attr("fill", d => d.group === "project" ? "skyblue" : "lightgreen")
+      .call(drag(simulation));
+
+  node.append("title")
+      .text(d => d.id);
+
+  simulation.on("tick", () => {
+    link
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+
+    node
+        .attr("cx", d => d.x)
+        .attr("cy", d => d.y);
+  });
+
+  function drag(simulation) {
+    function dragstarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+
+    return d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended);
   }
 </script>
