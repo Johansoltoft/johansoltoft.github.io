@@ -161,7 +161,7 @@ redirect_from:
   </div>
 
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io//talks/2014-02-01-talk-2/">
+    <a href="https://johansoltoft.github.io//talks/2014-02-01-talk-2">
       <img src="/images/EPIC1.jpg" alt="Epic10">
     </a>
     <h2>Conference: Audience Awareness Through Machine Anthropology</h2>
