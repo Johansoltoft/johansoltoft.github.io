@@ -248,14 +248,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const height = +svg.attr("height");
 
     const nodes = [
-      { id: "AI_as_citizens", group: 1, participants: 3 },
-      { id: "Friction_by_Machine", group: 1, participants: 3 },
-      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1, participants: 1 },
-      { id: "From_Dice_to_Data", group: 1, participants: 2 },
-      { id: "Synthetic_politicians", group: 1, participants: 2 },
-      { id: "Synthetic_AI_Film_Lover", group: 1, participants: 1 },
-      { id: "Generative_Ethnographic_AI", group: 3, participants: 8 },
-      { id: "Strengthening_the_data_imagination_of_SMEs", group: 3, participants: 7 },
+      { id: "AI_as_citizens", group: 1, type: "project", participants: 3 },
+      { id: "Friction_by_Machine", group: 1, type: "project", participants: 3 },
+      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1, type: "project", participants: 1 },
+      { id: "From_Dice_to_Data", group: 1, type: "project", participants: 2 },
+      { id: "Synthetic_politicians", group: 1, type: "project", participants: 2 },
+      { id: "Synthetic_AI_Film_Lover", group: 1, type: "project", participants: 1 },
+      { id: "Generative_Ethnographic_AI", group: 3, type: "research project", participants: 8 },
+      { id: "Strengthening_the_data_imagination_of_SMEs", group: 3, type: "research project", participants: 7 },
       { id: "Johan_Irving_Søltoft", group: 2 },
       { id: "Brit_Winthereik", group: 2 },
       { id: "Anders_Munk", group: 2 },
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .selectAll("line")
       .data(links)
       .join("line")
-        .attr("stroke-width", d => Math.sqrt(d.value));
+        .attr("stroke-width", 1.5);
 
     const node = svg.append("g")
         .attr("stroke", "#fff")
@@ -321,12 +321,29 @@ document.addEventListener('DOMContentLoaded', function() {
       .selectAll("circle")
       .data(nodes)
       .join("circle")
-        .attr("r", d => d.group === 1 ? 10 + d.participants : 10)
+        .attr("r", d => d.type === "project" ? 10 + d.participants : 10)
         .attr("fill", d => d.group === 1 ? "skyblue" : (d.group === 2 ? "lightgreen" : "orange"))
-        .call(drag(simulation))
-        .on("mouseover", function(event, d) {
-            d3.select(this).append("title").text(d.id);
-        });
+        .call(drag(simulation));
+
+    // Tooltip for hover functionality
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background", "#fff")
+        .style("border", "1px solid #ccc")
+        .style("padding", "10px")
+        .style("border-radius", "5px");
+
+    node.on("mouseover", function(event, d) {
+        tooltip.html(d.id)
+            .style("visibility", "visible");
+    }).on("mousemove", function(event) {
+        tooltip.style("top", (event.pageY - 10) + "px")
+            .style("left", (event.pageX + 10) + "px");
+    }).on("mouseout", function() {
+        tooltip.style("visibility", "hidden");
+    });
 
     simulation.on("tick", () => {
       link
@@ -363,5 +380,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .on("drag", dragged)
         .on("end", dragended);
     }
-});
+  });
+</script>
 
