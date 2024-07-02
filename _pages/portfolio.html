@@ -87,13 +87,14 @@ author_profile: true
     const height = +svg.attr("height");
 
     const nodes = [
-      { id: "AI_Denmark", group: 1 },
-      { id: "What_is_creatively_acceptable_AI", group: 1 },
-      { id: "Biosociality_and_Technology_in_the_Digital_Anthropocene", group: 1 },
-      { id: "Algorithms_Data_and_Democracy", group: 1 },
-      { id: "Playful_Futures", group: 1 },
-      { id: "Generative_Ethnographic_AI", group: 1 },
-      { id: "Strengthening_the_data_imagination_of_SMEs", group: 1 },
+      { id: "AI_Denmark", group: 1, size: 15 },
+      { id: "What_is_creatively_acceptable_AI", group: 1, size: 18 },
+      { id: "Biosociality_and_Technology_in_the_Digital_Anthropocene", group: 1, size: 18 },
+      { id: "Algorithms_Data_and_Democracy", group: 1, size: 20 },
+      { id: "Playful_Futures", group: 1, size: 17 },
+      { id: "Generative_Ethnographic_AI", group: 1, size: 20 },
+      { id: "Strengthening_the_data_imagination_of_SMEs", group: 1, size: 17 },
+      { id: "The_Digitization_of_Everyday_Life", group: 1, size: 25 },
       { id: "Johan_Irving_Søltoft", group: 2 },
       { id: "Roman_Jurowetzki", group: 2 },
       { id: "Anders_Munk", group: 2 },
@@ -114,7 +115,22 @@ author_profile: true
       { id: "Lasse_Uhrskov_Kristensen", group: 2 },
       { id: "Matteo_Uguzzoni", group: 2 },
       { id: "Alberto_Cottica", group: 2 },
-      { id: "Daniel_Hain", group: 2 }
+      { id: "Daniel_Hain", group: 2 },
+      { id: "Anders_Grundtvig", group: 2 },
+      { id: "Anestis_Amanatidis", group: 2 },
+      { id: "Emil_Buch_Jacobsen", group: 2 },
+      { id: "Georgios_Natsios", group: 2 },
+      { id: "Jonas_Jessen", group: 2 },
+      { id: "Katja_de_Neergaard", group: 2 },
+      { id: "Lara_Reime", group: 2 },
+      { id: "Laura_Na_Blankholm", group: 2 },
+      { id: "Lotte_Schack", group: 2 },
+      { id: "Ronja_Mannov_Olesen", group: 2 },
+      { id: "Yance_Harrison", group: 2 },
+      { id: "Brit_Ross_Winthereik", group: 2 },
+      { id: "Andreas_Birkbak", group: 2 },
+      { id: "Irina_Papazu", group: 2 },
+      { id: "Corinna_Voll", group: 2 }
     ];
 
     const links = [
@@ -156,7 +172,26 @@ author_profile: true
       { source: "Strengthening_the_data_imagination_of_SMEs", target: "Helene_Husted_Hansen" },
       { source: "Strengthening_the_data_imagination_of_SMEs", target: "Asger_Gehrt_Olesen" },
       { source: "Strengthening_the_data_imagination_of_SMEs", target: "Johan_Irving_Søltoft" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" }
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Anders_Grundtvig" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Anestis_Amanatidis" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Emil_Buch_Jacobsen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Georgios_Natsios" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Johan_Irving_Søltoft" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Jonas_Jessen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Katja_de_Neergaard" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Lara_Reime" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Laura_Na_Blankholm" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Lotte_Schack" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Ronja_Mannov_Olesen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Yance_Harrison" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Anders_Kristian_Munk" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Brit_Ross_Winthereik" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Andreas_Birkbak" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Astrid_Oberborbeck_Andersen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Irina_Papazu" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Torben_Elgaard_Jensen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Corinna_Voll" }
     ];
 
     const simulation = d3.forceSimulation(nodes)
@@ -178,11 +213,23 @@ author_profile: true
       .selectAll("circle")
       .data(nodes)
       .join("circle")
-        .attr("r", 10)
+        .attr("r", d => d.size || 10)
         .attr("fill", d => d.group === 1 ? "skyblue" : "lightgreen")
         .call(drag(simulation));
 
     node.append("title")
+        .text(d => d.id);
+
+    // Add labels to project nodes
+    const labels = svg.append("g")
+        .selectAll("text")
+        .data(nodes.filter(d => d.group === 1))
+        .enter()
+        .append("text")
+        .attr("dy", -15)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .attr("fill", "#333")
         .text(d => d.id);
 
     simulation.on("tick", () => {
@@ -195,6 +242,10 @@ author_profile: true
       node
           .attr("cx", d => d.x)
           .attr("cy", d => d.y);
+
+      labels
+          .attr("x", d => d.x)
+          .attr("y", d => d.y);
     });
 
     function drag(simulation) {
