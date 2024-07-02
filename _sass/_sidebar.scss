@@ -9,6 +9,7 @@
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
+  background-color: $background-color-medium; // Add this line
 
   @include clearfix();
   margin-bottom: 1em;
@@ -23,7 +24,6 @@
       opacity: 1;
     }
   }
-
 
   @include breakpoint($x-large) {
     padding-right: 0;
