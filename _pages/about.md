@@ -241,8 +241,11 @@ redirect_from:
         post.style.display = 'none';
       }
     });
+  }
+</script>
 
-document.addEventListener('DOMContentLoaded', function() {
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
     const svg = d3.select("#network-graph");
     const width = +svg.attr("width");
     const height = +svg.attr("height");
@@ -382,4 +385,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 </script>
+
 
