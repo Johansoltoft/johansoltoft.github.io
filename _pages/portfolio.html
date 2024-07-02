@@ -28,7 +28,8 @@ author_profile: true
 
   .project img {
     width: 100%;
-    height: auto;
+    max-height: 150px; /* Ensure all images are the same height */
+    object-fit: cover; /* Cover the fixed dimensions without distortion */
     display: block;
     margin: 0 auto;
   }
