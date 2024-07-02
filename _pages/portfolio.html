@@ -10,16 +10,18 @@ author_profile: true
 <style>
   .projects-container {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
     padding: 20px 0;
   }
 
   .project {
-    flex: 0 0 auto; /* Prevent flex items from shrinking */
-    width: 300px; /* Set a fixed width for each project item */
+    flex: 1 1 30%;
+    max-width: 30%;
     box-sizing: border-box;
     padding: 10px;
-    margin: 0 10px; /* Add space between items */
+    margin-bottom: 20px;
     text-align: center;
     background-color: white;
   }
@@ -48,6 +50,17 @@ author_profile: true
     font-size: 14px;
     color: #666;
     margin-top: 5px; /* Reduce space between image and text */
+  }
+
+  @media (max-width: 768px) {
+    .project {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+    .project-title {
+      font-size: 14px; /* Adjusted font size for smaller screens */
+    }
   }
 </style>
 
