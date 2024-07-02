@@ -81,20 +81,24 @@ redirect_from:
   .filter-buttons {
     text-align: center;
     margin-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
   }
 
   .filter-button {
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
+    background-color: white;
+    color: #666666;
+    border: 2px solid #666666;
     border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
   }
 
   .filter-button:hover {
-    background-color: #0056b3;
+    background-color: #666666;
+    color: white;
   }
 </style>
 
