@@ -242,137 +242,126 @@ redirect_from:
       }
     });
 
- document.addEventListener('DOMContentLoaded', function() {
-      const svg = d3.select("#network-graph");
-      const width = +svg.attr("width");
-      const height = +svg.attr("height");
+document.addEventListener('DOMContentLoaded', function() {
+    const svg = d3.select("#network-graph");
+    const width = +svg.attr("width");
+    const height = +svg.attr("height");
 
-      const nodes = [
-        { id: "AI_as_citizens", group: 1, type: "project", participants: 3 },
-        { id: "Friction_by_Machine", group: 1, type: "project", participants: 3 },
-        { id: "Controversy_AI_in_Audio-Visual_Media", group: 1, type: "project", participants: 1 },
-        { id: "From_Dice_to_Data", group: 1, type: "project", participants: 2 },
-        { id: "Synthetic_politicians", group: 1, type: "project", participants: 2 },
-        { id: "Synthetic_AI_Film_Lover", group: 1, type: "project", participants: 1 },
-        { id: "Generative_Ethnographic_AI", group: 3, type: "research project", participants: 8 },
-        { id: "Strengthening_the_data_imagination_of_SMEs", group: 3, type: "research project", participants: 7 },
-        { id: "Johan_Irving_Søltoft", group: 2 },
-        { id: "Brit_Winthereik", group: 2 },
-        { id: "Anders_Munk", group: 2 },
-        { id: "Anders_Koed_Madsen", group: 2 },
-        { id: "Morten_Heuser", group: 2 },
-        { id: "Roman_Jurowetzki", group: 2 },
-        { id: "Daniel_Hain", group: 2 },
-        { id: "Torben_Elgaard_Jensen", group: 2 },
-        { id: "Mathieu_Jacomy", group: 2 },
-        { id: "Laura_Kocksch", group: 2 },
-        { id: "Rikke_Ørngreen", group: 2 },
-        { id: "Helene_Husted_Hansen", group: 2 },
-        { id: "Asger_Gehrt_Olesen", group: 2 },
-        { id: "Sara_Paasch_Knudsen", group: 2 }
-      ];
+    const nodes = [
+      { id: "AI_as_citizens", group: 1, participants: 3 },
+      { id: "Friction_by_Machine", group: 1, participants: 3 },
+      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1, participants: 1 },
+      { id: "From_Dice_to_Data", group: 1, participants: 2 },
+      { id: "Synthetic_politicians", group: 1, participants: 2 },
+      { id: "Synthetic_AI_Film_Lover", group: 1, participants: 1 },
+      { id: "Generative_Ethnographic_AI", group: 3, participants: 8 },
+      { id: "Strengthening_the_data_imagination_of_SMEs", group: 3, participants: 7 },
+      { id: "Johan_Irving_Søltoft", group: 2 },
+      { id: "Brit_Winthereik", group: 2 },
+      { id: "Anders_Munk", group: 2 },
+      { id: "Anders_Koed_Madsen", group: 2 },
+      { id: "Morten_Heuser", group: 2 },
+      { id: "Roman_Jurowetzki", group: 2 },
+      { id: "Daniel_Hain", group: 2 },
+      { id: "Torben_Elgaard_Jensen", group: 2 },
+      { id: "Mathieu_Jacomy", group: 2 },
+      { id: "Laura_Kocksch", group: 2 },
+      { id: "Rikke_Ørngreen", group: 2 },
+      { id: "Helene_Husted_Hansen", group: 2 },
+      { id: "Asger_Gehrt_Olesen", group: 2 },
+      { id: "Sara_Paasch_Knudsen", group: 2 }
+    ];
 
-      const links = [
-        { source: "AI_as_citizens", target: "Johan_Irving_Søltoft" },
-        { source: "AI_as_citizens", target: "Brit_Winthereik" },
-        { source: "AI_as_citizens", target: "Anders_Munk" },
-        { source: "Friction_by_Machine", target: "Johan_Irving_Søltoft" },
-        { source: "Friction_by_Machine", target: "Anders_Koed_Madsen" },
-        { source: "Friction_by_Machine", target: "Anders_Munk" },
-        { source: "Controversy_AI_in_Audio-Visual_Media", target: "Johan_Irving_Søltoft" },
-        { source: "From_Dice_to_Data", target: "Johan_Irving_Søltoft" },
-        { source: "From_Dice_to_Data", target: "Morten_Heuser" },
-        { source: "Synthetic_politicians", target: "Johan_Irving_Søltoft" },
-        { source: "Synthetic_politicians", target: "Anders_Koed_Madsen" },
-        { source: "Synthetic_AI_Film_Lover", target: "Johan_Irving_Søltoft" },
-        { source: "Generative_Ethnographic_AI", target: "Johan_Irving_Søltoft" },
-        { source: "Generative_Ethnographic_AI", target: "Anders_Koed_Madsen" },
-        { source: "Generative_Ethnographic_AI", target: "Anders_Munk" },
-        { source: "Generative_Ethnographic_AI", target: "Roman_Jurowetzki" },
-        { source: "Generative_Ethnographic_AI", target: "Daniel_Hain" },
-        { source: "Generative_Ethnographic_AI", target: "Torben_Elgaard_Jensen" },
-        { source: "Generative_Ethnographic_AI", target: "Mathieu_Jacomy" },
-        { source: "Generative_Ethnographic_AI", target: "Laura_Kocksch" },
-        { source: "Strengthening_the_data_imagination_of_SMEs", target: "Rikke_Ørngreen" },
-        { source: "Strengthening_the_data_imagination_of_SMEs", target: "Anders_Munk" },
-        { source: "Strengthening_the_data_imagination_of_SMEs", target: "Mathieu_Jacomy" },
-        { source: "Strengthening_the_data_imagination_of_SMEs", target: "Helene_Husted_Hansen" },
-        { source: "Strengthening_the_data_imagination_of_SMEs", target: "Asger_Gehrt_Olesen" },
-        { source: "Strengthening_the_data_imagination_of_SMEs", target: "Johan_Irving_Søltoft" },
-        { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" }
-      ];
+    const links = [
+      { source: "AI_as_citizens", target: "Johan_Irving_Søltoft" },
+      { source: "AI_as_citizens", target: "Brit_Winthereik" },
+      { source: "AI_as_citizens", target: "Anders_Munk" },
+      { source: "Friction_by_Machine", target: "Johan_Irving_Søltoft" },
+      { source: "Friction_by_Machine", target: "Anders_Koed_Madsen" },
+      { source: "Friction_by_Machine", target: "Anders_Munk" },
+      { source: "Controversy_AI_in_Audio-Visual_Media", target: "Johan_Irving_Søltoft" },
+      { source: "From_Dice_to_Data", target: "Johan_Irving_Søltoft" },
+      { source: "From_Dice_to_Data", target: "Morten_Heuser" },
+      { source: "Synthetic_politicians", target: "Johan_Irving_Søltoft" },
+      { source: "Synthetic_politicians", target: "Anders_Koed_Madsen" },
+      { source: "Synthetic_AI_Film_Lover", target: "Johan_Irving_Søltoft" },
+      { source: "Generative_Ethnographic_AI", target: "Johan_Irving_Søltoft" },
+      { source: "Generative_Ethnographic_AI", target: "Anders_Koed_Madsen" },
+      { source: "Generative_Ethnographic_AI", target: "Anders_Munk" },
+      { source: "Generative_Ethnographic_AI", target: "Roman_Jurowetzki" },
+      { source: "Generative_Ethnographic_AI", target: "Daniel_Hain" },
+      { source: "Generative_Ethnographic_AI", target: "Torben_Elgaard_Jensen" },
+      { source: "Generative_Ethnographic_AI", target: "Mathieu_Jacomy" },
+      { source: "Generative_Ethnographic_AI", target: "Laura_Kocksch" },
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Rikke_Ørngreen" },
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Anders_Munk" },
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Mathieu_Jacomy" },
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Helene_Husted_Hansen" },
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Asger_Gehrt_Olesen" },
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Johan_Irving_Søltoft" },
+      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" }
+    ];
 
-      const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id))
-        .force("charge", d3.forceManyBody().strength(-400))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+    const simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(d => d.id))
+      .force("charge", d3.forceManyBody().strength(-400))
+      .force("center", d3.forceCenter(width / 2, height / 2));
 
-      const link = svg.append("g")
-          .attr("stroke", "#999")
-          .attr("stroke-opacity", 0.6)
-        .selectAll("line")
-        .data(links)
-        .join("line")
-          .attr("stroke-width", 1.5);
+    const link = svg.append("g")
+        .attr("stroke", "#999")
+        .attr("stroke-opacity", 0.6)
+      .selectAll("line")
+      .data(links)
+      .join("line")
+        .attr("stroke-width", d => Math.sqrt(d.value));
 
-      const node = svg.append("g")
-          .attr("stroke", "#fff")
-          .attr("stroke-width", 1.5)
-        .selectAll("circle")
-        .data(nodes)
-        .join("circle")
-          .attr("r", d => d.type === "project" ? 10 + d.participants : 10)
-          .attr("fill", d => d.group === 1 ? "skyblue" : (d.group === 2 ? "lightgreen" : "orange"))
-          .call(drag(simulation));
+    const node = svg.append("g")
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 1.5)
+      .selectAll("circle")
+      .data(nodes)
+      .join("circle")
+        .attr("r", d => d.group === 1 ? 10 + d.participants : 10)
+        .attr("fill", d => d.group === 1 ? "skyblue" : (d.group === 2 ? "lightgreen" : "orange"))
+        .call(drag(simulation))
+        .on("mouseover", function(event, d) {
+            d3.select(this).append("title").text(d.id);
+        });
 
-      // Tooltip for hover functionality
-      const tooltip = d3.select("body").append("div")
-          .attr("class", "tooltip");
+    simulation.on("tick", () => {
+      link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
 
-      node.on("mouseover", function(event, d) {
-          tooltip.html(d.id)
-              .style("visibility", "visible");
-      }).on("mousemove", function(event) {
-          tooltip.style("top", (event.pageY - 10) + "px")
-              .style("left", (event.pageX + 10) + "px");
-      }).on("mouseout", function() {
-          tooltip.style("visibility", "hidden");
-      });
-
-      simulation.on("tick", () => {
-        link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y)
-            .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y);
-
-        node
-            .attr("cx", d => d.x)
-            .attr("cy", d => d.y);
-      });
-
-      function drag(simulation) {
-        function dragstarted(event, d) {
-          if (!event.active) simulation.alphaTarget(0.3).restart();
-          d.fx = d.x;
-          d.fy = d.y;
-        }
-        
-        function dragged(event, d) {
-          d.fx = event.x;
-          d.fy = event.y;
-        }
-        
-        function dragended(event, d) {
-          if (!event.active) simulation.alphaTarget(0);
-          d.fx = null;
-          d.fy = null;
-        }
-        
-        return d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended);
-      }
+      node
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y);
     });
+
+    function drag(simulation) {
+      function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
+      
+      function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+      }
+      
+      function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      }
+      
+      return d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended);
+    }
+});
 
