@@ -17,21 +17,23 @@ redirect_from:
 <style>
   body {
     background-color: #e0e0e0; /* Light grey for the body */
+    margin: 0;
+    padding: 0;
   }
-  .container, .site-content {
-    background-color: #e0e0e0; /* Ensure container has the same background */
+  .site-content {
+    background-color: #e0e0e0; /* Ensure site-content has the same background */
     width: 100%;
     max-width: 100% !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0;
-    padding: 0 20px; /* Optional: Add some padding */
+    padding: 0; /* Remove padding */
     box-sizing: border-box;
   }
 
   .sidebar {
-    background-color: #c0c0c0; /* Medium grey for the sidebar */
+    background-color: #e0e0e0; /* Medium grey for the sidebar */
     flex: 1 1 20%; /* Adjust width as needed */
     padding: 10px;
     box-sizing: border-box;
@@ -130,9 +132,8 @@ redirect_from:
   <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
 </div>
 
-<div class="container">
+<div class="site-content">
   <div class="sidebar">
-    <!-- Sidebar content here -->
   </div>
   <div class="main-content">
     <div class="large-div post" data-category="Conference">
