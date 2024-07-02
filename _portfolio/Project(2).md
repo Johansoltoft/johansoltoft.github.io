@@ -6,6 +6,9 @@ excerpt: 'We live in a Digital Anthropocene era in which notions such as intelli
 date: 15/05/2022
 ---
 
+
+![bida](/images/BIDA.png)
+
 **My role: Research Assistant**
 
 We live in a Digital Anthropocene era in which notions such as intelligence, emotions, and agency—historically considered traits that distinguish humans from other animals—are increasingly traced and understood through algorithmic logics and big digital datasets. Knowledge about the current climate crisis and the transformation of ecosystems is generated through remote sensing, satellite trackers, software, and mathematical models in combination with, but also gradually replacing, classical observations and studies over time. On the one hand, such technologies enable the generation of detailed knowledge across ecological realities and times. On the other, the increasing digitization of information about environments and the life of species that constitute and inhabit them has consequences for how scientists and publics understand and relate to concepts that have previously been characteristic for humans: intelligence, emotions, and agency.
