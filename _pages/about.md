@@ -8,6 +8,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+<head>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+
 <meta property="og:title" content="Johan Irving Søltoft" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://johansoltoft.github.io/" />
