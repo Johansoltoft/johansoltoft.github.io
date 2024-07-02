@@ -12,6 +12,61 @@ author_profile: true
 </head>
 
 <style>
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .project {
+    flex: 1 1 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+  }
+
+  .project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-title {
+    font-size: 16px; /* Reduced font size */
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-decoration: none; /* Remove underline */
+    font-family: 'Helvetica', 'Arial', sans-serif; /* Added font family */
+  }
+
+  .project-title:hover {
+    color: #007bff; /* Highlight color on hover */
+  }
+
+  .employment-period {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px; /* Reduce space between image and text */
+  }
+
+  @media (max-width: 768px) {
+    .project {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+    .project-title {
+      font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+  }
+
   .large-div {
     margin: 20px 0;
     display: flex;
@@ -32,14 +87,14 @@ author_profile: true
     const height = +svg.attr("height");
 
     const nodes = [
-      { id: "AI_Denmark", group: 1, size: 15 },
-      { id: "What_is_creatively_acceptable_AI", group: 1, size: 18 },
-      { id: "Biosociality_and_Technology_in_the_Digital_Anthropocene", group: 1, size: 18 },
-      { id: "Algorithms_Data_and_Democracy", group: 1, size: 20 },
-      { id: "Playful_Futures", group: 1, size: 17 },
-      { id: "Generative_Ethnographic_AI", group: 1, size: 20 },
-      { id: "Strengthening_the_data_imagination_of_SMEs", group: 1, size: 17 },
-      { id: "The_Digitization_of_Everyday_Life", group: 1, size: 25 },
+      { id: "AI_Denmark", group: 1 },
+      { id: "What_is_creatively_acceptable_AI", group: 1 },
+      { id: "Biosociality_and_Technology_in_the_Digital_Anthropocene", group: 1 },
+      { id: "Algorithms_Data_and_Democracy", group: 1 },
+      { id: "Playful_Futures", group: 1 },
+      { id: "Generative_Ethnographic_AI", group: 1 },
+      { id: "Strengthening_the_data_imagination_of_SMEs", group: 1 },
+      { id: "The_Digitization_of_Everyday_Life", group: 1 },
       { id: "Johan_Irving_Søltoft", group: 2 },
       { id: "Roman_Jurowetzki", group: 2 },
       { id: "Anders_Munk", group: 2 },
@@ -140,8 +195,8 @@ author_profile: true
     ];
 
     const simulation = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id(d => d.id).distance(100))
-      .force("charge", d3.forceManyBody().strength(-300))
+      .force("link", d3.forceLink(links).id(d => d.id))
+      .force("charge", d3.forceManyBody().strength(-400))
       .force("center", d3.forceCenter(width / 2, height / 2));
 
     const link = svg.append("g")
@@ -150,7 +205,7 @@ author_profile: true
       .selectAll("line")
       .data(links)
       .join("line")
-        .attr("stroke-width", 1.5);
+        .attr("stroke-width", d => Math.sqrt(d.value));
 
     const node = svg.append("g")
         .attr("stroke", "#fff")
@@ -158,23 +213,12 @@ author_profile: true
       .selectAll("circle")
       .data(nodes)
       .join("circle")
-        .attr("r", d => d.size || 10)
+        .attr("r", d => 10 + nodes.filter(n => n.group === 1 && links.some(l => l.source === d.id || l.target === d.id)).length * 0.5)
         .attr("fill", d => d.group === 1 ? "skyblue" : "lightgreen")
         .call(drag(simulation));
 
     node.append("title")
         .text(d => d.id);
-
-    // Add labels to project nodes
-    const label = svg.append("g")
-      .selectAll("text")
-      .data(nodes.filter(d => d.group === 1))
-      .enter().append("text")
-      .attr("dy", -10)
-      .attr("text-anchor", "middle")
-      .attr("font-size", "12px")
-      .attr("fill", "#333")
-      .text(d => d.id);
 
     simulation.on("tick", () => {
       link
@@ -186,10 +230,6 @@ author_profile: true
       node
           .attr("cx", d => d.x)
           .attr("cy", d => d.y);
-
-      label
-          .attr("x", d => d.x)
-          .attr("y", d => d.y - (d.size || 10) - 5); // Offset to prevent overlap
     });
 
     function drag(simulation) {
@@ -217,7 +257,6 @@ author_profile: true
     }
   });
 </script>
-
 
 <div class="projects-container">
   <div class="project">
