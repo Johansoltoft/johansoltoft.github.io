@@ -38,22 +38,22 @@ author_profile: true
   }
 
   .project-title {
-    font-size: 16px; /* Reduced font size */
+    font-size: 16px;
     font-weight: bold;
     color: #333;
     margin: 10px 0;
-    text-decoration: none; /* Remove underline */
-    font-family: 'Helvetica', 'Arial', sans-serif; /* Added font family */
+    text-decoration: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
   }
 
   .project-title:hover {
-    color: #007bff; /* Highlight color on hover */
+    color: #007bff;
   }
 
   .employment-period {
     font-size: 14px;
     color: #666;
-    margin-top: 5px; /* Reduce space between image and text */
+    margin-top: 5px;
   }
 
   @media (max-width: 768px) {
@@ -63,7 +63,7 @@ author_profile: true
     }
 
     .project-title {
-      font-size: 14px; /* Adjusted font size for smaller screens */
+      font-size: 14px;
     }
   }
 
@@ -146,7 +146,6 @@ author_profile: true
   </div>
 </div>
 
-
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const svg = d3.select("#network-graph");
@@ -154,58 +153,91 @@ author_profile: true
     const height = +svg.attr("height");
 
     const nodes = [
-      { id: "AI_as_citizens", group: 1 },
-      { id: "Friction_by_Machine", group: 1 },
-      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1 },
-      { id: "From_Dice_to_Data", group: 1 },
-      { id: "Synthetic_politicians", group: 1 },
-      { id: "Synthetic_AI_Film_Lover", group: 1 },
-      { id: "Generative_Ethnographic_AI", group: 1 },
-      { id: "Strengthening_the_data_imagination_of_SMEs", group: 1 },
-      { id: "Johan_Irving_Søltoft", group: 2 },
-      { id: "Brit_Winthereik", group: 2 },
-      { id: "Anders_Munk", group: 2 },
-      { id: "Anders_Koed_Madsen", group: 2 },
-      { id: "Morten_Heuser", group: 2 },
+      { id: "AI_Denmark", group: 1 },
+      { id: "What_is_creatively_acceptable_AI", group: 1 },
+      { id: "Biosociality_and_Technology_in_the_Digital_Anthropocene", group: 1 },
+      { id: "Algorithms_Data_and_Democracy", group: 1 },
+      { id: "Playful_Futures", group: 1 },
+      { id: "The_Digitization_of_Everyday_Life", group: 1 },
       { id: "Roman_Jurowetzki", group: 2 },
-      { id: "Daniel_Hain", group: 2 },
+      { id: "Johan_Irving_Søltoft", group: 2 },
+      { id: "Anders_Munk", group: 2 },
+      { id: "Trine_Bille", group: 2 },
+      { id: "Anders_Koed_Madsen", group: 2 },
+      { id: "Astrid_Oberborbeck_Andersen", group: 2 },
+      { id: "Jes_Lynning_Harfeld", group: 2 },
+      { id: "Tia_G_B_Hansen", group: 2 },
+      { id: "Andreas_Thyrsted_Laursen", group: 2 },
       { id: "Torben_Elgaard_Jensen", group: 2 },
+      { id: "Morten_Christian_Heuser", group: 2 },
       { id: "Mathieu_Jacomy", group: 2 },
       { id: "Laura_Kocksch", group: 2 },
-      { id: "Rikke_Ørngreen", group: 2 },
-      { id: "Helene_Husted_Hansen", group: 2 },
-      { id: "Asger_Gehrt_Olesen", group: 2 },
-      { id: "Sara_Paasch_Knudsen", group: 2 }
+      { id: "Lasse_Uhrskov_Kristensen", group: 2 },
+      { id: "Matteo_Uguzzoni", group: 2 },
+      { id: "Alberto_Cottica", group: 2 },
+      { id: "Anders_Grundtvig", group: 2 },
+      { id: "Anestis_Amanatidis", group: 2 },
+      { id: "Emil_Buch_Jacobsen", group: 2 },
+      { id: "Georgios_Natsios", group: 2 },
+      { id: "Jonas_Jessen", group: 2 },
+      { id: "Katja_de_Neergaard", group: 2 },
+      { id: "Lara_Reime", group: 2 },
+      { id: "Laura_Na_Blankholm", group: 2 },
+      { id: "Lotte_Schack", group: 2 },
+      { id: "Ronja_Mannov_Olesen", group: 2 },
+      { id: "Yancé_Harrison", group: 2 },
+      { id: "Anders_Kristian_Munk", group: 2 },
+      { id: "Brit_Ross_Winthereik", group: 2 },
+      { id: "Andreas_Birkbak", group: 2 },
+      { id: "Irina_Papazu", group: 2 },
+      { id: "Corinna_Voll", group: 2 }
     ];
 
     const links = [
-      { source: "AI_as_citizens", target: "Johan_Irving_Søltoft" },
-      { source: "AI_as_citizens", target: "Brit_Winthereik" },
-      { source: "AI_as_citizens", target: "Anders_Munk" },
-      { source: "Friction_by_Machine", target: "Johan_Irving_Søltoft" },
-      { source: "Friction_by_Machine", target: "Anders_Koed_Madsen" },
-      { source: "Friction_by_Machine", target: "Anders_Munk" },
-      { source: "Controversy_AI_in_Audio-Visual_Media", target: "Johan_Irving_Søltoft" },
-      { source: "From_Dice_to_Data", target: "Johan_Irving_Søltoft" },
-      { source: "From_Dice_to_Data", target: "Morten_Heuser" },
-      { source: "Synthetic_politicians", target: "Johan_Irving_Søltoft" },
-      { source: "Synthetic_politicians", target: "Anders_Koed_Madsen" },
-      { source: "Synthetic_AI_Film_Lover", target: "Johan_Irving_Søltoft" },
-      { source: "Generative_Ethnographic_AI", target: "Johan_Irving_Søltoft" },
-      { source: "Generative_Ethnographic_AI", target: "Anders_Koed_Madsen" },
-      { source: "Generative_Ethnographic_AI", target: "Anders_Munk" },
-      { source: "Generative_Ethnographic_AI", target: "Roman_Jurowetzki" },
-      { source: "Generative_Ethnographic_AI", target: "Daniel_Hain" },
-      { source: "Generative_Ethnographic_AI", target: "Torben_Elgaard_Jensen" },
-      { source: "Generative_Ethnographic_AI", target: "Mathieu_Jacomy" },
-      { source: "Generative_Ethnographic_AI", target: "Laura_Kocksch" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Rikke_Ørngreen" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Anders_Munk" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Mathieu_Jacomy" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Helene_Husted_Hansen" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Asger_Gehrt_Olesen" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Johan_Irving_Søltoft" },
-      { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" }
+      { source: "AI_Denmark", target: "Roman_Jurowetzki" },
+      { source: "AI_Denmark", target: "Johan_Irving_Søltoft" },
+      { source: "What_is_creatively_acceptable_AI", target: "Johan_Irving_Søltoft" },
+      { source: "What_is_creatively_acceptable_AI", target: "Anders_Munk" },
+      { source: "What_is_creatively_acceptable_AI", target: "Trine_Bille" },
+      { source: "What_is_creatively_acceptable_AI", target: "Anders_Koed_Madsen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Astrid_Oberborbeck_Andersen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Jes_Lynning_Harfeld" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Tia_G_B_Hansen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Andreas_Thyrsted_Laursen" },
+      { source: "Biosociality_and_Technology_in_the_Digital_Anthropocene", target: "Johan_Irving_Søltoft" },
+      { source: "Algorithms_Data_and_Democracy", target: "Torben_Elgaard_Jensen" },
+      { source: "Algorithms_Data_and_Democracy", target: "Johan_Irving_Søltoft" },
+      { source: "Algorithms_Data_and_Democracy", target: "Morten_Christian_Heuser" },
+      { source: "Algorithms_Data_and_Democracy", target: "Mathieu_Jacomy" },
+      { source: "Algorithms_Data_and_Democracy", target: "Anders_Munk" },
+      { source: "Algorithms_Data_and_Democracy", target: "Anders_Koed_Madsen" },
+      { source: "Algorithms_Data_and_Democracy", target: "Astrid_Oberborbeck_Andersen" },
+      { source: "Algorithms_Data_and_Democracy", target: "Laura_Kocksch" },
+      { source: "Playful_Futures", target: "Lasse_Uhrskov_Kristensen" },
+      { source: "Playful_Futures", target: "Johan_Irving_Søltoft" },
+      { source: "Playful_Futures", target: "Anders_Munk" },
+      { source: "Playful_Futures", target: "Matteo_Uguzzoni" },
+      { source: "Playful_Futures", target: "Alberto_Cottica" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Anders_Grundtvig" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Anestis_Amanatidis" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Emil_Buch_Jacobsen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Georgios_Natsios" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Johan_Irving_Søltoft" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Jonas_Jessen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Katja_de_Neergaard" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Lara_Reime" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Laura_Na_Blankholm" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Lotte_Schack" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Morten_Heuser" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Ronja_Mannov_Olesen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Yancé_Harrison" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Anders_Kristian_Munk" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Brit_Ross_Winthereik" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Andreas_Birkbak" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Astrid_Oberborbeck_Andersen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Irina_Papazu" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Torben_Elgaard_Jensen" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Corinna_Voll" }
     ];
 
     const simulation = d3.forceSimulation(nodes)
