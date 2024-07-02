@@ -15,7 +15,16 @@ redirect_from:
 <meta property="og:description" content="Blog" />
 
 <style>
-  /* Base styles for all devices */
+  body {
+    background-color: #e0e0e0; /* Light grey for the body */
+  }
+  .sidebar {
+    background-color: #c0c0c0; /* Medium grey for the sidebar */
+  }
+  .masthead {
+    background-color: #a0a0a0; /* Dark grey for the masthead */
+  }
+  /* Additional styles for responsiveness and layout */
   .container, .site-content {
     width: 100%;
     max-width: 100% !important;
