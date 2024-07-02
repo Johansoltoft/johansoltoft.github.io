@@ -15,38 +15,16 @@ redirect_from:
 <meta property="og:description" content="Blog" />
 
 <style>
-  body {
-    background-color: #e0e0e0; /* Light grey for the body */
-    margin: 0;
-    padding: 0;
-  }
-  .site-content {
-    background-color: #e0e0e0; /* Ensure site-content has the same background */
+  /* Base styles for all devices */
+  .container, .site-content {
     width: 100%;
     max-width: 100% !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0;
-    padding: 0; /* Remove padding */
+    padding: 0 20px; /* Optional: Add some padding */
     box-sizing: border-box;
-  }
-
-  .sidebar {
-    background-color: #e0e0e0; /* Medium grey for the sidebar */
-    flex: 1 1 20%; /* Adjust width as needed */
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .main-content {
-    flex: 1 1 75%; /* Adjust width as needed */
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .masthead {
-    background-color: #a0a0a0; /* Dark grey for the masthead */
   }
 
   .responsive-div {
@@ -132,17 +110,14 @@ redirect_from:
   <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
 </div>
 
-<div class="site-content">
-  <div class="sidebar">
+<div class="container">
+  <div class="large-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
+      <img src="/images/AIasCitizen.png" alt="AIsommedborger">
+    </a>
+    <h2>Conference: AI as citizens?</h2>
   </div>
-  <div class="main-content">
-    <div class="large-div post" data-category="Conference">
-      <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
-        <img src="/images/AIasCitizen.png" alt="AIsommedborger">
-      </a>
-      <h2>Conference: AI as citizens?</h2>
-    </div>
-    
+
   <div class="responsive-div post" data-category="Article">
     <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology">
