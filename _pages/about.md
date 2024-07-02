@@ -18,14 +18,8 @@ redirect_from:
   body {
     background-color: #e0e0e0; /* Light grey for the body */
   }
-  .sidebar {
-    background-color: #c0c0c0; /* Medium grey for the sidebar */
-  }
-  .masthead {
-    background-color: #a0a0a0; /* Dark grey for the masthead */
-  }
-  /* Additional styles for responsiveness and layout */
   .container, .site-content {
+    background-color: #e0e0e0; /* Ensure container has the same background */
     width: 100%;
     max-width: 100% !important;
     display: flex;
@@ -34,6 +28,23 @@ redirect_from:
     margin: 0;
     padding: 0 20px; /* Optional: Add some padding */
     box-sizing: border-box;
+  }
+
+  .sidebar {
+    background-color: #c0c0c0; /* Medium grey for the sidebar */
+    flex: 1 1 20%; /* Adjust width as needed */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .main-content {
+    flex: 1 1 75%; /* Adjust width as needed */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .masthead {
+    background-color: #a0a0a0; /* Dark grey for the masthead */
   }
 
   .responsive-div {
@@ -120,13 +131,17 @@ redirect_from:
 </div>
 
 <div class="container">
-  <div class="large-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
-      <img src="/images/AIasCitizen.png" alt="AIsommedborger">
-    </a>
-    <h2>Conference: AI as citizens?</h2>
+  <div class="sidebar">
+    <!-- Sidebar content here -->
   </div>
-
+  <div class="main-content">
+    <div class="large-div post" data-category="Conference">
+      <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
+        <img src="/images/AIasCitizen.png" alt="AIsommedborger">
+      </a>
+      <h2>Conference: AI as citizens?</h2>
+    </div>
+    
   <div class="responsive-div post" data-category="Article">
     <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology">
