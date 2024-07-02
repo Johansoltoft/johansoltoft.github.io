@@ -26,12 +26,20 @@ author_profile: true
     background-color: white;
   }
 
-  .project img {
+  .image-container {
     width: 100%;
-    max-height: 150px; /* Ensure all images are the same height */
-    object-fit: cover; /* Cover the fixed dimensions without distortion */
-    display: block;
-    margin: 0 auto;
+    height: 150px; /* Set a fixed height for the image container */
+    background-color: #f0f0f0; /* Light gray background for smaller images */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
 
   .project-title {
@@ -63,28 +71,32 @@ author_profile: true
   }
 </style>
 
-
 <div class="projects-container">
-
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project0">
-      <img src="/images/datafantasi-600-150.png" alt="Strengthening the data-imagination of SMEs">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project0" class="project-title">Strengthening the data-imagination of SMEs</a>
-    <div class="employment-period">Employment period:<br>1.december 2021- 1. february 2023</div>
-  </div>
-  
   <div class="project">
     <a href="https://johansoltoft.github.io//portfolio/project(3)">
-      <img src="/images/add12.png" alt="Algorithms, Data and Democracy (ADD)">
+      <div class="image-container">
+        <img src="/images/ADD_600-150.png" alt="Algorithms, Data and Democracy (ADD)">
+      </div>
     </a>
     <a href="https://johansoltoft.github.io//portfolio/project(3)" class="project-title">Algorithms, Data and Democracy (ADD)</a>
     <div class="employment-period">Employment period:<br>1. august 2021- 1. january 2023</div>
   </div>
 
   <div class="project">
+    <a href="https://johansoltoft.github.io//portfolio/project0">
+      <div class="image-container">
+        <img src="/images/datafantasi-600-150.png" alt="Strengthening the data-imagination of SMEs">
+      </div>
+    </a>
+    <a href="https://johansoltoft.github.io//portfolio/project0" class="project-title">Strengthening the data-imagination of SMEs</a>
+    <div class="employment-period">Employment period:<br>1.december 2021- 1. february 2023</div>
+  </div>
+
+  <div class="project">
     <a href="https://johansoltoft.github.io//portfolio/project(1)">
-      <img src="/images/Covid-19000-project.png" alt="The Digitization of Everyday Life during the Covid-19 pandemic in Denmark">
+      <div class="image-container">
+        <img src="/images/HV_600-150.png" alt="The Digitization of Everyday Life during the Covid-19 pandemic in Denmark">
+      </div>
     </a>
     <a href="https://johansoltoft.github.io//portfolio/project(1)" class="project-title">The Digitization of Everyday Life during the Covid-19 pandemic in Denmark</a>
     <div class="employment-period">Employment period:<br>1.apr. 2020 - 1.january. 2021</div>
