@@ -240,14 +240,14 @@ redirect_from:
     const height = +svg.attr("height");
 
     const nodes = [
-      { id: "AI_as_citizens", group: 1, participants: 3 },
-      { id: "Friction_by_Machine", group: 1, participants: 3 },
-      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1, participants: 1 },
-      { id: "From_Dice_to_Data", group: 1, participants: 2 },
-      { id: "Synthetic_politicians", group: 1, participants: 2 },
-      { id: "Synthetic_AI_Film_Lover", group: 1, participants: 1 },
-      { id: "Generative_Ethnographic_AI", group: 3, participants: 8 },
-      { id: "Strengthening_the_data_imagination_of_SMEs", group: 3, participants: 7 },
+      { id: "AI_as_citizens", group: 1, type: "project", participants: 3 },
+      { id: "Friction_by_Machine", group: 1, type: "project", participants: 3 },
+      { id: "Controversy_AI_in_Audio-Visual_Media", group: 1, type: "project", participants: 1 },
+      { id: "From_Dice_to_Data", group: 1, type: "project", participants: 2 },
+      { id: "Synthetic_politicians", group: 1, type: "project", participants: 2 },
+      { id: "Synthetic_AI_Film_Lover", group: 1, type: "project", participants: 1 },
+      { id: "Generative_Ethnographic_AI", group: 3, type: "research project", participants: 8 },
+      { id: "Strengthening_the_data_imagination_of_SMEs", group: 3, type: "research project", participants: 7 },
       { id: "Johan_Irving_Søltoft", group: 2 },
       { id: "Brit_Winthereik", group: 2 },
       { id: "Anders_Munk", group: 2 },
@@ -315,10 +315,24 @@ redirect_from:
       .join("circle")
         .attr("r", d => d.group === 1 ? 10 + d.participants : 10)
         .attr("fill", d => d.group === 1 ? "skyblue" : (d.group === 2 ? "lightgreen" : "orange"))
-        .call(drag(simulation))
-        .on("mouseover", function(event, d) {
-            d3.select(this).append("title").text(d.id);
-        });
+        .call(drag(simulation));
+
+    // Add text labels for nodes
+    svg.append("g")
+        .selectAll("text")
+        .data(nodes)
+        .enter()
+        .append("text")
+        .attr("x", d => d.x)
+        .attr("y", d => d.y)
+        .attr("dy", -10)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "10px")
+        .attr("fill", "#000")
+        .text(d => d.type);
+
+    node.append("title")
+        .text(d => d.id);
 
     simulation.on("tick", () => {
       link
@@ -330,6 +344,10 @@ redirect_from:
       node
           .attr("cx", d => d.x)
           .attr("cy", d => d.y);
+
+      svg.selectAll("text")
+          .attr("x", d => d.x)
+          .attr("y", d => d.y);
     });
 
     function drag(simulation) {
