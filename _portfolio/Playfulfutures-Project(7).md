@@ -1,19 +1,17 @@
 ---
-title: "The Digitization of Everyday Life during the Covid-19 pandemic in Denmark"
+title: "Playful Futures"
 collection: project
-permalink: "/portfolio/project(1)"
-date: 01/04/2020
+permalink: "/portfolio/Playfulfutures-Project(7)"
+date: 01/07/2022
 ---
 
-![Conference](/images/Covid-19000-project.png)
+![Conference](/images/Playfulfutures.jpg)
 
 **My role: Research Assistant**
 
-While the world is closed down, many of us are forced to move the most basic everyday activities onto digital media and platforms. This means that we are all participating in rapid digitalization to an extent that we have not experienced before.
+LARPs (Live Action Role Play) are games where players physically portray their characters, and interact with other characters as if they are inhabiting the world their characters do. Online LARPs are LARPs played by means of computer networks, such as the Internet. They involve all components of in-person LARPs except the physicality. They have grown in popularity during the pandemic years. Using online LARPs as a participatory research methodology together with digital ethnography is innovative and can set a precedent for new application of interactive, playful tools in citizen science.
 
-Brit Ross Winthereik (ITU) and Anders Kristian Munk (AAU), together with a team of talented research assistants, are creating an archive of how digitalization of everyday life actually takes place during the current corona crisis. The purpose of collecting this data is first and foremost to create an archive that can be used for future research, without having a defined end goal.
-
-All information (interview, text, pictures and videos) is properly stored in accordance with current personal data protection legislation. You can read more about the project, and about data protection, at the bottom of the page.
+Playful Futures encourages participants to question the economic foundations of society. The aim of the project is to test the potential of online LARPs to increase the ability of citizens to imagine their lives in economies and societies radically different from our own. This is useful in addressing problems such as climate change and sea level rising, which require substantial change to become tractable. This methodology applies most naturally to young adults, who often have limited access to formal decision making processes.
 
 
-[Website Link](https://deltagelsensgrammatik.itu.dk/)
+[Website Link](https://www.chc-prostor.com/playful-futures)
