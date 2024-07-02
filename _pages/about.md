@@ -8,9 +8,18 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <head>
   <script src="https://d3js.org/d3.v6.min.js"></script>
+  <style>
+    .tooltip {
+      position: absolute;
+      visibility: hidden;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 <meta property="og:title" content="Johan Irving Søltoft" />
