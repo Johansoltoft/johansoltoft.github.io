@@ -15,38 +15,16 @@ redirect_from:
 <meta property="og:description" content="Blog" />
 
 <style>
-  body {
-    background-color: #e0e0e0; /* Light grey for the body */
-    margin: 0;
-    padding: 0;
-  }
-  .site-content {
-    background-color: #e0e0e0; /* Ensure site-content has the same background */
+  /* Base styles for all devices */
+  .container, .site-content {
     width: 100%;
     max-width: 100% !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0;
-    padding: 0; /* Remove padding */
+    padding: 0 20px; /* Optional: Add some padding */
     box-sizing: border-box;
-  }
-
-  .sidebar {
-    background-color: #e0e0e0; /* Medium grey for the sidebar */
-    flex: 1 1 20%; /* Adjust width as needed */
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .main-content {
-    flex: 1 1 75%; /* Adjust width as needed */
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .masthead {
-    background-color: #a0a0a0; /* Dark grey for the masthead */
   }
 
   .responsive-div {
@@ -132,18 +110,103 @@ redirect_from:
   <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
 </div>
 
-<div class="site-content">
-  <div class="sidebar">
-    <!-- Sidebar content here -->
+<div class="container">
+  <div class="large-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
+      <img src="/images/AIasCitizen.png" alt="AIsommedborger">
+    </a>
+    <h2>Conference: AI as citizens?</h2>
   </div>
-  <div class="main-content">
-    <div class="large-div post" data-category="Conference">
-      <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
-        <img src="/images/AIasCitizen.png" alt="AIsommedborger">
-      </a>
-      <h2>Conference: AI as citizens?</h2>
-    </div>
-    <!-- Add your responsive-div and large-div content here -->
+
+  <div class="responsive-div post" data-category="Article">
+    <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
+      <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology">
+    </a>
+    <h2>Article: Friction by Machine: How to Slow Down Reasoning with Computational Methods</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Blogpost">
+    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-4.md/">
+      <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media">
+    </a>
+    <h2>Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
+      <img src="/images/D&D.png" alt="Collaborative Storytelling">
+    </a>
+    <h2>Conference: Unravelling Collaborative Storytelling with Generative AI</h2>
+  </div>
+  
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-7">
+      <img src="/images/Syn-politicans.png" alt="Synthetic Politicians">
+    </a>
+    <h2>Conference: Interfacing with Synthetic Mundane Politicians</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-10">
+      <img src="/images/MASSHINE-syn.jpg" alt="SyntheticFiLM">
+    </a>
+    <h2>Conference: Exploring Cinematic Engagement through a Synthetic AI Film Lover</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1">
+      <img src="/images/Epic2-646.jpg" alt="Conference">
+    </a>
+    <h2>Conference: Friction by Machine</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io//talks/2014-02-01-talk-2">
+      <img src="/images/EPIC1.jpg" alt="Epic10">
+    </a>
+    <h2>Conference: Audience Awareness Through Machine Anthropology</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Workshop">
+    <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-6.md/">
+      <img src="/images/MASSHINE-retreat1.jpg" alt="Dragør retreat Generative Ethnographic AI">
+    </a>
+    <h2>Workshop: Dragør retreat Generative Ethnographic AI</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Blogpost">
+    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
+      <img src="/images/twitchnetwork.png" alt="Twitch Emote Network">
+    </a>
+    <h2>Blogpost: Studying Community Detection Using Twitch Emotes</h2>
+  </div>
+  
+  <div class="responsive-div post" data-category="Blogpost">
+    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-5.md/">
+      <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network">
+    </a>
+    <h2>Blogpost: Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</h2>
+  </div>
+  
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io//talks/2014-03-01-talk-3">
+      <img src="/images/NordicSTS.jpg" alt="NordicSTS">
+    </a>
+    <h2>Conference: Creatively Acceptable AI</h2>
+  </div>
+  
+  <div class="responsive-div post" data-category="Blogpost">
+    <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-1.md/">
+      <img src="/images/dataimaga.png" alt="Data Imagination Diagram">
+    </a>
+    <h2>Blogpost: Strengthening the data-imagination of SMEs</h2>
+  </div>
+
+  <div class="responsive-div post" data-category="Workshop">
+    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-4">
+      <img src="/images/bertistheword(1).png" alt="Bert is the word">
+    </a>
+    <h2>Workshop: BERT is the word</h2>
   </div>
 </div>
 
