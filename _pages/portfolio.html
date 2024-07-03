@@ -287,14 +287,14 @@ author_profile: true
         .call(drag(simulation));
   
     node.append("circle")
-        .attr("r", 10)
+        .attr("r", d => d.group === 1 ? nodeRadius(d.links.length) : 7)
         .attr("fill", d => d.group === 1 ? "skyblue" : "lightgreen");
   
     node.append("text")
         .text(d => d.id)
         .attr("x", 12)
         .attr("y", ".31em")
-        .style("font-size", d => d.group === 1 ? "14px" : "8px")
+        .style("font-size", d => d.group === 1 ? "14px" : "10px")
         .style("fill", "#333");
   
     node.append("title")
