@@ -294,8 +294,9 @@ author_profile: true
         .text(d => d.id)
         .attr("x", 12)
         .attr("y", ".31em")
-        .style("font-size", d => d.group === 1 ? "14px" : "10px")
-        .attr("fill", "gray")
+        .attr("font-size", d => d.group === 1 ? "14px" : "10px")
+        .attr("fill", d => d.group === 1 ? "black" : "#555"); // Set fill color based on group
+
     
     node.append("title")
         .text(d => d.id);
