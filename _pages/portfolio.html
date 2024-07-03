@@ -152,6 +152,7 @@ author_profile: true
     const svg = d3.select("#network-graph");
     const width = +svg.attr("width");
     const height = +svg.attr("height");
+    
     const nodes = [
       { id: "AI_Denmark", group: 1 },
       { id: "What_is_creatively_acceptable_AI", group: 1 },
@@ -188,7 +189,6 @@ author_profile: true
       { id: "Lotte_Schack", group: 2 },
       { id: "Ronja_Mannov_Olesen", group: 2 },
       { id: "Yance_Harrison", group: 2 },
-      { id: "Anders_Kristian_Munk", group: 2 },
       { id: "Brit_Ross_Winthereik", group: 2 },
       { id: "Andreas_Birkbak", group: 2 },
       { id: "Irina_Papazu", group: 2 },
@@ -238,7 +238,7 @@ author_profile: true
       { source: "The_Digitization_of_Everyday_Life", target: "Morten_Heuser" },
       { source: "The_Digitization_of_Everyday_Life", target: "Ronja_Mannov_Olesen" },
       { source: "The_Digitization_of_Everyday_Life", target: "Yance_Harrison" },
-      { source: "The_Digitization_of_Everyday_Life", target: "Anders_Kristian_Munk" },
+      { source: "The_Digitization_of_Everyday_Life", target: "Anders_Munk" },
       { source: "The_Digitization_of_Everyday_Life", target: "Brit_Ross_Winthereik" },
       { source: "The_Digitization_of_Everyday_Life", target: "Andreas_Birkbak" },
       { source: "The_Digitization_of_Everyday_Life", target: "Astrid_Oberborbeck_Andersen" },
@@ -262,6 +262,12 @@ author_profile: true
       { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" }
     ];
 
+    const nodeConnections = {};
+    links.forEach(link => {
+      nodeConnections[link.source] = (nodeConnections[link.source] || 0) + 1;
+      nodeConnections[link.target] = (nodeConnections[link.target] || 0) + 1;
+    });
+
     const simulation = d3.forceSimulation(nodes)
       .force("link", d3.forceLink(links).id(d => d.id))
       .force("charge", d3.forceManyBody().strength(-400))
@@ -279,11 +285,20 @@ author_profile: true
       .selectAll("circle")
       .data(nodes)
       .join("circle")
-        .attr("r", 10)
+        .attr("r", d => d.group === 1 ? 10 + nodeConnections[d.id] * 2 : 5) // Research projects larger based on connections, persons smaller
         .attr("fill", d => d.group === 1 ? "skyblue" : "lightgreen")
         .call(drag(simulation));
-    node.append("title")
+    const label = svg.append("g")
+        .attr("font-family", "sans-serif")
+        .attr("font-size", 10)
+        .attr("text-anchor", "middle")
+      .selectAll("text")
+      .data(nodes.filter(d => d.group === 1)) // Only label research projects
+      .join("text")
+        .attr("dy", ".35em")
         .text(d => d.id);
+    node.append("title")
+        .text(d => d.id); // Hover-over tooltips
     simulation.on("tick", () => {
       link
           .attr("x1", d => d.source.x)
@@ -293,6 +308,9 @@ author_profile: true
       node
           .attr("cx", d => d.x)
           .attr("cy", d => d.y);
+      label
+          .attr("x", d => d.x)
+          .attr("y", d => d.y);
     });
     function drag(simulation) {
       function dragstarted(event, d) {
