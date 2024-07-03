@@ -261,7 +261,10 @@ author_profile: true
       { source: "Strengthening_the_data_imagination_of_SMEs", target: "Johan_Irving_Søltoft" },
       { source: "Strengthening_the_data_imagination_of_SMEs", target: "Sara_Paasch_Knudsen" }
     ];
-  
+    const nodeRadius = d3.scaleSqrt()
+      .domain([1, d3.max(nodes, d => links.filter(l => l.source.id === d.id || l.target.id === d.id).length)])
+      .range([5, 20]); 
+    
     const simulation = d3.forceSimulation(nodes)
       .force("link", d3.forceLink(links).id(d => d.id))
       .force("charge", d3.forceManyBody().strength(-400))
@@ -291,8 +294,8 @@ author_profile: true
         .text(d => d.id)
         .attr("x", 12)
         .attr("y", ".31em")
-        .style("font-size", "12px")
-        .style("fill", "#555");
+        .style("font-size", d => d.group === 1 ? "14px" : "8px")
+        .style("fill", "#333");
   
     node.append("title")
         .text(d => d.id);
