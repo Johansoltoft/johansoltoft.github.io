@@ -8,7 +8,21 @@ author_profile: true
 {% include base_path %}
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network Graph</title>
   <script src="https://d3js.org/d3.v6.min.js"></script>
+  <style>
+    #network-graph {
+      background-color: grey; /* Set background color to grey */
+    }
+    .node-label {
+      fill: black; /* Force text color to black */
+      font-family: Arial, sans-serif; /* Set font family */
+      font-size: 12px; /* Set font size */
+      font-weight: normal; /* Set font weight */
+    }
+  </style>
 </head>
 
 <style>
