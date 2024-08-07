@@ -112,41 +112,42 @@ redirect_from:
 
 
 <div class="container">
-  <div class="responsive-div post" data-category="Conference">
+<div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-15.md/">
       <img src="/images/EASA2024.jpg" alt="EASA">
     </a>
     <h2>Conference: Speculating with generative AI</h2>
   </div>
 
-  <div class="responsive-div post" data-category="Conference">
+<div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-14.md/">
       <img src="/images/EASTS4s.jpg" alt="EASST/4s">
     </a>
     <h2>Conference: The human in audience-centered film production</h2>
   </div>
     
-  <div class="responsive-div post" data-category="Conference">
+<div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
       <img src="/images/AIasCitizen.png" alt="AIasCitizen.png">
     </a>
     <h2>Conference: AI as citizens?</h2>
   </div>
 
-  <div class="responsive-div post" data-category="Article">
-    <a href="https://johansoltoft.github.io//publications/2010-10-01-paper-title-number-2.md/">
+<div class="responsive-div post" data-category="Article">
+    <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-2.md/">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology">
     </a>
     <h2>Article: Friction by Machine: How to Slow Down Reasoning with Computational Methods</h2>
   </div>
 
-  <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-4.md/">
+<div class="responsive-div post" data-category="Blogpost">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-4.md/">
       <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media">
     </a>
     <h2>Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
-
+  
+</div>
   <div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
       <img src="/images/D&D.png" alt="Collaborative Storytelling">
