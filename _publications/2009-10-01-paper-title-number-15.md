@@ -1,5 +1,5 @@
 ---
-title: "Speculating with generative AI - Experiments with an ethnographic chatbot."
+title: "EASA2024: Speculating with generative AI - Experiments with an ethnographic chatbot."
 date: 2024-07-26
 permalink: /publications/2009-10-01-paper-title-number-15.md/
 tags:
