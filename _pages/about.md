@@ -112,119 +112,119 @@ redirect_from:
 
 
 <div class="container">
-<div class="responsive-div post" data-category="Conference">
+  <div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-15.md/">
       <img src="/images/EASA2024.jpg" alt="EASA">
     </a>
     <h2>Conference: Speculating with generative AI</h2>
   </div>
 
-<div class="responsive-div post" data-category="Conference">
+  <div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-14.md/">
       <img src="/images/EASTS4s.jpg" alt="EASST/4s">
     </a>
     <h2>Conference: The human in audience-centered film production</h2>
   </div>
-    
-<div class="responsive-div post" data-category="Conference">
+
+  <div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
       <img src="/images/AIasCitizen.png" alt="AIasCitizen.png">
     </a>
     <h2>Conference: AI as citizens?</h2>
   </div>
 
-<div class="responsive-div post" data-category="Article">
+  <div class="responsive-div post" data-category="Article">
     <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-2.md/">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology">
     </a>
     <h2>Article: Friction by Machine: How to Slow Down Reasoning with Computational Methods</h2>
   </div>
 
-<div class="responsive-div post" data-category="Blogpost">
+  <div class="responsive-div post" data-category="Blogpost">
     <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-4.md/">
       <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media">
     </a>
     <h2>Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
   </div>
-  
-</div>
+
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-9">
+    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-9">
       <img src="/images/D&D.png" alt="Collaborative Storytelling">
     </a>
     <h2>Conference: Unravelling Collaborative Storytelling with Generative AI</h2>
   </div>
-  
+
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-7">
+    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-7">
       <img src="/images/Syn-politicans.png" alt="Synthetic Politicians">
     </a>
     <h2>Conference: Interfacing with Synthetic Mundane Politicians</h2>
   </div>
 
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-10">
+    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-10">
       <img src="/images/MASSHINE-syn.jpg" alt="SyntheticFiLM">
     </a>
     <h2>Conference: Exploring Cinematic Engagement through a Synthetic AI Film Lover</h2>
   </div>
 
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-1">
+    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-1">
       <img src="/images/Epic2-646.jpg" alt="Conference">
     </a>
     <h2>Conference: Friction by Machine</h2>
   </div>
 
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io//talks/2014-02-01-talk-2">
+    <a href="https://johansoltoft.github.io/talks/2014-02-01-talk-2">
       <img src="/images/EPIC1.jpg" alt="Epic10">
     </a>
     <h2>Conference: Audience Awareness Through Machine Anthropology</h2>
   </div>
 
   <div class="responsive-div post" data-category="Workshop">
-    <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-6.md/">
+    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-6.md/">
       <img src="/images/MASSHINE-retreat1.jpg" alt="Dragør retreat Generative Ethnographic AI">
     </a>
     <h2>Workshop: Dragør retreat Generative Ethnographic AI</h2>
   </div>
 
   <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-3.md/">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-3.md/">
       <img src="/images/twitchnetwork.png" alt="Twitch Emote Network">
     </a>
     <h2>Blogpost: Studying Community Detection Using Twitch Emotes</h2>
   </div>
-  
+
   <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io//publications/2015-10-01-paper-title-number-5.md/">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-5.md/">
       <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network">
     </a>
     <h2>Blogpost: Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</h2>
   </div>
-  
+
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io//talks/2014-03-01-talk-3">
+    <a href="https://johansoltoft.github.io/talks/2014-03-01-talk-3">
       <img src="/images/NordicSTS.jpg" alt="NordicSTS">
     </a>
     <h2>Conference: Creatively Acceptable AI</h2>
   </div>
-  
+
   <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io//publications/2009-10-01-paper-title-number-1.md/">
+    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-1.md/">
       <img src="/images/dataimaga.png" alt="Data Imagination Diagram">
     </a>
     <h2>Blogpost: Strengthening the data-imagination of SMEs</h2>
   </div>
 
   <div class="responsive-div post" data-category="Workshop">
-    <a href="https://johansoltoft.github.io//talks/2012-03-01-talk-4">
+    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-4">
       <img src="/images/bertistheword(1).png" alt="Bert is the word">
     </a>
     <h2>Workshop: BERT is the word</h2>
   </div>
 </div>
+
 
 <script>
   function filterPosts(category) {
