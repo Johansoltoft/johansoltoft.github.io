@@ -1,5 +1,5 @@
 ---
-title: "EASA2024 - The human in audience-centered film production"
+title: "EASST/4s - The human in audience-centered film production"
 date: 2024-07-19
 permalink: /publications/2009-10-01-paper-title-number-14.md/
 tags:
