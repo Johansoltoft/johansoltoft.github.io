@@ -1,31 +1,29 @@
 ---
-title: "The human in audience-centered film production"
-date: 2024-07-19
-permalink: /publications/2009-10-01-paper-title-number-14.md/
+title: "Speculating with generative AI - Experiments with an ethnographic chatbot."
+date: 2024-07-26
+permalink: /publications/2009-10-01-paper-title-number-15.md/
 tags:
 
 ---
 
-![Diagramimaga](/images/EASTS4s.jpg)
+![EASA](/images/EASA2024.jpg)
 
 Short abstract:
 ======
-    Based on participatory observation, the study explores the qualitative and quantitative analytical methods employed to construct audiences for the film industry in pursuit of human-centered innovation. 
+    Based on a series of experiments with a large language model ingested with ethnographic interviews, we reflect on moments of disconcertment, re-experiencing and estranging ethnographic encounters. We argue for a speculative use of Generative AI in Anthropology. 
 
 Long abstract:
 ======
 
-Traditionally, the film industry relied on feedback from audiences during test screenings of completed films. Now, there's a shift toward involving the audience early on in the production process, aiming to incorporate more diverse opinions. Digital and computational methods are increasingly recognized as crucial in enabling this change.
+Generative AI (GAI), such as Chat-GPT have permeated various spheres of academic work. They have also entered anthropological research and teaching. To sort haphazard engagements with virtues and fallacies, we propose there currently are both an Anthropology of and with GAI.
 
-This paper draws on an ethnographic study conducted at a Danish film consultancy that uses digital ethnography tools to analyse audience awareness for early-stage films. Through participant observation, the study delves into the consultancy's methods for determining which audiences are relevant, and how to curate their responses into actionable insights. This process inherently involves privileging certain 'versions' of the audience while marginalising others, thereby raising critical questions about whose voices are amplified and whose are suppressed in the quest for human-centered film production.
+Anthropology of GAI includes tracing the computational and cultural resources algorithms mobilize and their acute effects, such as investigations into cultural biases, material-ecological requirements, or creative engagements of users. Anthropology with GAI includes experimentation with how to employ GAI in anthropological practices, such as ethnographic research, analysis, writing or teaching.
 
-The study examines the methods developed by the consultancy firm, including mobile ethnography for engaging global audiences, automatic transcription for processing interviews, emotion detection algorithms applied to transcribed data, and generative AI in order to showcase different practices of constructing the audience for the movie production process.
-
-This contribution aims to critically examine how specific versions of the audience are enacted in the pursuit of human-centered innovation in the European film industry.
+Contributing to the latter, we present a series of experiments with retrieval augmented generation (RAG), combining an open large language model with a vector database of ethnographic interviews. Our ethnographic data, drawn from three distinct projects, includes over 3000 mobile interviews on European movies, 230+ interviews from the COVID-19 pandemic, and a study of cybersecurity in 30 Danish SMEs. By engaging in chat conversations with our material, we prolonged and estranged the ethnographic encounter. We offer a series of reflections on the embodied experiments with the model, dynamics of conversations, and provocations that it evoked. We argue that we experienced a sense of companionship but also disconcertment and friction (Madsen et al. 2023). The experiments allowed us to facilitate spaces of speculation and allowing others to participate in or re-experience ethnographic moments. We argue that our experiments give reasons to further explore how GAI can be employed in anthropological practice and especially their merits as tools for speculation.
 
 Links
 ======
 
-[Link](https://www.easst4s2024.net/programme/#14299.85653)
+[Link](https://easaonline.org/conferences/easa2024/programme#14553.80304)
 
 
