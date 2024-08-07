@@ -110,8 +110,25 @@ redirect_from:
   <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
 </div>
 
+
 <div class="container">
-  <div class="large-div post" data-category="Conference">
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-15.md/">
+      <img src="/images/EASA2024.jpg" alt="AIsommedborger">
+    </a>
+    <h2>Conference: Speculating with generative AI</h2>
+  </div>
+
+<div class="container">
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-14.md/">
+      <img src="/images/EASTS4s.jpg" alt="AIsommedborger">
+    </a>
+    <h2>Conference: The human in audience-centered film production</h2>
+  </div>
+    
+<div class="container">
+  <div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
       <img src="/images/AIasCitizen.png" alt="AIsommedborger">
     </a>
