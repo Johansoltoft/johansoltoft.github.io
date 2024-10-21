@@ -112,7 +112,7 @@ redirect_from:
 
 <div class="container">
   <div class="responsive-div post" data-category="Article">
-    <a href="https://johansoltoft.github.io/publications/2023-01-10-workshop-title-number-18.md/">
+    <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-18.md/">
       <img src="/images/Synthetic-Interlocutors.png" alt="Synthetic-I">
     </a>
     <h2>Article: Synthetic Interlocutors</h2>
