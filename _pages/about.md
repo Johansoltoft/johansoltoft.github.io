@@ -119,7 +119,7 @@ redirect_from:
   </div>
   
   <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/publications/2023-01-10-workshop-title-number-17.md/">
+    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-17.md/">
       <img src="/images/ISA-1.JPG" alt="ISA">
     </a>
     <h2>Conference: From digital methods to computationel methods</h2>
