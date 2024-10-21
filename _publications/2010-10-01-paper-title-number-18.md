@@ -6,7 +6,7 @@ tags:
 
 ---
 
-![MACHINEfriction](/images/Synthetic-Interlocutors.png)
+![MACHINEfriction](/images/Synthetic-Interlocutors1.png)
 
 Article Written by Søltoft, J. I., Kocksch L. A., Munk, A. K.  (2024) 
 
