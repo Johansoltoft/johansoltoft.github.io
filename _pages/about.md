@@ -110,8 +110,14 @@ redirect_from:
   <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
 </div>
 
-
 <div class="container">
+  <div class="responsive-div post" data-category="Workshop">
+    <a href="https://johansoltoft.github.io/publications/2023-01-10-workshop-title-number-20.md/">
+      <img src="/images/Workshop2023.jpg" alt="Workshop2023">
+    </a>
+    <h2>Workshop: Exploring AI in Creative Practices</h2>
+  </div>
+
   <div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-15.md/">
       <img src="/images/EASA2024.jpg" alt="EASA">
