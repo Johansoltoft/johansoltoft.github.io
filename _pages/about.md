@@ -111,11 +111,11 @@ redirect_from:
 </div>
 
 <div class="container">
-  <div class="responsive-div post" data-category="Workshop">
-    <a href="https://johansoltoft.github.io/publications/2023-01-10-workshop-title-number-20.md/">
-      <img src="/images/Workshop2023.jpg" alt="Workshop2023">
+  <div class="responsive-div post" data-category="Conference">
+    <a href="https://johansoltoft.github.io/publications/2023-01-10-workshop-title-number-17.md/">
+      <img src="/images/ISA-1.JPG" alt="ISA">
     </a>
-    <h2>Workshop: Exploring AI in Creative Practices</h2>
+    <h2>Conference: From digital methods to computationel methods</h2>
   </div>
 
   <div class="responsive-div post" data-category="Conference">
