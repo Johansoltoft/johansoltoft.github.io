@@ -1,5 +1,5 @@
 ---
-title: "Digital Sociology - From digitial methods to computationel methods"
+title: "Digital Sociology - From digital methods to computationel methods"
 date: 2024-09-13
 permalink: /publications/2009-10-01-paper-title-number-17.md/
 tags:
