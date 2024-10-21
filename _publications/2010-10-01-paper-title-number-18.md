@@ -20,4 +20,11 @@ Søltoft, J. I., Kocksch, L., & Munk, A. K. (2024). Synthetic Interlocutors. Exp
 
 [Link to full paper](https://arxiv.org/abs/2410.11395)
 
+**Related posts**
+
+[*workshop*](https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-6.md/)
+
+[*Conference presentation*](https://johansoltoft.github.io/talks/2012-03-01-talk-10)
+
+
 
