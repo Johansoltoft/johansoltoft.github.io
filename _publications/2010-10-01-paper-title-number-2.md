@@ -42,4 +42,9 @@ Madsen, A. K., Munk, A. K., & Søltoft, J. I. (2023). Friction by machine: How t
 
 [Link to full paper](https://www.epicpeople.org/friction-by-machine-and-computational-methods/)
 
+**Related posts**
+
+[*Conference presentation - EPIC*](https://johansoltoft.github.io/talks/2012-03-01-talk-1)
+
+
 
