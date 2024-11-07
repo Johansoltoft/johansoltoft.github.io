@@ -19,3 +19,7 @@ We will present three cases of repurposing these methods for social scientific i
 ![ISA2](/images/ISA-2.JPG)
 ![ISA3](/images/ISA-3.JPG)
 
+
+------------------------------
+[Newsletter from the WG10 Digital Sociology - conference](https://vbn.aau.dk/en/projects/styrkelse-af-smvernes-datafantasi)
+
