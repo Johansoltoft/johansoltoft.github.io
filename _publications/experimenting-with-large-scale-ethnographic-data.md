@@ -16,7 +16,7 @@ Following the presentation, Johan Irving Søltoft facilitated a hands-on exercis
 Links
 ======
 🗺️🔎🗺️
-[Link to GitHuub](https://github.com/ECHOlab-DTU/Experimenting-with-large-ethnographic-data-workshop)
+[Link to GitHub](https://github.com/ECHOlab-DTU/Experimenting-with-large-ethnographic-data-workshop)
 🗺️🔎🗺️
 
 
