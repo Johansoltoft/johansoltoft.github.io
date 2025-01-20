@@ -5,7 +5,7 @@ permalink: /publications/2009-10-01-paper-title-number-17.md/
 tags:
 
 ---
-![etno-machine-1](/Workshop-1-Etno.jpg)
+![etno-machine-1](/images/Workshop-1-Etno.jpg)
 
 We held a workshop in ECHOlab on the theme of experimenting with large-scale etnographic data. The session began with a presentation by Brit Ross Winthereik, who introduced us to various approaches and modes of experimentation through her book, Experimenting with Ethnography. 
 
