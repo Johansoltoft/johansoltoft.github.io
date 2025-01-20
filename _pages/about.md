@@ -115,7 +115,7 @@ redirect_from:
     <a href="https://grounding-ai.github.io/">
       <img src="/images/grounding-AI.png" alt="Grounding-AI">
     </a>
-    <h2>Website: Grounding AI- AI Atlas of AI</h2>
+    <h2>Website: Grounding AI - AI Atlas of AI</h2>
   </div>
   
   <div class="responsive-div post" data-category="Workshop">
