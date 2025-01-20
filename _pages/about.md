@@ -118,14 +118,6 @@ redirect_from:
     <h2>Website: Grounding AI - AI Atlas of AI</h2>
   </div>
   
-  <div class="responsive-div post" data-category="Workshop">
-    <a href="https://johansoltoft.github.io/publications/experimenting-with-large-scale-ethnographic-data.md/">
-      <img src="/images/Workshop-1-Etno.jpg" alt="Workshop-etno">
-    </a>
-    <h2>Workshop: Experimenting With Large-Scale Ethnographic Data</h2>
-  </div>
-
-  
   <div class="responsive-div post" data-category="Article">
     <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-18.md/">
       <img src="/images/Synthetic-Interlocutors.png" alt="Synthetic-I">
@@ -138,6 +130,13 @@ redirect_from:
       <img src="/images/ISA-1.JPG" alt="ISA">
     </a>
     <h2>Conference: From digital methods to computationel methods</h2>
+  </div>
+  
+  <div class="responsive-div post" data-category="Workshop">
+    <a href="https://johansoltoft.github.io/publications/experimenting-with-large-scale-ethnographic-data.md/">
+      <img src="/images/Workshop-1-Etno.jpg" alt="Workshop-etno">
+    </a>
+    <h2>Workshop: Experimenting With Large-Scale Ethnographic Data</h2>
   </div>
 
   <div class="responsive-div post" data-category="Conference">
