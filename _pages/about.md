@@ -111,6 +111,14 @@ redirect_from:
 </div>
 
 <div class="container">
+  <div class="responsive-div post" data-category="Workshop">
+    <a href="https://johansoltoft.github.io/publications/experimenting-with-large-scale-ethnographic-data.md/">
+      <img src="/images/Workshop-1-Etno.jpg" alt="Workshop-etno">
+    </a>
+    <h2>Workshop: Experimenting With Large-Scale Ethnographic Data</h2>
+  </div>
+
+  
   <div class="responsive-div post" data-category="Article">
     <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-18.md/">
       <img src="/images/Synthetic-Interlocutors.png" alt="Synthetic-I">
