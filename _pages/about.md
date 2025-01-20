@@ -111,6 +111,13 @@ redirect_from:
 </div>
 
 <div class="container">
+   <div class="responsive-div post" data-category="Blogpost">
+    <a href="https://grounding-ai.github.io/">
+      <img src="/images/grounding-AI.png" alt="Grounding-AI">
+    </a>
+    <h2>Website: Grounding AI- AI Atlas of AI</h2>
+  </div>
+  
   <div class="responsive-div post" data-category="Workshop">
     <a href="https://johansoltoft.github.io/publications/experimenting-with-large-scale-ethnographic-data.md/">
       <img src="/images/Workshop-1-Etno.jpg" alt="Workshop-etno">
