@@ -1,7 +1,7 @@
 ---
 title: "Experimenting With Large-Scale Ethnographic Data"
 date: 2024-09-02
-permalink: /publications/2009-10-01-paper-title-number-17.md/
+permalink: /publications/experimenting-with-large-scale-ethnographic-data.md/
 tags:
 
 ---
