@@ -1,5 +1,5 @@
 ---
-title: "MASSHINE conference: SSH as a one click method: Text Unit Tool (TUT): An open-source tool for archiving and exploration of large-scale text data"
+title: "MASSHINE conference- SSH as a one click method: Text Unit Tool (TUT): An open-source tool for archiving and exploration of large-scale text data"
 date: 2025-03-11
 permalink: /publications/Text-Unit-Tool.md/
 tags:
