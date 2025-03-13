@@ -112,7 +112,7 @@ redirect_from:
 
 <div class="container">
     <div class="responsive-div post" data-category="Conference">
-    <a href="XX">
+    <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/">
       <img src="/images/TUT-johan.jpg" alt="Grounding-AI">
     </a>
     <h2>Conference: Text Unit Tool (TUT): An open-source tool for archiving and exploration of large-scale text data</h2>
