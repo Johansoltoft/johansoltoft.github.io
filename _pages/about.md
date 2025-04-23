@@ -111,7 +111,14 @@ redirect_from:
 </div>
 
 <div class="container">
-    <div class="responsive-div post" data-category="Conference">
+  <div class="responsive-div post" data-category="Blogpost">
+    <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/">
+      <img src="/images/Map1.gif" alt="Grounding-AI">
+    </a>
+    <h2>Exhibition: Danish Technological Museum: Grounding AI</h2>
+  </div>
+  
+  <div class="responsive-div post" data-category="Conference">
     <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/">
       <img src="/images/TUT-johan.jpg" alt="Grounding-AI">
     </a>
