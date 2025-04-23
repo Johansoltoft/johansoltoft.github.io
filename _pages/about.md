@@ -119,7 +119,7 @@ redirect_from:
   </div>
   
    <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://grounding-ai.github.io/">
+    <a href="https://grounding-ai.github.io/web-application/">
       <img src="/images/grounding-AI2.png" alt="Grounding-AI">
     </a>
     <h2>Website: Grounding AI - AI Atlas of AI</h2>
