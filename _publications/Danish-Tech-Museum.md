@@ -5,11 +5,13 @@ permalink: /publications/Danish-Tech-Museum.md/
 tags:
 
 ---
-The Grounded AI Map is a 100m² floor mat representing 2M scientific papers involving AI and algorithms. The Danish Technical Museum will be exhibiting it until June 2, 2025, in dialogue with objects selected from its collections.
+The Grounded AI Map is a 10x10 meter floor mat representing 2M scientific papers involving AI and algorithms since the 1980s. The Danish Technical Museum will be exhibiting it until June 2, 2025, in dialogue with objects selected from its collections.
 
 You can find more information here about the project [Link to Project](https://grounding-ai.github.io/web-application/#/about/project)
 
 Link to the [Grounding AI MAP](https://grounding-ai.github.io/web-application/#/map)
+
+This work is a collaboration between Anders Munk, Mathieu Jacomy, Matilde Ficozzi, Dario Rodighiero, Ainoa Pubill, Sarah Feldes, Barbara Carreras, and Mads Kring, and has been sponsored by the Algoritmer, Data og Demokrati (ADD projektet), TANTlab at AAU, ECHOlab at DTU, and the University of Groningen.
 
 ![Grounding-AI-1](/images/map2.gif)
 ![Grounding-AI-1](/images/map3.gif)
