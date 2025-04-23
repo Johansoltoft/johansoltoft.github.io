@@ -113,7 +113,7 @@ redirect_from:
 <div class="container">
   <div class="responsive-div post" data-category="Blogpost">
     <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/">
-      <img src="/images/Map1.gif" alt="Grounding-AI">
+      <img src="/images/map2.gif" alt="Grounding-AI">
     </a>
     <h2>Exhibition: Danish Technological Museum: Grounding AI</h2>
   </div>
