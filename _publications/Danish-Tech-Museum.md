@@ -7,7 +7,7 @@ tags:
 ---
 The Grounded AI Map is a 10x10 meter floor mat representing 2M scientific papers involving AI and algorithms since the 1980s. The Danish Technical Museum will be exhibiting it until June 2, 2025, in dialogue with objects selected from its collections.
 
-You can find more information here about the project [here](https://grounding-ai.github.io/web-application/#/about/project)
+You can find more information about the project [here](https://grounding-ai.github.io/web-application/#/about/project)
 
 Link to the [Grounding AI MAP](https://grounding-ai.github.io/web-application/#/map)
 
