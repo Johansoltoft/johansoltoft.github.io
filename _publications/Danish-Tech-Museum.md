@@ -13,9 +13,8 @@ Link to the [Grounding AI MAP](https://grounding-ai.github.io/web-application/#/
 
 This work is a collaboration between Anders Munk, Mathieu Jacomy, Matilde Ficozzi, Dario Rodighiero, Ainoa Pubill, Sarah Feldes, Barbara Carreras, and Mads Kring, and has been sponsored by the Algoritmer, Data og Demokrati (ADD projektet), TANTlab at AAU, ECHOlab at DTU, and the University of Groningen.
 
-![Grounding-AI-1](/images/map2.gif)
-![Grounding-AI-1](/images/map3.gif)
 ![Grounding-AI-1](/images/Map1.gif)
+![Grounding-AI-1](/images/map2.gif)
 
 
 
