@@ -111,6 +111,13 @@ redirect_from:
 </div>
 
 <div class="container">
+   <div class="responsive-div post" data-category="Article">
+    <a href="">
+      <img src="/images/datafantasi.png" alt="Grounding-AI">
+    </a>
+    <h2>Book Chapter: Datafantasi: Fra styring til læring i en verden af vilde problemer</h2>
+  </div>
+  
   <div class="responsive-div post" data-category="Blogpost">
     <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/">
       <img src="/images/map2.gif" alt="Grounding-AI">
