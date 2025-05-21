@@ -111,6 +111,14 @@ redirect_from:
 </div>
 
 <div class="container">
+
+  <div class="responsive-div post" data-category="Article">
+    <a href="">
+      <img src="/images/Recalcitrant-audiencing.png" alt="Recalcitrant-audiencing">
+    </a>
+    <h2>Article: Recalcitrant audiencing: Between analytics and creative practice in the film industry</h2>
+  </div>
+  
    <div class="responsive-div post" data-category="Article">
     <a href="">
       <img src="/images/datafantasi.png" alt="Grounding-AI">
