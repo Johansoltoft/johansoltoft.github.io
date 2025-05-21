@@ -113,7 +113,7 @@ redirect_from:
 <div class="container">
 
   <div class="responsive-div post" data-category="Article">
-    <a href="">
+    <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/">
       <img src="/images/Recalcitrant-audiencing.png" alt="Recalcitrant-audiencing">
     </a>
     <h2>Article: Recalcitrant audiencing: Between analytics and creative practice in the film industry</h2>
