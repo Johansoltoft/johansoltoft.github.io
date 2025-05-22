@@ -121,7 +121,7 @@ redirect_from:
   
    <div class="responsive-div post" data-category="Article">
     <a href="">
-      <img src="/images/datafantasi.png" alt="Grounding-AI">
+      <img src="/images/Datafantasi2.png" alt="datafantasi">
     </a>
     <h2>Book Chapter: Datafantasi: Fra styring til læring i en verden af vilde problemer</h2>
   </div>
