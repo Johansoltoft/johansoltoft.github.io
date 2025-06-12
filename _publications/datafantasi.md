@@ -5,6 +5,8 @@ permalink: /publications/datafantasi.md/
 tags:
 
 ---
+![datafantasi](/images/Datafantasi2.png)
+
 "Datafantasi" was co-written with Anders Madsen and Ann-Sofie, but it also draws heavily on five years of teaching in the Master in Data-Driven Organization (MDO) program, where both students and co-teachers have contributed their perspectives.
 
 The chapter introduces the Data Diamond as a heuristic tool for analyzing and mapping data situations. We illustrate the model with a case from Helsingør Municipality, where, a few years ago, semantic analysis was used to understand student well-being as part of an MDO project.
