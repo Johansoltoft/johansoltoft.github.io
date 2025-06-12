@@ -13,6 +13,7 @@ The chapter introduces the Data Diamond as a heuristic tool for analyzing and ma
 
 Our aim with the chapter is to develop a conceptual framework for discussing data projects as opportunities for learning rather than as instruments of control. In this way, we seek to decouple data from New Public Management and open up new ways of imagining data work within organizations.
 
+[Link to the Book]([https://www.en.ssh.aau.dk/mini-conference-ssh-as-a-one-click-method-e131474#text-unit-tool-(johan-irving-s%C3%B8ltoft,-dtu)](https://samfundslitteratur.dk/bog/organisatorisk-laering-og-forandring))
 
 
 
