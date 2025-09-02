@@ -27,7 +27,6 @@ author_profile: true
     margin-bottom: 1.4rem;
     border-bottom: 1px solid #e6e6e6;
   }
-
   .teach-item:last-child {
     border-bottom: none;
     margin-bottom: 0;
@@ -64,7 +63,7 @@ author_profile: true
   <section class="teach-section">
     <h2>Courses</h2>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">
         <a href="https://johansoltoft.github.io//teaching/2015-spring-teaching-1">
           Digitalization and Technology Management
@@ -75,68 +74,68 @@ author_profile: true
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2024</span>
         <span>Lecturer</span>
+        <span>2024</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Controversy Mapping</h3>
       <p class="teach-subtle">
         Techno-Anthropology • 8th semester • 5 ECTS
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2023</span>
         <span>Teaching Assistant</span>
+        <span>2023</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Introduction to data-intensive digital methods in humanities projects</h3>
       <p class="teach-subtle">
         Organizational Learning • 5 ECTS
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2022</span>
         <span>Co-teacher</span>
+        <span>2022</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Elective: Technology-based language and communication work</h3>
       <p class="teach-subtle">
         Organizational Learning • 5 ECTS
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2021</span>
         <span>Co-teacher</span>
+        <span>2021</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Master’s project in data-driven organizational development</h3>
       <p class="teach-subtle">
         Data-Driven Organizational Development • 4th semester
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2024</span>
         <span>Project co-coordinator</span>
+        <span>2024</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Sprint: Analysis of large Data Sets in the Organization and its Environment</h3>
       <p class="teach-subtle">
         Data-Driven Organizational Development • 2nd semester
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2023</span>
         <span>Instructor</span>
+        <span>2023</span>
       </p>
     </div>
 
@@ -153,56 +152,56 @@ author_profile: true
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2024</span>
         <span>Supervisor</span>
+        <span>2024</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Technological Processes and Design</h3>
       <p class="teach-subtle">
         Techno-Anthropology • 8th semester • 15 ECTS
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2023</span>
         <span>Supervisor</span>
+        <span>2023</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Technological Transformations</h3>
       <p class="teach-subtle">
         Techno-Anthropology • 7th semester • 15 ECTS
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2022</span>
         <span>Supervisor</span>
+        <span>2022</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Techno-Anthropological Problem Understanding</h3>
       <p class="teach-subtle">
         Techno-Anthropology • 1st semester • 15 ECTS
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2021</span>
         <span>Supervisor</span>
+        <span>2021</span>
       </p>
     </div>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Organizational Development through Design of Data-Driven Interventions</h3>
       <p class="teach-subtle">
         Data-Driven Organizational Development • 3rd semester • 15 ECTS
       </p>
       <p class="teach-meta">
         <span>Aalborg University (AAU)</span>
-        <span>2024</span>
         <span>Co-project coordinator</span>
+        <span>2024</span>
       </p>
     </div>
 
