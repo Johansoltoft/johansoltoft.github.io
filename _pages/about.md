@@ -200,7 +200,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
     <div class="post-meta-left">
       <div class="post-source">Article</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2025</div>
     </div>
     <div class="post-content">
       <div class="post-title">Recalcitrant audiencing: Between analytics and creative practice in the film industry</div>
