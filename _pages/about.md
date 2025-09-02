@@ -145,7 +145,7 @@ author_profile: true
   <section class="teach-section">
     <h2>Project supervision</h2>
 
-    <div class="teach-item">
+  <div class="teach-item">
       <h3 class="teach-title">Technology in Anthropological Perspective</h3>
       <p class="teach-subtle">
         Techno-Anthropology • 3rd semester • 15 ECTS
