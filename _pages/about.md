@@ -279,8 +279,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Synthetic Interlocutors</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Investigating the role of AI-generated conversational agents and their impact on human communication patterns and social interaction dynamics.</div>
+      <div class="post-authors">Johan Irving Søltoft, Laura Kocksch, Anders Munk</div>
+      <div class="post-description">This pre-print introduces “Synthetic Interlocutors” for ethnographic research. Synthetic Interlocutors are chatbots ingested with ethnographic textual material (interviews and observations) by using Retrieval Augmented Generation (RAG). We integrated an open-source large language model with ethnographic data from three projects to explore two questions: Can RAG digest ethnographic material and act as ethnographic interlocutor? And, if so, can Synthetic Interlocutors prolong encounters with the field and extend our analysis?.</div>
     </div>
     <div class="post-image">
       <img src="/images/Synthetic-Interlocutors.png" alt="Synthetic-I">
@@ -294,8 +294,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">From digital methods to computational methods</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Exploring the evolution of research methodologies from traditional digital approaches to advanced computational techniques in social science research.</div>
+      <div class="post-authors">Lasse Uhrskov Kristensen, Johan Irving Søltoft</div>
+      <div class="post-description">In this presentation we argued that engagements with new computational techniques, such as large language models, could be seen as a continuation of digital methods. While digital methods repurposed the web as both topic and resource (Rogers, 2019; 2013; Marres, 2017), we showed how computational methods adapted computer and data science not only as tools but also as research objects.</div>
     </div>
     <div class="post-image">
       <img src="/images/ISA-1.JPG" alt="ISA">
@@ -309,8 +309,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Experimenting With Large-Scale Ethnographic Data</div>
-      <div class="post-authors">Johan Søltoft, Research Team</div>
-      <div class="post-description">A hands-on workshop exploring innovative approaches to analyzing and interpreting large-scale ethnographic datasets using computational methods.</div>
+      <div class="post-authors">Johan Irving Søltoft, Anders Munk, Brit Winthereik</div>
+      <div class="post-description">We held a workshop in ECHOlab on the theme of experimenting with large-scale etnographic data. The session began with a presentation by Brit Ross Winthereik, who introduced us to various approaches and modes of experimentation through her book, Experimenting with Ethnography.</div>
     </div>
     <div class="post-image">
       <img src="/images/Workshop-1-Etno.jpg" alt="Workshop-etno">
@@ -324,8 +324,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Speculating with generative AI</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Examining the speculative potential of generative AI technologies and their implications for creative and analytical practices in anthropology.</div>
+      <div class="post-authors">Laura Kocksch, Johan Irving Søltoft</div>
+      <div class="post-description">Based on a series of experiments with a large language model ingested with ethnographic interviews, we reflect on moments of disconcertment, re-experiencing and estranging ethnographic encounters. We argue for a speculative use of Generative AI in Anthropology.</div>
     </div>
     <div class="post-image">
       <img src="/images/EASA2024.jpg" alt="EASA">
@@ -340,7 +340,7 @@ redirect_from:
     <div class="post-content">
       <div class="post-title">The human in audience-centered film production</div>
       <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Investigating how human elements persist and evolve in film production processes increasingly driven by audience data and algorithmic insights.</div>
+      <div class="post-description">The study examines the methods developed by the consultancy firm, including mobile ethnography for engaging global audiences, automatic transcription for processing interviews, emotion detection algorithms applied to transcribed data, and generative AI in order to showcase different practices of constructing the audience for the movie production process.</div>
     </div>
     <div class="post-image">
       <img src="/images/EASTS4s.jpg" alt="EASST/4s">
@@ -354,8 +354,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">AI as citizens?</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">A provocative exploration of the potential for artificial intelligence systems to participate in civic life and democratic processes as digital citizens.</div>
+      <div class="post-authors">Anders Munk, Brit Winthereik, Johan Søltoft</div>
+      <div class="post-description">The public conversation may be partially generated by AI. But can we handle language models as participants in our democracy? and should we? To test this, we trained two language models, in the Human Centered Innovation research group, to participate in a panel debate at Folkemødet.</div>
     </div>
     <div class="post-image">
       <img src="/images/AIasCitizen.png" alt="AIasCitizen.png">
@@ -365,12 +365,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-2.md/" class="post-item category-article" data-category="Article">
     <div class="post-meta-left">
       <div class="post-source">Article</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Friction by Machine: How to Slow Down Reasoning with Computational Methods</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Examining how computational methods can introduce productive friction into research processes, encouraging deeper reflection and more nuanced analysis.</div>
+      <div class="post-authors">Anders Koed Madsen, Anders Munk, Johan Irving Søltoft</div>
+      <div class="post-description">This paper provides a theoretical alternative to the prevailing perception of machine learning as synonymous with speed and efficiency. Inspired by ethnographic fieldwork and grounded in pragmatist philosophy, we introduce the concept of “data friction” as the situation when encounters between held beliefs and data patterns posses the potential to stimulate innovative thinking.</div>
     </div>
     <div class="post-image">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology">
