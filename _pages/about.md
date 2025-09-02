@@ -380,7 +380,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-4.md/" class="post-item category-blogpost" data-category="Blogpost">
     <div class="post-meta-left">
       <div class="post-source">Blogpost</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">"In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</div>
@@ -395,12 +395,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-9" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Unravelling Collaborative Storytelling with Generative AI</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Exploring how generative AI transforms collaborative narrative creation, examining new forms of human-machine creative partnerships.</div>
+      <div class="post-authors">Morten Heuser, Johan Søltoft</div>
+      <div class="post-description">Generative artificial intelligence (AI) has demonstrated proficiency in composing sentences and structures that conform to grammatical precepts. However, our focus centres on an explorative ethnographic inquiry of generative AI within the context of Dungeons & Dragons. </div>
     </div>
     <div class="post-image">
       <img src="/images/D&D.png" alt="Collaborative Storytelling">
@@ -410,12 +410,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-7" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Interfacing with Synthetic Mundane Politicians</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Investigating the emergence of AI-generated political personas and their potential impact on democratic discourse and political engagement.</div>
+      <div class="post-authors">Johan Søltoft, Anders Koed Madsen</div>
+      <div class="post-description">In urban settings, connecting with local political agendas can be challenging. Existing methods for interfacing with politicians are often mediated by journalists or involve staged events like rallies or town hall meetings, which may not reflect everyday mundane politics. To address this, we’ve initiated an experiment utilizing a generative AI model to facilitate conversations with synthetic mundane politicians.</div>
     </div>
     <div class="post-image">
       <img src="/images/Syn-politicans.png" alt="Synthetic Politicians">
@@ -425,12 +425,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-10" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Exploring Cinematic Engagement through a Synthetic AI Film Lover</div>
       <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Developing AI systems that can engage with cinema as passionate viewers, exploring new forms of computational film criticism and analysis.</div>
+      <div class="post-description">We are currently conducting an ongoing experiment that involves inputting these interviews into an open LLM model. The chatbot, has been prompted to have a film enthusiast “persona”.</div>
     </div>
     <div class="post-image">
       <img src="/images/MASSHINE-syn.jpg" alt="SyntheticFiLM">
@@ -440,7 +440,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-1" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Friction by Machine</div>
@@ -455,7 +455,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2014-02-01-talk-2" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Audience Awareness Through Machine Anthropology</div>
@@ -470,11 +470,11 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-6.md/" class="post-item category-workshop" data-category="Workshop">
     <div class="post-meta-left">
       <div class="post-source">Workshop</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Dragør retreat Generative Ethnographic AI</div>
-      <div class="post-authors">Johan Søltoft, Research Team</div>
+      <div class="post-authors">MASSHINE</div>
       <div class="post-description">Intensive workshop retreat exploring the intersection of generative AI technologies and ethnographic research methodologies.</div>
     </div>
     <div class="post-image">
@@ -485,7 +485,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-3.md/" class="post-item category-blogpost" data-category="Blogpost">
     <div class="post-meta-left">
       <div class="post-source">Blogpost</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Studying Community Detection Using Twitch Emotes</div>
@@ -500,12 +500,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-5.md/" class="post-item category-blogpost" data-category="Blogpost">
     <div class="post-meta-left">
       <div class="post-source">Blogpost</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</div>
       <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Tracking and analyzing the evolution of public discourse about cultural institutions through social media conversation patterns.</div>
+      <div class="post-description">Tracking and analyzing the evolution of public dicussions about Danish National Museum.</div>
     </div>
     <div class="post-image">
       <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network">
@@ -515,12 +515,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2014-03-01-talk-3" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2022</div>
     </div>
     <div class="post-content">
       <div class="post-title">Creatively Acceptable AI</div>
       <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Examining the conditions under which AI technologies become acceptable and valuable tools within creative industries and artistic practices.</div>
+      <div class="post-description">Examining the conditions under which AI technologies become acceptable and applicable tools within creative industries and artistic practices.</div>
     </div>
     <div class="post-image">
       <img src="/images/NordicSTS.jpg" alt="NordicSTS">
@@ -530,11 +530,11 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-1.md/" class="post-item category-blogpost" data-category="Blogpost">
     <div class="post-meta-left">
       <div class="post-source">Blogpost</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2022</div>
     </div>
     <div class="post-content">
       <div class="post-title">Strengthening the data-imagination of SMEs</div>
-      <div class="post-authors">Johan Søltoft</div>
+      <div class="post-authors">Rikke Ørngreen, Anders Kristian Munk, Sara Paasch Knudsen, Johan Irving Søltoft, Helene Husted Hansen, Mathieu Jacomy, Asger Gehrt Knudsen</div>
       <div class="post-description">Helping small and medium enterprises develop their capacity to imagine and implement data-driven innovations and strategies.</div>
     </div>
     <div class="post-image">
@@ -545,7 +545,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-4" class="post-item category-workshop" data-category="Workshop">
     <div class="post-meta-left">
       <div class="post-source">Workshop</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2022</div>
     </div>
     <div class="post-content">
       <div class="post-title">BERT is the word</div>
