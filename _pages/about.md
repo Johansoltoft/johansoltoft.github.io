@@ -198,7 +198,7 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Recalcitrant audiencing: Between analytics and creative practice in the film industry</div>
-      <div class="post-authors">Johan Søltoft, Anders Munk</div>
+      <div class="post-authors">Johan Irving Søltoft, Anders Munk</div>
       <div class="post-description">This article explores the evolution of audience analytics in filmmaking in the context of digital platforms and AI. We propose the term 𝘳𝘦𝘤𝘢𝘭𝘤𝘪𝘵𝘳𝘢𝘯𝘵 𝘢𝘶𝘥𝘪𝘦𝘯𝘤𝘪𝘯𝘨 to describe a mode of audience engagement that resists confirming filmmakers’ assumptions, instead challenging dominant ideas about who the audience is or should be. In place of a docile, knowable audience, we trace the emergence of one that is intentionally recalcitrant- ambivalent, heterogeneous, and constructed to be troubling.</div>
     </div>
     <div class="post-image">
@@ -228,7 +228,7 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Danish Technological Museum: Grounding AI</div>
-      <div class="post-authors">Anders Kristian Munk, Mathieu Jacomy, Matilde Ficozzi, Dario Rodighiero, Johan Søltoft, Ainoa Pubill, Sarah Feldes</div>
+      <div class="post-authors">Anders Kristian Munk, Mathieu Jacomy, Matilde Ficozzi, Dario Rodighiero, Johan Irving Søltoft, Ainoa Pubill, Sarah Feldes</div>
       <div class="post-description">The Grounded AI Map is a 10x10 meter floor mat representing 2M scientific papers involving AI and algorithms since the 1980s. The Danish Technical Museum will be exhibiting it until June 2, 2025, in dialogue with objects selected from its collections.</div>
     </div>
     <div class="post-image">
@@ -243,8 +243,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Text Unit Tool (TUT): An open-source tool for archiving and exploration of large-scale text data</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">Presenting an innovative open-source tool designed for researchers to archive, explore, and analyze large-scale textual datasets efficiently.</div>
+      <div class="post-authors">Johan Irving Søltoft</div>
+      <div class="post-description">Presenting Text Unit Tool (TUT) which is an open-source software designed for archiving large-scale datasets of text units. It enables semantic exploration as a navigation strategy for qualitative text material, and close and distant reading analysis.</div>
     </div>
     <div class="post-image">
       <img src="/images/TUT-johan.jpg" alt="Text Unit Tool">
@@ -254,12 +254,12 @@ redirect_from:
   <a href="https://grounding-ai.github.io/web-application/" class="post-item category-blogpost" data-category="Blogpost">
     <div class="post-meta-left">
       <div class="post-source">Website</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2025</div>
     </div>
     <div class="post-content">
       <div class="post-title">Grounding AI - AI Atlas of AI</div>
-      <div class="post-authors">Johan Søltoft, Research Team</div>
-      <div class="post-description">A comprehensive web application that maps the landscape of artificial intelligence research and applications, making AI knowledge more accessible and navigable.</div>
+      <div class="post-authors">Anders Kristian Munk, Mathieu Jacomy, Matilde Ficozzi, Dario Rodighiero, Johan Irving Søltoft, Ainoa Pubill, Sarah Feldes</div>
+      <div class="post-description">AI is everywhere and nowhere. Public discussions about AI often focus on specific applications, like ChatGPT, leading us to associate AI primarily with these well-known tools. As a result, we may overlook the fact that AI is deeply embedded in many aspects of our daily lives, and involves a much broader range of technologies than we would perhaps normally think.</div>
     </div>
     <div class="post-image">
       <img src="/images/grounding-AI2.png" alt="Grounding-AI">
