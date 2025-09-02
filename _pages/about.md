@@ -36,7 +36,7 @@ redirect_from:
   
   .filter-buttons {
     text-align: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 14px;
     color: #999;
     text-transform: uppercase;
@@ -602,7 +602,8 @@ redirect_from:
     const posts = document.querySelectorAll('[data-category]');
     posts.forEach(post => {
       const postCategory = post.dataset.category;
-      const postYear = post.querySelector('.post-year').textContent;
+      const postYearElement = post.querySelector('.post-year');
+      const postYear = postYearElement ? postYearElement.textContent.trim() : '';
       
       const categoryMatch = currentCategory === 'All' || postCategory === currentCategory;
       const yearMatch = currentYear === 'All' || postYear === currentYear;
@@ -618,13 +619,13 @@ redirect_from:
   function updateButtonStyles(type, selected) {
     const selector = type === 'category' ? '.filter-buttons .filter-button' : '.year-buttons .filter-button';
     document.querySelectorAll(selector).forEach(btn => {
-      btn.style.backgroundColor = 'white';
+      btn.style.backgroundColor = 'transparent';
       btn.style.color = '#999';
-      btn.style.borderColor = 'transparent';
     });
     
-    event.target.style.backgroundColor = '#007bff';
-    event.target.style.color = 'white';
-    event.target.style.borderColor = '#007bff';
+    if (event && event.target) {
+      event.target.style.backgroundColor = '#007bff';
+      event.target.style.color = 'white';
+    }
   }
 </script>
