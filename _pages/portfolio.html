@@ -15,59 +15,17 @@ author_profile: true
 </head>
 
 <style>
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  * {
     margin: 0;
-    padding: 20px 0;
-  }
-
-  .project {
-    flex: 1 1 30%;
-    max-width: 30%;
+    padding: 0;
     box-sizing: border-box;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: white;
   }
-
-  .project img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .project-title {
-    font-size: 16px; /* Reduced font size */
-    font-weight: bold;
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
     color: #333;
-    margin: 10px 0;
-    text-decoration: none; /* Remove underline */
-    font-family: 'Helvetica', 'Arial', sans-serif; /* Added font family */
-  }
-
-  .project-title:hover {
-    color: #007bff; /* Highlight color on hover */
-  }
-
-  .employment-period {
-    font-size: 14px;
-    color: #666;
-    margin-top: 5px; /* Reduce space between image and text */
-  }
-
-  @media (max-width: 768px) {
-    .project {
-      flex: 1 1 100%;
-      max-width: 100%;
-    }
-
-    .project-title {
-      font-size: 14px; /* Adjusted font size for smaller screens */
-    }
+    background-color: white;
   }
 
   .large-div {
@@ -75,6 +33,107 @@ author_profile: true
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .project-item {
+    display: flex;
+    background: white;
+    text-decoration: none !important;
+    color: inherit;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .project-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .project-item * {
+    text-decoration: none !important;
+  }
+
+  .project-meta-left {
+    flex: 0 0 150px;
+    padding-right: 20px;
+  }
+
+  .project-type {
+    font-style: italic;
+    color: #007bff;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .project-period {
+    color: #999;
+    font-size: 14px;
+  }
+
+  .project-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+
+  .project-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    transition: color 0.2s ease;
+    text-decoration: none;
+  }
+
+  .project-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+  .project-image {
+    flex: 0 0 300px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .project-item {
+      flex-direction: column;
+    }
+    
+    .project-meta-left {
+      flex: none;
+      padding-right: 0;
+      margin-bottom: 15px;
+    }
+    
+    .project-content {
+      padding-right: 0;
+      margin-bottom: 15px;
+    }
+    
+    .project-image {
+      flex: none;
+      height: 200px;
+    }
   }
 </style>
 
@@ -84,72 +143,120 @@ author_profile: true
 </div>
 
 <div class="projects-container">
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(5)">
+
+  <a href="https://johansoltoft.github.io//portfolio/project(5)" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">Research Project</div>
+      <div class="project-period">2023 - 2024</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">AI Denmark</div>
+      <div class="project-description">A comprehensive research initiative exploring artificial intelligence development and implementation within the Danish context, focusing on policy implications and technological advancement strategies.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/AIDK_600-150.png" alt="AI Denmark">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(5)" class="project-title">AI Denmark</a>
-    <div class="employment-period">Period: 1 Oct 2023 - 1 Apr 2024</div>
-  </div>
+    </div>
+  </a>
 
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(4)">
+  <a href="https://johansoltoft.github.io//portfolio/project(4)" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">Seed Funding</div>
+      <div class="project-period">2023</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">Generative Ethnographic AI - MASSHINE</div>
+      <div class="project-description">Exploring the intersection of generative AI technologies and ethnographic research methodologies, developing new approaches for computational anthropology and digital ethnography.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/MASSHINE_600-150.png" alt="Generative Ethnographic AI - Seed funding MASSHINE">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(4)" class="project-title">Generative Ethnographic AI</a>
-    <div class="employment-period">Period: 1 Jun 2023 - 31 Dec 2023</div>
-  </div>
+    </div>
+  </a>
 
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(6)">
+  <a href="https://johansoltoft.github.io//portfolio/project(6)" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">PhD Research</div>
+      <div class="project-period">2023 - 2026</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">What is creatively acceptable AI</div>
+      <div class="project-description">Investigating the conditions under which AI technologies become acceptable and valuable tools within creative industries and artistic practices, examining the balance between automation and human creativity.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/PhDAI_600-150.png" alt="What is creatively acceptable AI">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(6)" class="project-title">What is creatively acceptable AI</a>
-    <div class="employment-period">Period: 1 Feb 2023 - 31 Jan 2026</div>
-  </div>
+    </div>
+  </a>
   
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project0">
+  <a href="https://johansoltoft.github.io//portfolio/project0" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">Research Project</div>
+      <div class="project-period">2022 - 2023</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">Strengthening the data-imagination of SMEs</div>
+      <div class="project-description">Supporting small and medium enterprises in developing their capacity to imagine and implement data-driven innovations and strategies, bridging the gap between data science and business practice.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/datafantasi-600-150.png" alt="Strengthening the data-imagination of SMEs">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project0" class="project-title">Strengthening the data-imagination of SMEs</a>
-    <div class="employment-period">Period: 1 Jan 2022 - 1 Feb 2023</div>
-  </div>
+    </div>
+  </a>
 
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(2)">
+  <a href="https://johansoltoft.github.io//portfolio/project(2)" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">Research Project</div>
+      <div class="project-period">2022 - 2023</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">Biosociality and Technology in the Digital Anthropocene (BIDA)</div>
+      <div class="project-description">Examining the intersection of biological systems, social structures, and digital technologies in the contemporary era, exploring how biotechnology shapes social relations and environmental interactions.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/BIDA_600-150.png" alt="BIDA">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(2)" class="project-title">Biosociality and Technology in the Digital Anthropocene</a>
-    <div class="employment-period">Period: 1 Sep 2022 - 1 Jan 2023</div>
-  </div> 
+    </div>
+  </a>
 
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/Playfulfutures-Project(7)">
+  <a href="https://johansoltoft.github.io//portfolio/Playfulfutures-Project(7)" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">Research Project</div>
+      <div class="project-period">2022 - 2023</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">Playful futures</div>
+      <div class="project-description">Investigating the role of play and playfulness in shaping future technological and social developments, examining how playful interactions with technology influence innovation and social change.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/Playful futures_600-150.png" alt="Playful futures">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/Playfulfutures-Project(7)" class="project-title">Playful futures</a>
-    <div class="employment-period">Period: 1 Jul 2022 - 1 Jan 2023</div>
-  </div>
+    </div>
+  </a>
   
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(3)">
+  <a href="https://johansoltoft.github.io//portfolio/project(3)" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">Research Project</div>
+      <div class="project-period">2021 - 2023</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">Algorithms, Data and Democracy (ADD)</div>
+      <div class="project-description">Exploring the impact of algorithmic systems and data processing on democratic processes and institutions, examining how computational technologies reshape political participation and governance.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/ADD_600-150.png" alt="Algorithms, Data and Democracy (ADD)">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(3)" class="project-title">Algorithms, Data and Democracy</a>
-    <div class="employment-period">Period: 1 Aug 2021 - 1 Jan 2023</div>
-  </div>
+    </div>
+  </a>
 
-  <div class="project">
-    <a href="https://johansoltoft.github.io//portfolio/project(1)">
+  <a href="https://johansoltoft.github.io//portfolio/project(1)" class="project-item">
+    <div class="project-meta-left">
+      <div class="project-type">Research Project</div>
+      <div class="project-period">2020 - 2021</div>
+    </div>
+    <div class="project-content">
+      <div class="project-title">The Digitization of Everyday Life during the Covid-19 pandemic in Denmark</div>
+      <div class="project-description">Analyzing how the COVID-19 pandemic accelerated digital transformation in daily life, examining changes in work, education, social interaction, and civic participation during lockdown periods.</div>
+    </div>
+    <div class="project-image">
       <img src="/images/HV_600-150.png" alt="The Digitization of Everyday Life during the Covid-19 pandemic in Denmark">
-    </a>
-    <a href="https://johansoltoft.github.io//portfolio/project(1)" class="project-title">The Digitization of Everyday Life</a>
-    <div class="employment-period">Period: 1 Apr 2020 - 1 Jan 2021</div>
-  </div>
+    </div>
+  </a>
+
 </div>
-
-
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
