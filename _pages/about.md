@@ -189,7 +189,7 @@ redirect_from:
 
   <div class="posts-container">
 
-  <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
+    <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
       <div class="post-meta-left">
         <div class="post-source">Article</div>
         <div class="post-year">2024</div>
@@ -204,7 +204,7 @@ redirect_from:
       </div>
     </a>
     
-  <a href="https://johansoltoft.github.io/publications/datafantasi.md/" class="post-item category-article" data-category="Article">
+    <a href="https://johansoltoft.github.io/publications/datafantasi.md/" class="post-item category-article" data-category="Article">
       <div class="post-meta-left">
         <div class="post-source">Book Chapter</div>
         <div class="post-year">2024</div>
@@ -219,7 +219,7 @@ redirect_from:
       </div>
     </a>
     
-  <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/" class="post-item category-blogpost" data-category="Blogpost">
+    <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/" class="post-item category-blogpost" data-category="Blogpost">
       <div class="post-meta-left">
         <div class="post-source">Exhibition</div>
         <div class="post-year">2024</div>
