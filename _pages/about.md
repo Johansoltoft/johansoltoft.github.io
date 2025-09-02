@@ -81,7 +81,7 @@ redirect_from:
   .post-item {
     display: flex;
     background: white;
-    text-decoration: none;
+    text-decoration: none !important;
     color: inherit;
     border-bottom: 1px solid #eee;
     padding-bottom: 40px;
@@ -91,6 +91,10 @@ redirect_from:
   .post-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .post-item * {
+    text-decoration: none !important;
   }
   
   .post-meta-left {
