@@ -194,12 +194,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
     <div class="post-meta-left">
       <div class="post-source">Article</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2025</div>
     </div>
     <div class="post-content">
       <div class="post-title">Recalcitrant audiencing: Between analytics and creative practice in the film industry</div>
-      <div class="post-authors">Johan Søltoft, Mathieu Jacomy, Dario Rodighiero</div>
-      <div class="post-description">Exploring the tension between data analytics and creative practices in contemporary film production, examining how audience insights shape creative decisions and the resistance encountered in integrating algorithmic tools into creative workflows.</div>
+      <div class="post-authors">Johan Søltoft, Anders Munk</div>
+      <div class="post-description">This article explores the evolution of audience analytics in filmmaking in the context of digital platforms and AI. We propose the term 𝘳𝘦𝘤𝘢𝘭𝘤𝘪𝘵𝘳𝘢𝘯𝘵 𝘢𝘶𝘥𝘪𝘦𝘯𝘤𝘪𝘯𝘨 to describe a mode of audience engagement that resists confirming filmmakers’ assumptions, instead challenging dominant ideas about who the audience is or should be. In place of a docile, knowable audience, we trace the emergence of one that is intentionally recalcitrant- ambivalent, heterogeneous, and constructed to be troubling.</div>
     </div>
     <div class="post-image">
       <img src="/images/Recalcitrant-audiencing.png" alt="Recalcitrant-audiencing">
@@ -213,8 +213,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Datafantasi: Fra styring til læring i en verden af vilde problemer</div>
-      <div class="post-authors">Johan Søltoft</div>
-      <div class="post-description">A Danish book chapter exploring the transition from control to learning in a world of wicked problems, examining data imagination and its role in complex systems and decision-making processes.</div>
+      <div class="post-authors">Anders Koed Madsen, Johan Irving Søltoft, Ann-Sofie Klitgaard</div>
+      <div class="post-description">The chapter introduces the Data Diamond as a heuristic tool for analyzing and mapping data situations. We illustrate the model with a case from Helsingør Municipality, where semantic analysis was used to understand student well-being as part of an MDO project.</div>
     </div>
     <div class="post-image">
       <img src="/images/Datafantasi2.png" alt="datafantasi">
@@ -228,8 +228,8 @@ redirect_from:
     </div>
     <div class="post-content">
       <div class="post-title">Danish Technological Museum: Grounding AI</div>
-      <div class="post-authors">Johan Søltoft, Anne Beaulieu, Anders Kristian Munk</div>
-      <div class="post-description">An interactive exhibition that makes artificial intelligence tangible and accessible through hands-on experiences and visualization tools, helping visitors understand AI through physical and digital interactions.</div>
+      <div class="post-authors">Anders Kristian Munk, Mathieu Jacomy, Matilde Ficozzi, Dario Rodighiero, Johan Søltoft, Ainoa Pubill, Sarah Feldes</div>
+      <div class="post-description">The Grounded AI Map is a 10x10 meter floor mat representing 2M scientific papers involving AI and algorithms since the 1980s. The Danish Technical Museum will be exhibiting it until June 2, 2025, in dialogue with objects selected from its collections.</div>
     </div>
     <div class="post-image">
       <img src="/images/map2.gif" alt="Grounding-AI">
