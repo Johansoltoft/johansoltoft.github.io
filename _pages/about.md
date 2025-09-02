@@ -15,90 +15,143 @@ redirect_from:
 <meta property="og:description" content="Blog" />
 
 <style>
-  /* Base styles for all devices */
-  .container, .site-content {
-    width: 100%;
-    max-width: 100% !important;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  * {
     margin: 0;
-    padding: 0 20px; /* Optional: Add some padding */
+    padding: 0;
     box-sizing: border-box;
   }
-
-  .responsive-div {
-    flex: 1 1 50%;
-    max-width: 50%;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  .large-div {
-    flex: 1 1 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  .small-image {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px auto; /* Center align the image and add bottom margin */
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  h2 {
-    font-size: 18px;
-    font-weight: normal;
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
     color: #333;
+    background-color: #f8f9fa;
   }
-
-  /* Styles for devices with a max-width of 768px (tablets and mobile phones) */
-  @media (max-width: 768px) {
-    .responsive-div, .large-div {
-      flex: 1 1 100%;
-      max-width: 100%;
-    }
-
-    h2 {
-      font-size: 16px;
-    }
-
-    .small-image {
-      width: 75%; /* Make the image larger on smaller screens */
-    }
+  
+  .header {
+    background: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 30px;
   }
-
-  /* Styles for the filter buttons */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
   .filter-buttons {
     text-align: center;
-    margin-bottom: 20px;
-    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
   }
-
+  
   .filter-button {
-    padding: 10px 20px;
-    margin: 0 10px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 5px 10px 5px;
     cursor: pointer;
     background-color: white;
-    color: #666666;
-    border: 2px solid #666666;
-    border-radius: 5px;
-    font-family: Helvetica, Arial, sans-serif;
-    transition: background-color 0.3s, color 0.3s;
+    color: #666;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
   }
-
+  
   .filter-button:hover {
-    background-color: #666666;
+    background-color: #007bff;
     color: white;
+    border-color: #007bff;
+  }
+  
+  .posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .post-item {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .post-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .post-image {
+    flex: 0 0 200px;
+    height: 140px;
+    overflow: hidden;
+  }
+  
+  .post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .post-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .post-meta {
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  
+  .post-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
+  .post-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .category-article { border-left: 4px solid #28a745; }
+  .category-conference { border-left: 4px solid #007bff; }
+  .category-blogpost { border-left: 4px solid #ffc107; }
+  .category-workshop { border-left: 4px solid #6f42c1; }
+  
+  @media (max-width: 768px) {
+    .post-item {
+      flex-direction: column;
+    }
+    
+    .post-image {
+      flex: none;
+      height: 200px;
+    }
+    
+    .post-title {
+      font-size: 16px;
+    }
+  }
+  
+  .hidden {
+    display: none !important;
   }
 </style>
 
@@ -110,187 +163,294 @@ redirect_from:
   <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
 </div>
 
-<div class="container">
+<div class="posts-container">
 
-  <div class="responsive-div post" data-category="Article">
-    <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/">
+  <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
+    <div class="post-image">
       <img src="/images/Recalcitrant-audiencing.png" alt="Recalcitrant-audiencing">
-    </a>
-    <h2>Article: Recalcitrant audiencing: Between analytics and creative practice in the film industry</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Article</div>
+      <div class="post-title">Recalcitrant audiencing: Between analytics and creative practice in the film industry</div>
+      <div class="post-description">Exploring the tension between data analytics and creative practices in contemporary film production, examining how audience insights shape creative decisions.</div>
+    </div>
+  </a>
   
-   <div class="responsive-div post" data-category="Article">
-    <a href="https://johansoltoft.github.io/publications/datafantasi.md/">
+  <a href="https://johansoltoft.github.io/publications/datafantasi.md/" class="post-item category-article" data-category="Article">
+    <div class="post-image">
       <img src="/images/Datafantasi2.png" alt="datafantasi">
-    </a>
-    <h2>Book Chapter: Datafantasi: Fra styring til læring i en verden af vilde problemer</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Book Chapter</div>
+      <div class="post-title">Datafantasi: Fra styring til læring i en verden af vilde problemer</div>
+      <div class="post-description">A Danish book chapter exploring the transition from control to learning in a world of wicked problems, examining data imagination and its role in complex systems.</div>
+    </div>
+  </a>
   
-  <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/">
+  <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/" class="post-item category-blogpost" data-category="Blogpost">
+    <div class="post-image">
       <img src="/images/map2.gif" alt="Grounding-AI">
-    </a>
-    <h2>Exhibition: Danish Technological Museum: Grounding AI</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Exhibition</div>
+      <div class="post-title">Danish Technological Museum: Grounding AI</div>
+      <div class="post-description">An interactive exhibition that makes artificial intelligence tangible and accessible through hands-on experiences and visualization tools.</div>
+    </div>
+  </a>
   
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/">
-      <img src="/images/TUT-johan.jpg" alt="Grounding-AI">
-    </a>
-    <h2>Conference: Text Unit Tool (TUT): An open-source tool for archiving and exploration of large-scale text data</h2>
-  </div>
+  <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
+      <img src="/images/TUT-johan.jpg" alt="Text Unit Tool">
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Text Unit Tool (TUT): An open-source tool for archiving and exploration of large-scale text data</div>
+      <div class="post-description">Presenting an innovative open-source tool designed for researchers to archive, explore, and analyze large-scale textual datasets efficiently.</div>
+    </div>
+  </a>
   
-   <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://grounding-ai.github.io/web-application/">
+  <a href="https://grounding-ai.github.io/web-application/" class="post-item category-blogpost" data-category="Blogpost">
+    <div class="post-image">
       <img src="/images/grounding-AI2.png" alt="Grounding-AI">
-    </a>
-    <h2>Website: Grounding AI - AI Atlas of AI</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Website</div>
+      <div class="post-title">Grounding AI - AI Atlas of AI</div>
+      <div class="post-description">A comprehensive web application that maps the landscape of artificial intelligence research and applications, making AI knowledge more accessible and navigable.</div>
+    </div>
+  </a>
   
-  <div class="responsive-div post" data-category="Article">
-    <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-18.md/">
+  <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-18.md/" class="post-item category-article" data-category="Article">
+    <div class="post-image">
       <img src="/images/Synthetic-Interlocutors.png" alt="Synthetic-I">
-    </a>
-    <h2>Article: Synthetic Interlocutors</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Article</div>
+      <div class="post-title">Synthetic Interlocutors</div>
+      <div class="post-description">Investigating the role of AI-generated conversational agents and their impact on human communication patterns and social interaction dynamics.</div>
+    </div>
+  </a>
   
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-17.md/">
+  <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-17.md/" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/ISA-1.JPG" alt="ISA">
-    </a>
-    <h2>Conference: From digital methods to computationel methods</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">From digital methods to computational methods</div>
+      <div class="post-description">Exploring the evolution of research methodologies from traditional digital approaches to advanced computational techniques in social science research.</div>
+    </div>
+  </a>
   
-  <div class="responsive-div post" data-category="Workshop">
-    <a href="https://johansoltoft.github.io/publications/experimenting-with-large-scale-ethnographic-data.md/">
+  <a href="https://johansoltoft.github.io/publications/experimenting-with-large-scale-ethnographic-data.md/" class="post-item category-workshop" data-category="Workshop">
+    <div class="post-image">
       <img src="/images/Workshop-1-Etno.jpg" alt="Workshop-etno">
-    </a>
-    <h2>Workshop: Experimenting With Large-Scale Ethnographic Data</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Workshop</div>
+      <div class="post-title">Experimenting With Large-Scale Ethnographic Data</div>
+      <div class="post-description">A hands-on workshop exploring innovative approaches to analyzing and interpreting large-scale ethnographic datasets using computational methods.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-15.md/">
+  <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-15.md/" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/EASA2024.jpg" alt="EASA">
-    </a>
-    <h2>Conference: Speculating with generative AI</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Speculating with generative AI</div>
+      <div class="post-description">Examining the speculative potential of generative AI technologies and their implications for creative and analytical practices in anthropology.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-14.md/">
+  <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-14.md/" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/EASTS4s.jpg" alt="EASST/4s">
-    </a>
-    <h2>Conference: The human in audience-centered film production</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">The human in audience-centered film production</div>
+      <div class="post-description">Investigating how human elements persist and evolve in film production processes increasingly driven by audience data and algorithmic insights.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/">
+  <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-11.md/" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/AIasCitizen.png" alt="AIasCitizen.png">
-    </a>
-    <h2>Conference: AI as citizens?</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">AI as citizens?</div>
+      <div class="post-description">A provocative exploration of the potential for artificial intelligence systems to participate in civic life and democratic processes as digital citizens.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Article">
-    <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-2.md/">
+  <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-2.md/" class="post-item category-article" data-category="Article">
+    <div class="post-image">
       <img src="/images/EPIC-computationelANTRO.png" alt="Diagram Computational Anthropology">
-    </a>
-    <h2>Article: Friction by Machine: How to Slow Down Reasoning with Computational Methods</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Article</div>
+      <div class="post-title">Friction by Machine: How to Slow Down Reasoning with Computational Methods</div>
+      <div class="post-description">Examining how computational methods can introduce productive friction into research processes, encouraging deeper reflection and more nuanced analysis.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-4.md/">
+  <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-4.md/" class="post-item category-blogpost" data-category="Blogpost">
+    <div class="post-image">
       <img src="/images/Bellyofthemonster.gif" alt="'In the Belly of the Monster' Controversy Surrounding AI in Audio-Visual Media">
-    </a>
-    <h2>Blogpost: "In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Blogpost</div>
+      <div class="post-title">"In the Belly of the Monster" Controversy Surrounding AI in Audio-Visual Media</div>
+      <div class="post-description">Analyzing the heated debates and ethical concerns surrounding the integration of AI technologies in film and media production workflows.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-9">
+  <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-9" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/D&D.png" alt="Collaborative Storytelling">
-    </a>
-    <h2>Conference: Unravelling Collaborative Storytelling with Generative AI</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Unravelling Collaborative Storytelling with Generative AI</div>
+      <div class="post-description">Exploring how generative AI transforms collaborative narrative creation, examining new forms of human-machine creative partnerships.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-7">
+  <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-7" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/Syn-politicans.png" alt="Synthetic Politicians">
-    </a>
-    <h2>Conference: Interfacing with Synthetic Mundane Politicians</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Interfacing with Synthetic Mundane Politicians</div>
+      <div class="post-description">Investigating the emergence of AI-generated political personas and their potential impact on democratic discourse and political engagement.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-10">
+  <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-10" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/MASSHINE-syn.jpg" alt="SyntheticFiLM">
-    </a>
-    <h2>Conference: Exploring Cinematic Engagement through a Synthetic AI Film Lover</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Exploring Cinematic Engagement through a Synthetic AI Film Lover</div>
+      <div class="post-description">Developing AI systems that can engage with cinema as passionate viewers, exploring new forms of computational film criticism and analysis.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-1">
+  <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-1" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/Epic2-646.jpg" alt="Conference">
-    </a>
-    <h2>Conference: Friction by Machine</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Friction by Machine</div>
+      <div class="post-description">Conference presentation on using computational methods to introduce productive friction in research processes and analytical thinking.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/talks/2014-02-01-talk-2">
+  <a href="https://johansoltoft.github.io/talks/2014-02-01-talk-2" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/EPIC1.jpg" alt="Epic10">
-    </a>
-    <h2>Conference: Audience Awareness Through Machine Anthropology</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Audience Awareness Through Machine Anthropology</div>
+      <div class="post-description">Exploring how computational anthropological methods can enhance understanding of audience behavior and cultural patterns.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Workshop">
-    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-6.md/">
+  <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-6.md/" class="post-item category-workshop" data-category="Workshop">
+    <div class="post-image">
       <img src="/images/MASSHINE-retreat1.jpg" alt="Dragør retreat Generative Ethnographic AI">
-    </a>
-    <h2>Workshop: Dragør retreat Generative Ethnographic AI</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Workshop</div>
+      <div class="post-title">Dragør retreat Generative Ethnographic AI</div>
+      <div class="post-description">Intensive workshop retreat exploring the intersection of generative AI technologies and ethnographic research methodologies.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-3.md/">
+  <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-3.md/" class="post-item category-blogpost" data-category="Blogpost">
+    <div class="post-image">
       <img src="/images/twitchnetwork.png" alt="Twitch Emote Network">
-    </a>
-    <h2>Blogpost: Studying Community Detection Using Twitch Emotes</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Blogpost</div>
+      <div class="post-title">Studying Community Detection Using Twitch Emotes</div>
+      <div class="post-description">Analyzing online community structures and behaviors through the lens of Twitch emote usage patterns and network analysis.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-5.md/">
+  <a href="https://johansoltoft.github.io/publications/2015-10-01-paper-title-number-5.md/" class="post-item category-blogpost" data-category="Blogpost">
+    <div class="post-image">
       <img src="/images/a1a4033a-e5ea-494a-a06f-7b8bde5c1a81.gif" alt="Natmus Network">
-    </a>
-    <h2>Blogpost: Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Blogpost</div>
+      <div class="post-title">Studying how the discussion regarding the Danish National Museum evolves over time on Twitter</div>
+      <div class="post-description">Tracking and analyzing the evolution of public discourse about cultural institutions through social media conversation patterns.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Conference">
-    <a href="https://johansoltoft.github.io/talks/2014-03-01-talk-3">
+  <a href="https://johansoltoft.github.io/talks/2014-03-01-talk-3" class="post-item category-conference" data-category="Conference">
+    <div class="post-image">
       <img src="/images/NordicSTS.jpg" alt="NordicSTS">
-    </a>
-    <h2>Conference: Creatively Acceptable AI</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Conference</div>
+      <div class="post-title">Creatively Acceptable AI</div>
+      <div class="post-description">Examining the conditions under which AI technologies become acceptable and valuable tools within creative industries and artistic practices.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Blogpost">
-    <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-1.md/">
+  <a href="https://johansoltoft.github.io/publications/2009-10-01-paper-title-number-1.md/" class="post-item category-blogpost" data-category="Blogpost">
+    <div class="post-image">
       <img src="/images/dataimaga.png" alt="Data Imagination Diagram">
-    </a>
-    <h2>Blogpost: Strengthening the data-imagination of SMEs</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Blogpost</div>
+      <div class="post-title">Strengthening the data-imagination of SMEs</div>
+      <div class="post-description">Helping small and medium enterprises develop their capacity to imagine and implement data-driven innovations and strategies.</div>
+    </div>
+  </a>
 
-  <div class="responsive-div post" data-category="Workshop">
-    <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-4">
+  <a href="https://johansoltoft.github.io/talks/2012-03-01-talk-4" class="post-item category-workshop" data-category="Workshop">
+    <div class="post-image">
       <img src="/images/bertistheword(1).png" alt="Bert is the word">
-    </a>
-    <h2>Workshop: BERT is the word</h2>
-  </div>
+    </div>
+    <div class="post-content">
+      <div class="post-meta">Workshop</div>
+      <div class="post-title">BERT is the word</div>
+      <div class="post-description">Hands-on workshop exploring BERT and other transformer models for natural language processing applications in research contexts.</div>
+    </div>
+  </a>
 </div>
 
 
 <script>
   function filterPosts(category) {
-    const posts = document.querySelectorAll('.post');
+    const posts = document.querySelectorAll('[data-category]');
     posts.forEach(post => {
       if (category === 'All' || post.dataset.category === category) {
-        post.style.display = 'block';
+        post.classList.remove('hidden');
       } else {
-        post.style.display = 'none';
+        post.classList.add('hidden');
       }
     });
+    
+    // Update active button
+    document.querySelectorAll('.filter-button').forEach(btn => {
+      btn.style.backgroundColor = 'white';
+      btn.style.color = '#666';
+      btn.style.borderColor = '#ddd';
+    });
+    
+    event.target.style.backgroundColor = '#007bff';
+    event.target.style.color = 'white';
+    event.target.style.borderColor = '#007bff';
   }
 </script>
