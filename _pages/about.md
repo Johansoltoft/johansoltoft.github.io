@@ -515,7 +515,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/talks/2014-03-01-talk-3" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2022</div>
+      <div class="post-year">2023</div>
     </div>
     <div class="post-content">
       <div class="post-title">Creatively Acceptable AI</div>
