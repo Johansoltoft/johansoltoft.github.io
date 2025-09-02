@@ -202,11 +202,19 @@ redirect_from:
 </style>
 
 <div class="filter-buttons">
-  <button class="filter-button" onclick="filterPosts('All')">All</button>
+  <button class="filter-button active" onclick="filterPosts('All')">All</button>
   <button class="filter-button" onclick="filterPosts('Article')">Articles</button>
   <button class="filter-button" onclick="filterPosts('Conference')">Conferences</button>
   <button class="filter-button" onclick="filterPosts('Blogpost')">Blogposts</button>
   <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
+</div>
+
+<div class="year-buttons">
+  <button class="filter-button active" onclick="filterByYear('All')">All</button>
+  <button class="filter-button" onclick="filterByYear('2025')">2025</button>
+  <button class="filter-button" onclick="filterByYear('2024')">2024</button>
+  <button class="filter-button" onclick="filterByYear('2023')">2023</button>
+  <button class="filter-button" onclick="filterByYear('2022')">2022</button>
 </div>
 
 <div class="year-buttons">
