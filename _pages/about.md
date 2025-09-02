@@ -209,7 +209,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/datafantasi.md/" class="post-item category-article" data-category="Article">
     <div class="post-meta-left">
       <div class="post-source">Book Chapter</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2025</div>
     </div>
     <div class="post-content">
       <div class="post-title">Datafantasi: Fra styring til læring i en verden af vilde problemer</div>
@@ -224,7 +224,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/" class="post-item category-blogpost" data-category="Blogpost">
     <div class="post-meta-left">
       <div class="post-source">Exhibition</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2025</div>
     </div>
     <div class="post-content">
       <div class="post-title">Danish Technological Museum: Grounding AI</div>
@@ -239,7 +239,7 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
-      <div class="post-year">2024</div>
+      <div class="post-year">2025</div>
     </div>
     <div class="post-content">
       <div class="post-title">Text Unit Tool (TUT): An open-source tool for archiving and exploration of large-scale text data</div>
