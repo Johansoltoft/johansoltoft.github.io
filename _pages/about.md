@@ -274,7 +274,7 @@ redirect_from:
   
   <a href="https://johansoltoft.github.io/publications/2010-10-01-paper-title-number-18.md/" class="post-item category-article" data-category="Article">
     <div class="post-meta-left">
-      <div class="post-source">Article</div>
+      <div class="post-source">Preprint Article</div>
       <div class="post-year">2024</div>
     </div>
     <div class="post-content">
