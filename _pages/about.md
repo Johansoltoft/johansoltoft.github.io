@@ -25,14 +25,7 @@ redirect_from:
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f9fa;
-  }
-  
-  .header {
-    background: white;
-    padding: 20px 0;
-    border-bottom: 1px solid #e9ecef;
-    margin-bottom: 30px;
+    background-color: white;
   }
   
   .container {
@@ -42,55 +35,108 @@ redirect_from:
   }
   
   .filter-buttons {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
+    font-size: 14px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .filter-buttons::before {
+    content: "FILTER BY: ";
+    font-weight: 500;
   }
   
   .filter-button {
-    display: inline-block;
-    padding: 8px 16px;
-    margin: 0 5px 10px 5px;
+    color: #999;
+    text-decoration: underline;
+    background: none;
+    border: none;
     cursor: pointer;
-    background-color: white;
-    color: #666;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 14px;
-    transition: all 0.3s ease;
+    font-size: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+    transition: color 0.2s ease;
   }
   
   .filter-button:hover {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+    color: #333;
+  }
+  
+  .filter-button:not(:last-child)::after {
+    content: " | ";
+    text-decoration: none;
+    color: #ccc;
+    margin: 0 2px;
   }
   
   .posts-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
   }
   
   .post-item {
     display: flex;
     background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
     color: inherit;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;
   }
   
-  .post-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  .post-item:hover .post-title {
+    color: #007bff;
+  }
+  
+  .post-meta-left {
+    flex: 0 0 150px;
+    padding-right: 20px;
+  }
+  
+  .post-source {
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .post-year {
+    color: #999;
+    font-size: 14px;
+  }
+  
+  .post-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .post-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    transition: color 0.2s ease;
+  }
+  
+  .post-authors {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .post-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
   }
   
   .post-image {
-    flex: 0 0 200px;
-    height: 140px;
+    flex: 0 0 300px;
+    height: 200px;
     overflow: hidden;
   }
   
@@ -100,53 +146,30 @@ redirect_from:
     object-fit: cover;
   }
   
-  .post-content {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .post-meta {
-    font-size: 12px;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 8px;
-  }
-  
-  .post-title {
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-    line-height: 1.4;
-    margin-bottom: 10px;
-  }
-  
-  .post-description {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-  }
-  
-  .category-article { border-left: 4px solid #28a745; }
-  .category-conference { border-left: 4px solid #007bff; }
-  .category-blogpost { border-left: 4px solid #ffc107; }
-  .category-workshop { border-left: 4px solid #6f42c1; }
+  .category-article .post-source { color: #28a745; }
+  .category-conference .post-source { color: #007bff; }
+  .category-blogpost .post-source { color: #fd7e14; }
+  .category-workshop .post-source { color: #6f42c1; }
   
   @media (max-width: 768px) {
     .post-item {
       flex-direction: column;
     }
     
+    .post-meta-left {
+      flex: none;
+      padding-right: 0;
+      margin-bottom: 15px;
+    }
+    
+    .post-content {
+      padding-right: 0;
+      margin-bottom: 15px;
+    }
+    
     .post-image {
       flex: none;
       height: 200px;
-    }
-    
-    .post-title {
-      font-size: 16px;
     }
   }
   
@@ -155,48 +178,61 @@ redirect_from:
   }
 </style>
 
-<div class="filter-buttons">
-  <button class="filter-button" onclick="filterPosts('All')">All</button>
-  <button class="filter-button" onclick="filterPosts('Article')">Articles</button>
-  <button class="filter-button" onclick="filterPosts('Conference')">Conferences</button>
-  <button class="filter-button" onclick="filterPosts('Blogpost')">Blogposts</button>
-  <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
-</div>
+<div class="container">
+  <div class="filter-buttons">
+    <button class="filter-button" onclick="filterPosts('All')">All</button>
+    <button class="filter-button" onclick="filterPosts('Article')">Articles</button>
+    <button class="filter-button" onclick="filterPosts('Conference')">Conferences</button>
+    <button class="filter-button" onclick="filterPosts('Blogpost')">Blogposts</button>
+    <button class="filter-button" onclick="filterPosts('Workshop')">Workshops</button>
+  </div>
 
-<div class="posts-container">
+  <div class="posts-container">
 
   <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
-    <div class="post-image">
-      <img src="/images/Recalcitrant-audiencing.png" alt="Recalcitrant-audiencing">
-    </div>
-    <div class="post-content">
-      <div class="post-meta">Article</div>
-      <div class="post-title">Recalcitrant audiencing: Between analytics and creative practice in the film industry</div>
-      <div class="post-description">Exploring the tension between data analytics and creative practices in contemporary film production, examining how audience insights shape creative decisions.</div>
-    </div>
-  </a>
-  
+      <div class="post-meta-left">
+        <div class="post-source">Article</div>
+        <div class="post-year">2024</div>
+      </div>
+      <div class="post-content">
+        <div class="post-title">Recalcitrant audiencing: Between analytics and creative practice in the film industry</div>
+        <div class="post-authors">Johan Søltoft, Mathieu Jacomy, Dario Rodighiero</div>
+        <div class="post-description">Exploring the tension between data analytics and creative practices in contemporary film production, examining how audience insights shape creative decisions and the resistance encountered in integrating algorithmic tools into creative workflows.</div>
+      </div>
+      <div class="post-image">
+        <img src="/images/Recalcitrant-audiencing.png" alt="Recalcitrant-audiencing">
+      </div>
+    </a>
+    
   <a href="https://johansoltoft.github.io/publications/datafantasi.md/" class="post-item category-article" data-category="Article">
-    <div class="post-image">
-      <img src="/images/Datafantasi2.png" alt="datafantasi">
-    </div>
-    <div class="post-content">
-      <div class="post-meta">Book Chapter</div>
-      <div class="post-title">Datafantasi: Fra styring til læring i en verden af vilde problemer</div>
-      <div class="post-description">A Danish book chapter exploring the transition from control to learning in a world of wicked problems, examining data imagination and its role in complex systems.</div>
-    </div>
-  </a>
-  
+      <div class="post-meta-left">
+        <div class="post-source">Book Chapter</div>
+        <div class="post-year">2024</div>
+      </div>
+      <div class="post-content">
+        <div class="post-title">Datafantasi: Fra styring til læring i en verden af vilde problemer</div>
+        <div class="post-authors">Johan Søltoft</div>
+        <div class="post-description">A Danish book chapter exploring the transition from control to learning in a world of wicked problems, examining data imagination and its role in complex systems and decision-making processes.</div>
+      </div>
+      <div class="post-image">
+        <img src="/images/Datafantasi2.png" alt="datafantasi">
+      </div>
+    </a>
+    
   <a href="https://johansoltoft.github.io/publications/Danish-Tech-Museum.md/" class="post-item category-blogpost" data-category="Blogpost">
-    <div class="post-image">
-      <img src="/images/map2.gif" alt="Grounding-AI">
-    </div>
-    <div class="post-content">
-      <div class="post-meta">Exhibition</div>
-      <div class="post-title">Danish Technological Museum: Grounding AI</div>
-      <div class="post-description">An interactive exhibition that makes artificial intelligence tangible and accessible through hands-on experiences and visualization tools.</div>
-    </div>
-  </a>
+      <div class="post-meta-left">
+        <div class="post-source">Exhibition</div>
+        <div class="post-year">2024</div>
+      </div>
+      <div class="post-content">
+        <div class="post-title">Danish Technological Museum: Grounding AI</div>
+        <div class="post-authors">Johan Søltoft, Anne Beaulieu, Anders Kristian Munk</div>
+        <div class="post-description">An interactive exhibition that makes artificial intelligence tangible and accessible through hands-on experiences and visualization tools, helping visitors understand AI through physical and digital interactions.</div>
+      </div>
+      <div class="post-image">
+        <img src="/images/map2.gif" alt="Grounding-AI">
+      </div>
+    </a>
   
   <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/" class="post-item category-conference" data-category="Conference">
     <div class="post-image">
