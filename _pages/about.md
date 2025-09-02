@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: ""
+title: "Posts"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -85,10 +85,12 @@ redirect_from:
     color: inherit;
     border-bottom: 1px solid #eee;
     padding-bottom: 40px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
-  .post-item:hover .post-title {
-    color: #007bff;
+  .post-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
   
   .post-meta-left {
@@ -194,12 +196,12 @@ redirect_from:
   <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
     <div class="post-meta-left">
       <div class="post-source">Article</div>
-      <div class="post-year">2025</div>
+      <div class="post-year">2024</div>
     </div>
     <div class="post-content">
       <div class="post-title">Recalcitrant audiencing: Between analytics and creative practice in the film industry</div>
       <div class="post-authors">Johan Irving Søltoft, Anders Munk</div>
-      <div class="post-description">This article explores the evolution of audience analytics in filmmaking in the context of digital platforms and AI. We propose the term 𝘳𝘦𝘤𝘢𝘭𝘤𝘪𝘵𝘳𝘢𝘯𝘵 𝘢𝘶𝘥𝘪𝘦𝘯𝘤𝘪𝘯𝘨 to describe a mode of audience engagement that resists confirming filmmakers’ assumptions, instead challenging dominant ideas about who the audience is or should be. In place of a docile, knowable audience, we trace the emergence of one that is intentionally recalcitrant- ambivalent, heterogeneous, and constructed to be troubling.</div>
+      <div class="post-description">This article explores the evolution of audience analytics in filmmaking in the context of digital platforms and AI. We propose the term recalcitrant audiencing to describe a mode of audience engagement that resists confirming filmmakers' assumptions, instead challenging dominant ideas about who the audience is or should be. In place of a docile, knowable audience, we trace the emergence of one that is intentionally recalcitrant- ambivalent, heterogeneous, and constructed to be troubling.</div>
     </div>
     <div class="post-image">
       <img src="/images/Recalcitrant-audiencing.png" alt="Recalcitrant-audiencing">
