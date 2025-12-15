@@ -197,6 +197,7 @@ redirect_from:
 
 <div class="posts-container">
 
+
   <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
@@ -209,6 +210,21 @@ redirect_from:
     </div>
     <div class="post-image">
       <img src="/images/layers_masshine1.png" alt="Narrating networks - layers">
+    </div>
+  </a>
+
+  <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/" class="post-item category-conference" data-category="Conference">
+    <div class="post-meta-left">
+      <div class="post-source">Presentation</div>
+      <div class="post-year">2025</div>
+    </div>
+    <div class="post-content">
+      <div class="post-title">Computing Audiences - Center for Digital Narrative presentation</div>
+      <div class="post-authors">Johan Irving Søltoft</div>
+      <div class="post-description">I presented my ongoing PhD project, Computing Audiences, which examined how computational methods, platform analytics, and artificial intelligence were taken up in creative and organizational practice. While these technologies were often associated with imaginaries of speed, efficiency, and prediction, I argued that they could also produce friction, moments of dissonance that unsettled assumptions, stimulated reflection, and opened new possibilities for action.</div>
+    </div>
+    <div class="post-image">
+      <img src="/images/bergen_phd.jpg" alt="Narrating networks - layers">
     </div>
   </a>
 
