@@ -199,6 +199,21 @@ redirect_from:
 
   <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
     <div class="post-meta-left">
+      <div class="post-source">Conferences</div>
+      <div class="post-year">2025</div>
+    </div>
+    <div class="post-content">
+      <div class="post-title">“Narrating” Networks: Layers of annotation  and mediation in  making AI public</div>
+      <div class="post-authors">Ainoa Pubill Unzeta & Johan Irving Søltoft</div>
+      <div class="post-description">How can we design annotation strategies that go beyond explanation, that open rather than close interpretation, in order to “narrate” large-scale networks? How can annotation become an epistemic practice that preserves complexity and invites exploration? These questions motivate our inquiry into how annotation can serve as a narrative device to make large networks legible while acknowledging that the act of annotation entails reduction and trade-offs that have shaped our approach.</div>
+    </div>
+    <div class="post-image">
+      <img src="/images/layers_masshine.png" alt="Narrating networks - layers">
+    </div>
+  </a>
+
+  <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
+    <div class="post-meta-left">
       <div class="post-source">Article</div>
       <div class="post-year">2025</div>
     </div>
