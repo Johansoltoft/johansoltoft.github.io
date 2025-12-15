@@ -208,7 +208,7 @@ redirect_from:
       <div class="post-description">How can we design annotation strategies that go beyond explanation, that open rather than close interpretation, in order to “narrate” large-scale networks? How can annotation become an epistemic practice that preserves complexity and invites exploration? These questions motivate our inquiry into how annotation can serve as a narrative device to make large networks legible while acknowledging that the act of annotation entails reduction and trade-offs that have shaped our approach.</div>
     </div>
     <div class="post-image">
-      <img src="/images/layers_masshine.png" alt="Narrating networks - layers">
+      <img src="/images/layers_masshine1.png" alt="Narrating networks - layers">
     </div>
   </a>
 
