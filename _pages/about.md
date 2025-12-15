@@ -197,7 +197,7 @@ redirect_from:
 
 <div class="posts-container">
 
-  <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Article">
+  <a href="https://johansoltoft.github.io/publications/Recalcitrant-audiencing.md/" class="post-item category-article" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conferences</div>
       <div class="post-year">2025</div>
