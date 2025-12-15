@@ -198,7 +198,7 @@ redirect_from:
 <div class="posts-container">
 
 
-  <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/" class="post-item category-conference" data-category="Conference">
+  <a href="" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Conference</div>
       <div class="post-year">2025</div>
@@ -213,7 +213,7 @@ redirect_from:
     </div>
   </a>
 
-  <a href="https://johansoltoft.github.io/publications/Text-Unit-Tool.md/" class="post-item category-conference" data-category="Conference">
+  <a href="" class="post-item category-conference" data-category="Conference">
     <div class="post-meta-left">
       <div class="post-source">Presentation</div>
       <div class="post-year">2025</div>
