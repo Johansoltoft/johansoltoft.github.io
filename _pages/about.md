@@ -219,7 +219,7 @@ redirect_from:
       <div class="post-year">2025</div>
     </div>
     <div class="post-content">
-      <div class="post-title">Computing Audiences (Center for Digital Narrative presentation)</div>
+      <div class="post-title">Computing Audiences (Center for Digital Narrative)</div>
       <div class="post-authors">Johan Irving Søltoft</div>
       <div class="post-description">I presented my ongoing PhD project, Computing Audiences, which examined how computational methods, platform analytics, and artificial intelligence were taken up in creative and organizational practice. While these technologies were often associated with imaginaries of speed, efficiency, and prediction, I argued that they could also produce friction, moments of dissonance that unsettled assumptions, stimulated reflection, and opened new possibilities for action.</div>
     </div>
